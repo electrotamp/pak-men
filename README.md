@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/Builder%20license-MIT-3fb950?style=flat-square)](#-license)
 [![Menu license: AGPL--3.0](https://img.shields.io/badge/Menu%20license-AGPL--3.0-blue?style=flat-square)](#-license)
 [![Platform: Windows](https://img.shields.io/badge/platform-Windows-6f42c1?style=flat-square)](#-quick-start)
-[![Built with Electron](https://img.shields.io/badge/built%20with-Electron-9feaf9?style=flat-square)](#-building-from-source)
+[![Built with Electron](https://img.shields.io/badge/built%20with-Electron-9feaf9?style=flat-square)](#-what-is-this)
 
 </div>
 
@@ -43,7 +43,6 @@
 - [Test Menu — preview without hardware](#-test-menu--preview-without-hardware)
 - [Import / Export](#-import--export)
 - [Auto-updates](#-auto-updates)
-- [Building from source](#-building-from-source)
 - [Credits](#-credits)
 - [License](#-license)
 
@@ -272,6 +271,24 @@ A real file manager, not just a ROM launcher: browse any folder on the SD card, 
 **manage** mode, delete, rename, and move files directly from the console, with an on-screen
 keyboard for typing names.
 
+Emulator ROMs already on the card are launched the same way as native N64 ROMs — just browse
+to them and press A. Nothing needs configuring in the Menu Builder for this to work; the
+console recognises these by file extension:
+
+| System | Extensions |
+|---|---|
+| NES | `.nes` |
+| SNES | `.sfc`, `.smc` |
+| Game Boy | `.gb` |
+| Game Boy Color | `.gbc` |
+| SEGA 8-bit (Master System / Game Gear / SG-1000) | `.sms`, `.gg`, `.sg` |
+| Fairchild Channel F | `.chf` |
+
+> [!NOTE]
+> **To do:** there's no dedicated "Emulator" element yet — this all works today through the
+> generic File Browser element above. A purpose-built element (its own icon/branding per
+> system, a filtered "emulators only" view, etc.) is a planned future addition.
+
 ### Saves
 
 Choose whether game saves live in a dedicated `saves` folder or alongside their ROMs, and
@@ -431,30 +448,6 @@ hardware).
 The app checks for new versions and can download and apply them in place — no manual
 reinstall, no console window, just a small progress popup and a restart. Click **Check for
 updates** in the toolbar any time, or let it check automatically on launch.
-
----
-
-## 🛠️ Building from source
-
-```bash
-cd source/tools/menu-builder
-npm install
-npm run gen         # regenerate bundled data from the firmware source (runs automatically before dev/build)
-npm run dev         # launch with hot reload
-npm test            # unit + round-trip tests
-npm run typecheck
-npm run dist:win    # full production build -> release/
-npm run release:stage   # stage a GitHub release (scrubbed notes, verified runtime-only zip)
-```
-
-`npm run dev` reads box art and the menu ROM straight from the firmware source tree, so no
-staging step is needed for day-to-day development.
-
-> [!NOTE]
-> This repository holds the Menu Builder app only. `npm run gen`/`npm run stage` pull box
-> art, fonts, and the menu ROM from a sibling firmware source tree that isn't part of this
-> repo, so a full from-source build needs that private repository too. If you just want to
-> use the app, download a release instead — nothing above is required for that.
 
 ---
 
