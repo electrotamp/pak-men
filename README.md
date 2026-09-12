@@ -17,6 +17,7 @@
 
 - [What is this?](#-what-is-this)
 - [Quick start](#-quick-start)
+- [Screenshots](#-screenshots)
 - [Designing a menu](#-designing-a-menu)
   - [The canvas](#the-canvas)
   - [Pages](#pages)
@@ -83,6 +84,27 @@ shows — the home screen, your games grid, the settings page, everything — is
 > **Nothing you do here can brick your console.** Exporting only ever writes to the `menu/`
 > folder (plus the bundled firmware ROM at the SD card root) — it never touches your ROMs,
 > saves, or anything else on the card.
+
+---
+
+## 📸 Screenshots
+
+<details>
+<summary><b>Click to expand</b> — the Builder and Grand Tour, from the packaged app</summary>
+
+<p align="center">
+  <a href="screenshots/01-home.png"><img src="screenshots/01-home.png" width="270" alt="Grand Tour home screen"></a>
+  <a href="screenshots/02-templates.png"><img src="screenshots/02-templates.png" width="270" alt="Live template picker"></a>
+  <a href="screenshots/03-games-grid.png"><img src="screenshots/03-games-grid.png" width="270" alt="All Games grid with built-in box art"></a>
+  <a href="screenshots/04-settings.png"><img src="screenshots/04-settings.png" width="270" alt="In-menu Settings page"></a>
+  <a href="screenshots/05-controls.png"><img src="screenshots/05-controls.png" width="270" alt="Controls legend page"></a>
+  <a href="screenshots/06-favourites.png"><img src="screenshots/06-favourites.png" width="270" alt="Favourites shelf"></a>
+  <a href="screenshots/07-test-menu.png"><img src="screenshots/07-test-menu.png" width="270" alt="Test Menu launching the bundled emulator"></a>
+</p>
+
+*Click any thumbnail for the full-size image.*
+
+</details>
 
 ---
 
