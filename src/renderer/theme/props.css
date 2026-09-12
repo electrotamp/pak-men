@@ -1,0 +1,386 @@
+/*
+ * props.css — the properties panel look. Restyles the shared field classes the
+ * Element / Page / Colours panels emit, into grouped sections with a plain-
+ * language line under each control (the mockup's treatment). All on tokens.
+ */
+
+.mb-props-body .pane-body {
+  padding: 14px 14px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* selection title + delete */
+.mb-p-titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.mb-p-title {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--ink);
+}
+.mb-p-del {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 11.5px;
+  color: var(--danger);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-ctrl);
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.mb-p-del:hover {
+  background: var(--danger);
+  color: #fff;
+  border-color: var(--danger);
+}
+.mb-p-lede {
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--ink-faint);
+  margin: 6px 0 2px;
+}
+
+/* section heading — a panel emits <h3>Group name</h3> before a cluster */
+.mb-props-body h3 {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 10.5px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 16px 0 2px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line-soft);
+}
+.mb-props-body h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+/* label + control + hint */
+.mb-props-body .field {
+  margin: 10px 0 0;
+}
+.mb-props-body .field > label {
+  display: block;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  margin-bottom: 5px;
+}
+.mb-props-body .field .help,
+.mb-props-body .help {
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--ink-faint);
+  margin-top: 5px;
+}
+.mb-props-body .field .err {
+  font-size: 11px;
+  color: var(--danger);
+  margin-top: 5px;
+}
+
+/* inline label/control rows (the .np helper) */
+.mb-props-body .np {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 9px 0 0;
+  font-size: 12px;
+}
+.mb-props-body .np > span:first-child {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  color: var(--ink);
+  min-width: 92px;
+  flex: none;
+}
+.mb-props-body .np input[type='number'],
+.mb-props-body .np select,
+.mb-props-body .np input[type='text'] {
+  flex: 1;
+}
+
+/* number grid (X/Y/W/H, cols/rows/gap) */
+.mb-props-body .rect-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 10px;
+  margin-top: 10px;
+}
+.mb-props-body .rect-grid .np {
+  margin: 0;
+}
+.mb-props-body .rect-grid .np > span:first-child {
+  min-width: 42px;
+}
+
+/* controls */
+.mb-props-body input,
+.mb-props-body select,
+.mb-props-body textarea {
+  font: inherit;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  color: var(--ink);
+  background: var(--panel-sink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-ctrl);
+  padding: 6px 8px;
+  width: 100%;
+}
+.mb-props-body input:focus-visible,
+.mb-props-body select:focus-visible,
+.mb-props-body textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+  border-color: var(--accent);
+}
+.mb-props-body input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  accent-color: var(--accent);
+}
+.mb-props-body textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+.mb-props-body button {
+  font: inherit;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--ink);
+  background: var(--ctrl-bg);
+  border: 1px solid var(--ctrl-border);
+  border-radius: var(--radius-ctrl);
+  box-shadow: var(--gloss-top);
+  padding: 5px 11px;
+  cursor: pointer;
+  width: auto;
+}
+.mb-props-body button:hover {
+  background: var(--ctrl-bg-hover);
+}
+
+/* colour picker row: swatch + hex */
+.mb-props-body .color-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 9px 0 0;
+}
+.mb-props-body .color-row > span:first-child {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  color: var(--ink);
+  min-width: 92px;
+  flex: none;
+  font-size: 12px;
+}
+.mb-props-body .color-row input[type='color'] {
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+}
+.mb-props-body .color-row .hex {
+  flex: 1;
+  width: auto;
+}
+
+/* colour picker popover (ColorField) */
+.mb-props-body .mb-cf {
+  position: relative;
+}
+.mb-props-body .mb-cf-swatch {
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.mb-props-body .mb-cf-pop {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 40;
+  width: min(220px, 100%);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface, #1b1e26);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+.mb-props-body .mb-cf-pop input[type='color'] {
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+}
+.mb-props-body .mb-cf-cap {
+  font-family: var(--font-mono, monospace);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-dim, #8a92a8);
+  margin-top: 2px;
+}
+.mb-props-body .mb-cf-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 4px;
+}
+.mb-props-body .mb-cf-chip {
+  aspect-ratio: 1;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mb-props-body .mb-cf-chip:hover {
+  border-color: var(--accent, #6ea8fe);
+}
+
+/* misc */
+.mb-props-body .row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+}
+.mb-props-body .warn-box {
+  margin-top: 12px;
+  padding: 9px 11px;
+  border-radius: var(--radius-card);
+  background: var(--accent-wash);
+  border: 1px solid var(--line);
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--ink-dim);
+}
+.mb-props-body .empty {
+  color: var(--ink-faint);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+/* ---------- Advanced settings — expandable rows in the left palette ---------- */
+.mb-item-adv {
+  cursor: pointer;
+  grid-template-columns: 28px 1fr auto;
+}
+.mb-item-adv[aria-expanded='true'] {
+  background: var(--panel);
+  border-color: var(--line-soft);
+}
+.mb-item-adv .nm,
+.mb-item-adv .ds {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mb-item-adv .caret {
+  align-self: center;
+  color: var(--ink-dim);
+  font-size: 9px;
+  transition: transform 0.12s ease;
+}
+.mb-item-adv[aria-expanded='true'] .caret {
+  transform: rotate(90deg);
+}
+
+/* the expanded panel — reuses the .mb-props-body field styling, minus its
+   flex-fill / scroll behaviour (it's a static block inside the palette here).
+   The rail is narrow, so stack every label above its control. */
+.mb-palette .mb-adv-drop {
+  flex: none;
+  overflow: visible;
+  padding: 2px 2px 14px;
+}
+.mb-palette .mb-adv-drop .pane-body {
+  padding: 4px 0 2px;
+  overflow: visible;
+}
+.mb-palette .mb-adv-drop .np {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  margin-top: 10px;
+}
+.mb-palette .mb-adv-drop .np > span:first-child {
+  min-width: 0;
+}
+.mb-palette .mb-adv-drop .np select,
+.mb-palette .mb-adv-drop .np input {
+  width: 100%;
+}
+.mb-palette .mb-adv-drop .rect-grid {
+  grid-template-columns: 1fr 1fr;
+}
+.mb-palette .mb-adv-drop .field select,
+.mb-palette .mb-adv-drop .field input {
+  width: 100%;
+  box-sizing: border-box;
+}
+.mb-palette .mb-adv-drop h3:first-child {
+  margin-top: 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-soft);
+}
+.mb-palette .mb-adv-drop .settings-group:first-child h3:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+.mb-palette .mb-adv-drop .mb-p-lede {
+  margin-top: 0;
+}
+.mb-palette .mb-adv-drop .help {
+  font-size: 10.5px;
+}
+/* SettingsPanel's toggles are long <label class="toggle"> lines. In this narrow
+   rail lay them out as a text block with a hanging indent so the label wraps
+   cleanly beside (not under) the checkbox. */
+.mb-palette .mb-adv-drop label.toggle {
+  display: block;
+  padding-left: 20px;
+  text-indent: -20px;
+  line-height: 1.4;
+  margin-bottom: 7px;
+  font-size: 11.5px;
+}
+.mb-palette .mb-adv-drop label.toggle input {
+  width: auto;
+  margin-right: 7px;
+  vertical-align: -1px;
+  text-indent: 0;
+}
+.mb-palette .mb-adv-drop .field input,
+.mb-palette .mb-adv-drop .field select {
+  min-width: 0;
+}

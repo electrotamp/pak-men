@@ -1,0 +1,100 @@
+{
+  "format": 2,
+  "pages": [
+    {
+      "id": "home",
+      "title": "Home",
+      "kind": "custom",
+      "start": true,
+      "background": "#0B0B0D",
+      "hint": "",
+      "elements": [
+        { "id": "spine", "type": "panel", "rect": [0, 0, 6, 480], "z": 0, "text": "", "box": { "fill": "#5EEAD4" } },
+        { "id": "kicker", "type": "text", "rect": [40, 44, 320, 14], "z": 1, "text": "N64 LIBRARY", "align": "left", "valign": "middle", "color": "#5EEAD4", "letterSpacing": 4 },
+        { "id": "title", "type": "text", "rect": [40, 62, 460, 38], "z": 1, "text": "YOUR LIBRARY", "align": "left", "valign": "middle", "color": "#F4F4F5", "font": "Nes2Regular-yxyd", "fontSize": 32, "letterSpacing": 1 },
+        { "id": "count", "type": "text", "rect": [40, 108, 460, 16], "z": 1, "text": "{history_count} PLAYED   ·   {fav_count} SAVED", "align": "left", "valign": "middle", "color": "#82828A", "letterSpacing": 1 },
+        { "id": "hero", "type": "image", "rect": [360, 66, 240, 240], "z": 1, "src": "boxart/NGEE/box3d.png", "fit": "contain" },
+        { "id": "rule", "type": "panel", "rect": [40, 150, 288, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "covers", "type": "gameList", "rect": [40, 172, 288, 224], "z": 1, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 3, "gridRows": 3, "gridGap": 10, "gridLabels": false, "highlight": "#5EEAD4", "textColor": "#F4F4F5" },
+        { "id": "rule2", "type": "panel", "rect": [40, 410, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "enter", "type": "button", "rect": [40, 424, 190, 30], "z": 2, "label": "OPEN LIBRARY", "glyph": ">", "color": "#5EEAD4", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 0, "box": { "border": "#5EEAD4", "borderW": 1, "cornerRadius": 2 }, "action": { "kind": "goto", "page": "library" } },
+        { "id": "hint", "type": "text", "rect": [260, 424, 340, 30], "z": 2, "text": "A  OPEN        L R  NEXT", "align": "right", "valign": "middle", "color": "#82828A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "library",
+      "title": "Library",
+      "kind": "custom",
+      "background": "#0B0B0D",
+      "hint": "",
+      "elements": [
+        { "id": "spine", "type": "panel", "rect": [0, 0, 6, 480], "z": 0, "text": "", "box": { "fill": "#5EEAD4" } },
+        { "id": "heading", "type": "text", "rect": [40, 30, 400, 30], "z": 1, "text": "LIBRARY", "align": "left", "valign": "middle", "color": "#F4F4F5", "font": "Nes2Regular-yxyd", "fontSize": 16, "letterSpacing": 3 },
+        { "id": "rule", "type": "panel", "rect": [40, 68, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "list", "type": "gameList", "rect": [40, 84, 322, 322], "z": 1, "source": "all", "style": "list", "rowH": 26, "textPadL": 12, "textPadR": 10, "textDy": 17, "highlight": "#16302C", "textColor": "#F4F4F5" },
+        { "id": "divider", "type": "panel", "rect": [386, 84, 1, 322], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "cover", "type": "boxArt", "rect": [410, 84, 198, 158], "z": 1, "fit": "cover", "bg": "#0B0B0D", "aspectLock": true },
+        { "id": "info", "type": "infoPanel", "rect": [410, 262, 198, 128], "z": 1, "rowH": 20, "labelW": 84, "baselineDy": 14, "labels": ["RELEASED", "DEVELOPER", "REGION", "PLAYERS", ""], "labelColor": "#5EEAD4", "valueColor": "#F4F4F5" },
+        { "id": "rule2", "type": "panel", "rect": [40, 414, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "hint", "type": "text", "rect": [40, 420, 560, 28], "z": 1, "text": "A  OPEN        Z  SAVE        L R  NEXT", "align": "center", "valign": "middle", "color": "#82828A", "letterSpacing": 2 }
+      ]
+    },
+    {
+      "id": "grid",
+      "title": "Grid",
+      "kind": "custom",
+      "background": "#0B0B0D",
+      "hint": "",
+      "elements": [
+        { "id": "spine", "type": "panel", "rect": [0, 0, 6, 480], "z": 0, "text": "", "box": { "fill": "#5EEAD4" } },
+        { "id": "heading", "type": "text", "rect": [40, 30, 400, 30], "z": 1, "text": "ALL GAMES", "align": "left", "valign": "middle", "color": "#F4F4F5", "font": "Nes2Regular-yxyd", "fontSize": 16, "letterSpacing": 3 },
+        { "id": "count", "type": "text", "rect": [400, 30, 200, 30], "z": 1, "text": "{history_count}", "align": "right", "valign": "middle", "color": "#82828A", "letterSpacing": 1 },
+        { "id": "rule", "type": "panel", "rect": [40, 68, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "grid", "type": "gameList", "rect": [40, 84, 560, 322], "z": 1, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 14, "gridLabels": false, "highlight": "#5EEAD4", "textColor": "#F4F4F5" },
+        { "id": "rule2", "type": "panel", "rect": [40, 414, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "hint", "type": "text", "rect": [40, 420, 560, 28], "z": 1, "text": "A  OPEN        Z  SAVE        L R  NEXT", "align": "center", "valign": "middle", "color": "#82828A", "letterSpacing": 2 }
+      ]
+    },
+    {
+      "id": "favourites",
+      "title": "Saved",
+      "kind": "custom",
+      "background": "#0B0B0D",
+      "hint": "",
+      "elements": [
+        { "id": "spine", "type": "panel", "rect": [0, 0, 6, 480], "z": 0, "text": "", "box": { "fill": "#5EEAD4" } },
+        { "id": "heading", "type": "text", "rect": [40, 30, 400, 30], "z": 1, "text": "SAVED", "align": "left", "valign": "middle", "color": "#F4F4F5", "font": "Nes2Regular-yxyd", "fontSize": 16, "letterSpacing": 3 },
+        { "id": "rule", "type": "panel", "rect": [40, 68, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "favs", "type": "gameList", "rect": [40, 84, 560, 282], "z": 1, "source": "favorites", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 14, "gridLabels": false, "highlight": "#5EEAD4", "textColor": "#F4F4F5" },
+        { "id": "fav-toggle", "type": "button", "rect": [40, 378, 250, 30], "z": 2, "label": "SAVE / REMOVE", "glyph": "Z", "color": "#5EEAD4", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 0, "box": { "border": "#5EEAD4", "borderW": 1, "cornerRadius": 2 }, "action": { "kind": "favorite.toggle" } },
+        { "id": "to-settings", "type": "button", "rect": [350, 378, 250, 30], "z": 2, "label": "SETTINGS", "glyph": ">", "color": "#82828A", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 1, "box": { "border": "#3A3A40", "borderW": 1, "cornerRadius": 2 }, "action": { "kind": "goto", "page": "settings" } },
+        { "id": "rule2", "type": "panel", "rect": [40, 418, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "hint", "type": "text", "rect": [40, 424, 560, 24], "z": 1, "text": "A  OPEN        Z  SAVE / REMOVE        L R  NEXT", "align": "center", "valign": "middle", "color": "#82828A", "letterSpacing": 2 }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "kind": "custom",
+      "background": "#0B0B0D",
+      "hint": "",
+      "elements": [
+        { "id": "spine", "type": "panel", "rect": [0, 0, 6, 480], "z": 0, "text": "", "box": { "fill": "#5EEAD4" } },
+        { "id": "heading", "type": "text", "rect": [40, 30, 400, 30], "z": 1, "text": "SETTINGS", "align": "left", "valign": "middle", "color": "#F4F4F5", "font": "Nes2Regular-yxyd", "fontSize": 16, "letterSpacing": 3 },
+        { "id": "rule", "type": "panel", "rect": [40, 68, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "sec-sound", "type": "text", "rect": [40, 84, 300, 14], "z": 1, "text": "SOUND", "align": "left", "valign": "middle", "color": "#5EEAD4", "letterSpacing": 3 },
+        { "id": "set-bgm", "type": "setting", "rect": [40, 102, 270, 30], "z": 1, "label": "MUSIC", "settingKey": "bgm_enabled", "color": "#F4F4F5", "valueColor": "#5EEAD4", "align": "left", "valign": "middle", "pad": [0, 0, 0, 4], "focusOrder": 0, "box": { "fill": "#141416", "cornerRadius": 2 } },
+        { "id": "set-sfx", "type": "setting", "rect": [330, 102, 270, 30], "z": 1, "label": "SOUND FX", "settingKey": "soundfx_enabled", "color": "#F4F4F5", "valueColor": "#5EEAD4", "align": "left", "valign": "middle", "pad": [0, 0, 0, 4], "focusOrder": 1, "box": { "fill": "#141416", "cornerRadius": 2 } },
+        { "id": "set-rumble", "type": "setting", "rect": [40, 138, 270, 30], "z": 1, "label": "RUMBLE PAK", "settingKey": "rumble_enabled", "color": "#F4F4F5", "valueColor": "#5EEAD4", "align": "left", "valign": "middle", "pad": [0, 0, 0, 4], "focusOrder": 2, "box": { "fill": "#141416", "cornerRadius": 2 } },
+        { "id": "set-custom", "type": "setting", "rect": [330, 138, 270, 30], "z": 1, "label": "CUSTOM ART", "settingKey": "use_custom_files", "color": "#F4F4F5", "valueColor": "#5EEAD4", "align": "left", "valign": "middle", "pad": [0, 0, 0, 4], "focusOrder": 3, "box": { "fill": "#141416", "cornerRadius": 2 } },
+        { "id": "sec-video", "type": "text", "rect": [40, 180, 300, 14], "z": 1, "text": "VIDEO", "align": "left", "valign": "middle", "color": "#5EEAD4", "letterSpacing": 3 },
+        { "id": "set-pal60", "type": "setting", "rect": [40, 198, 270, 30], "z": 1, "label": "PAL 60 Hz", "settingKey": "pal60_enabled", "color": "#F4F4F5", "valueColor": "#5EEAD4", "align": "left", "valign": "middle", "pad": [0, 0, 0, 4], "focusOrder": 4, "box": { "fill": "#141416", "cornerRadius": 2 } },
+        { "id": "set-prog", "type": "setting", "rect": [330, 198, 270, 30], "z": 1, "label": "240p SCAN", "settingKey": "force_progressive_scan", "color": "#F4F4F5", "valueColor": "#5EEAD4", "align": "left", "valign": "middle", "pad": [0, 0, 0, 4], "focusOrder": 5, "box": { "fill": "#141416", "cornerRadius": 2 } },
+        { "id": "to-home", "type": "button", "rect": [40, 250, 560, 30], "z": 1, "label": "RETURN", "color": "#5EEAD4", "align": "center", "valign": "middle", "letterSpacing": 3, "focusable": true, "focusOrder": 6, "box": { "border": "#5EEAD4", "borderW": 1, "cornerRadius": 2 }, "action": { "kind": "goto", "page": "home" } },
+        { "id": "rule2", "type": "panel", "rect": [40, 414, 560, 1], "z": 1, "text": "", "box": { "fill": "#26262A" } },
+        { "id": "hint", "type": "text", "rect": [40, 420, 560, 28], "z": 1, "text": "A  TOGGLE        L R  NEXT", "align": "center", "valign": "middle", "color": "#82828A", "letterSpacing": 2 }
+      ]
+    }
+  ],
+  "buttons": { "d_up": "none", "d_down": "none", "d_left": "focusPrev", "d_right": "focusNext" }
+}

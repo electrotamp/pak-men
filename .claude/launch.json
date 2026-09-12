@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "menu-builder-web",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "--config", "vite.renderer.mjs", "--port", "5199", "--strictPort"],
+      "port": 5199
+    }
+  ]
+}

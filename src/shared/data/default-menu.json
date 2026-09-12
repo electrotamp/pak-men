@@ -1,0 +1,4252 @@
+{
+  "format": 2,
+  "buttons": {
+    "d_up": "none",
+    "d_down": "none",
+    "d_left": "focusPrev",
+    "d_right": "focusNext"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "title": "PAK-MEN",
+      "kind": "custom",
+      "start": true,
+      "background": "#0C1220",
+      "hint": "  L R  flip pages      A  open      B  back  ",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#5A5FB0",
+            "borderW": 3,
+            "cornerRadius": 10,
+            "fill": "#141C2E"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "frame2",
+          "type": "panel",
+          "rect": [
+            26,
+            22,
+            588,
+            436
+          ],
+          "z": 1,
+          "align": "center",
+          "box": {
+            "border": "#2C3350",
+            "borderW": 1,
+            "cornerRadius": 6
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "rect": [
+            40,
+            30,
+            560,
+            40
+          ],
+          "z": 2,
+          "align": "center",
+          "color": "#EDEFF7",
+          "font": "PressStart2P-vaV7",
+          "fontSize": 32,
+          "letterSpacing": 2,
+          "text": "PAK-MEN",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "sub",
+          "type": "text",
+          "rect": [
+            40,
+            76,
+            560,
+            16
+          ],
+          "z": 3,
+          "align": "center",
+          "color": "#8E97C8",
+          "letterSpacing": 3,
+          "text": "a menu you design yourself",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "clock",
+          "type": "text",
+          "rect": [
+            40,
+            100,
+            560,
+            14
+          ],
+          "z": 4,
+          "align": "center",
+          "clockFormat": "%a  %d %b  ·  %H:%M",
+          "color": "#5C6699",
+          "letterSpacing": 2,
+          "text": "",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "s-circle",
+          "type": "panel",
+          "rect": [
+            44,
+            128,
+            56,
+            56
+          ],
+          "z": 5,
+          "align": "center",
+          "box": {
+            "border": "#5EE6D0",
+            "borderW": 3,
+            "fill": "#1B2338",
+            "shape": "circle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "s-circle-l",
+          "type": "text",
+          "rect": [
+            36,
+            188,
+            72,
+            12
+          ],
+          "z": 6,
+          "align": "center",
+          "color": "#5EE6D0",
+          "letterSpacing": 1,
+          "text": "CIRCLE",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "s-ellipse",
+          "type": "panel",
+          "rect": [
+            123,
+            128,
+            56,
+            56
+          ],
+          "z": 7,
+          "align": "center",
+          "box": {
+            "border": "#7FB2FF",
+            "borderW": 3,
+            "fill": "#1B2338",
+            "shape": "ellipse"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "s-ellipse-l",
+          "type": "text",
+          "rect": [
+            115,
+            188,
+            72,
+            12
+          ],
+          "z": 8,
+          "align": "center",
+          "color": "#7FB2FF",
+          "letterSpacing": 1,
+          "text": "ELLIPSE",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "s-triangle",
+          "type": "panel",
+          "rect": [
+            202,
+            128,
+            56,
+            56
+          ],
+          "z": 9,
+          "align": "center",
+          "box": {
+            "border": "#FFC24B",
+            "borderW": 3,
+            "fill": "#1B2338",
+            "shape": "triangle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "s-triangle-l",
+          "type": "text",
+          "rect": [
+            194,
+            188,
+            72,
+            12
+          ],
+          "z": 10,
+          "align": "center",
+          "color": "#FFC24B",
+          "letterSpacing": 1,
+          "text": "TRIANGLE",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "s-diamond",
+          "type": "panel",
+          "rect": [
+            281,
+            128,
+            56,
+            56
+          ],
+          "z": 11,
+          "align": "center",
+          "box": {
+            "border": "#FF7FC4",
+            "borderW": 3,
+            "fill": "#1B2338",
+            "shape": "diamond"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "s-diamond-l",
+          "type": "text",
+          "rect": [
+            273,
+            188,
+            72,
+            12
+          ],
+          "z": 12,
+          "align": "center",
+          "color": "#FF7FC4",
+          "letterSpacing": 1,
+          "text": "DIAMOND",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "s-pentagon",
+          "type": "panel",
+          "rect": [
+            360,
+            128,
+            56,
+            56
+          ],
+          "z": 13,
+          "align": "center",
+          "box": {
+            "border": "#B98CFF",
+            "borderW": 3,
+            "fill": "#1B2338",
+            "shape": "pentagon"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "s-pentagon-l",
+          "type": "text",
+          "rect": [
+            352,
+            188,
+            72,
+            12
+          ],
+          "z": 14,
+          "align": "center",
+          "color": "#B98CFF",
+          "letterSpacing": 1,
+          "text": "PENTAGON",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "s-hexagon",
+          "type": "panel",
+          "rect": [
+            439,
+            128,
+            56,
+            56
+          ],
+          "z": 15,
+          "align": "center",
+          "box": {
+            "border": "#8AE06B",
+            "borderW": 3,
+            "fill": "#1B2338",
+            "shape": "hexagon"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "s-hexagon-l",
+          "type": "text",
+          "rect": [
+            431,
+            188,
+            72,
+            12
+          ],
+          "z": 16,
+          "align": "center",
+          "color": "#8AE06B",
+          "letterSpacing": 1,
+          "text": "HEXAGON",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "s-octagon",
+          "type": "panel",
+          "rect": [
+            518,
+            128,
+            56,
+            56
+          ],
+          "z": 17,
+          "align": "center",
+          "box": {
+            "border": "#FF8C6B",
+            "borderW": 3,
+            "fill": "#1B2338",
+            "shape": "octagon"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "s-octagon-l",
+          "type": "text",
+          "rect": [
+            510,
+            188,
+            72,
+            12
+          ],
+          "z": 18,
+          "align": "center",
+          "color": "#FF8C6B",
+          "letterSpacing": 1,
+          "text": "OCTAGON",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "round-demo",
+          "type": "panel",
+          "rect": [
+            44,
+            210,
+            260,
+            46
+          ],
+          "z": 19,
+          "align": "center",
+          "box": {
+            "border": "#7C88D8",
+            "borderW": 2,
+            "cornerRadius": 16,
+            "fill": "#20305A"
+          },
+          "color": "#CBD3F5",
+          "letterSpacing": 1,
+          "text": "ROUNDED  ·  BORDERED  ·  FILLED",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "sharp-demo",
+          "type": "panel",
+          "rect": [
+            320,
+            210,
+            260,
+            46
+          ],
+          "z": 20,
+          "align": "center",
+          "box": {
+            "border": "#7C88D8",
+            "borderW": 2,
+            "cornerRadius": 0,
+            "fill": "#20305A"
+          },
+          "color": "#CBD3F5",
+          "letterSpacing": 1,
+          "text": "OR SHARP AND FLAT",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "nav-0",
+          "type": "button",
+          "rect": [
+            44,
+            272,
+            128,
+            32
+          ],
+          "z": 21,
+          "action": {
+            "kind": "goto",
+            "page": "zelda"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 0,
+          "focusable": true,
+          "label": "Zelda",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-1",
+          "type": "button",
+          "rect": [
+            184,
+            272,
+            128,
+            32
+          ],
+          "z": 22,
+          "action": {
+            "kind": "goto",
+            "page": "mario"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 1,
+          "focusable": true,
+          "label": "Mario",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-2",
+          "type": "button",
+          "rect": [
+            324,
+            272,
+            128,
+            32
+          ],
+          "z": 23,
+          "action": {
+            "kind": "goto",
+            "page": "racing"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 2,
+          "focusable": true,
+          "label": "Racing",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-3",
+          "type": "button",
+          "rect": [
+            464,
+            272,
+            128,
+            32
+          ],
+          "z": 24,
+          "action": {
+            "kind": "goto",
+            "page": "party"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 3,
+          "focusable": true,
+          "label": "Party",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-4",
+          "type": "button",
+          "rect": [
+            44,
+            312,
+            128,
+            32
+          ],
+          "z": 25,
+          "action": {
+            "kind": "goto",
+            "page": "fps"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 4,
+          "focusable": true,
+          "label": "Shooters",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-5",
+          "type": "button",
+          "rect": [
+            184,
+            312,
+            128,
+            32
+          ],
+          "z": 26,
+          "action": {
+            "kind": "goto",
+            "page": "all"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 5,
+          "focusable": true,
+          "label": "All Games",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-6",
+          "type": "button",
+          "rect": [
+            324,
+            312,
+            128,
+            32
+          ],
+          "z": 27,
+          "action": {
+            "kind": "goto",
+            "page": "recent"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 6,
+          "focusable": true,
+          "label": "Recent",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-7",
+          "type": "button",
+          "rect": [
+            464,
+            312,
+            128,
+            32
+          ],
+          "z": 28,
+          "action": {
+            "kind": "goto",
+            "page": "files"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 7,
+          "focusable": true,
+          "label": "Files",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-8",
+          "type": "button",
+          "rect": [
+            44,
+            352,
+            128,
+            32
+          ],
+          "z": 29,
+          "action": {
+            "kind": "goto",
+            "page": "controls"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 8,
+          "focusable": true,
+          "label": "Controls",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-9",
+          "type": "button",
+          "rect": [
+            184,
+            352,
+            128,
+            32
+          ],
+          "z": 30,
+          "action": {
+            "kind": "goto",
+            "page": "favourites"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 9,
+          "focusable": true,
+          "label": "Favourites",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "nav-10",
+          "type": "button",
+          "rect": [
+            324,
+            352,
+            128,
+            32
+          ],
+          "z": 31,
+          "action": {
+            "kind": "goto",
+            "page": "settings"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A67B8",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#22305C"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 10,
+          "focusable": true,
+          "label": "Settings",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "stat",
+          "type": "text",
+          "rect": [
+            44,
+            392,
+            536,
+            16
+          ],
+          "z": 32,
+          "align": "center",
+          "color": "#6B76AE",
+          "letterSpacing": 1,
+          "text": "PAK-MEN {menu_version}   ·   {history_count} played   ·   {fav_count} saved   ·   {cart}",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 33,
+          "align": "center",
+          "box": {
+            "border": "#3A4478",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#182142"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 34,
+          "align": "center",
+          "color": "#9AA4D8",
+          "letterSpacing": 1,
+          "text": "L R  FLIP PAGES        A  OPEN        Z  FAVOURITE        START  SETTINGS",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "title": "Controls",
+      "kind": "custom",
+      "background": "#F598B3",
+      "hint": "",
+      "elements": [
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            70,
+            18,
+            420,
+            44
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#5A5FB0",
+            "borderW": 2,
+            "cornerRadius": 4
+          },
+          "color": "#FFFFFF",
+          "fontSize": 36,
+          "letterSpacing": 2,
+          "text": "CONTROLS",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "back",
+          "type": "button",
+          "rect": [
+            508,
+            22,
+            104,
+            34
+          ],
+          "z": 1,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A5FB0",
+            "borderW": 4,
+            "cornerRadius": 4,
+            "fill": "#808080"
+          },
+          "color": "#FFFFFF",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "<",
+          "label": "HOME",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "intro",
+          "type": "text",
+          "rect": [
+            40,
+            68,
+            560,
+            14
+          ],
+          "z": 2,
+          "align": "center",
+          "color": "#7A2E63",
+          "letterSpacing": 1,
+          "text": "the stock buttons  —  remap any of them in the builder",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k0",
+          "type": "panel",
+          "rect": [
+            58,
+            92,
+            38,
+            38
+          ],
+          "z": 3,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#2D2AC0",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#3B38FF",
+            "shape": "circle"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": "A",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "c0",
+          "type": "text",
+          "rect": [
+            112,
+            92,
+            496,
+            38
+          ],
+          "z": 4,
+          "align": "left",
+          "color": "#3A1730",
+          "fontSize": 24,
+          "text": "Open / launch the highlighted game",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k1",
+          "type": "panel",
+          "rect": [
+            58,
+            133,
+            38,
+            38
+          ],
+          "z": 5,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#04811D",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#00A321",
+            "shape": "circle"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": "B",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "c1",
+          "type": "text",
+          "rect": [
+            112,
+            133,
+            496,
+            38
+          ],
+          "z": 6,
+          "align": "left",
+          "color": "#3A1730",
+          "fontSize": 24,
+          "text": "Back  —  up a folder, or one page",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k2",
+          "type": "panel",
+          "rect": [
+            58,
+            174,
+            38,
+            38
+          ],
+          "z": 7,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#5A5FB0",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#808080"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": "L",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "c2",
+          "type": "text",
+          "rect": [
+            112,
+            174,
+            496,
+            38
+          ],
+          "z": 8,
+          "align": "left",
+          "color": "#3A1730",
+          "fontSize": 24,
+          "text": "Previous page",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k3",
+          "type": "panel",
+          "rect": [
+            58,
+            215,
+            38,
+            38
+          ],
+          "z": 9,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#5A5FB0",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#808080"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": "R",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "c3",
+          "type": "text",
+          "rect": [
+            112,
+            215,
+            496,
+            38
+          ],
+          "z": 10,
+          "align": "left",
+          "color": "#3A1730",
+          "fontSize": 24,
+          "text": "Next page",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k4",
+          "type": "panel",
+          "rect": [
+            58,
+            256,
+            38,
+            38
+          ],
+          "z": 11,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#3A3A3A",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#5B5B5B"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": "Z",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "c4",
+          "type": "text",
+          "rect": [
+            112,
+            256,
+            496,
+            38
+          ],
+          "z": 12,
+          "align": "left",
+          "color": "#3A1730",
+          "fontSize": 24,
+          "text": "Favourite  —  add to or drop from a shelf",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k5",
+          "type": "panel",
+          "rect": [
+            58,
+            297,
+            38,
+            38
+          ],
+          "z": 13,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#7A1F16",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#C0392B",
+            "shape": "circle"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": ">",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "c5",
+          "type": "text",
+          "rect": [
+            112,
+            297,
+            496,
+            38
+          ],
+          "z": 14,
+          "align": "left",
+          "color": "#3A1730",
+          "fontSize": 24,
+          "text": "Start  —  open the Settings screen",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k6",
+          "type": "panel",
+          "rect": [
+            58,
+            338,
+            38,
+            38
+          ],
+          "z": 15,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#A88400",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#F0C000",
+            "shape": "circle"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": "C",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "c6",
+          "type": "text",
+          "rect": [
+            112,
+            338,
+            496,
+            38
+          ],
+          "z": 16,
+          "align": "left",
+          "color": "#3A1730",
+          "fontSize": 24,
+          "text": "C buttons  —  skip a page at a time",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k7",
+          "type": "panel",
+          "rect": [
+            58,
+            379,
+            38,
+            38
+          ],
+          "z": 17,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#20242C",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#3A3F4A"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": "+",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "c7",
+          "type": "text",
+          "rect": [
+            112,
+            379,
+            496,
+            38
+          ],
+          "z": 18,
+          "align": "left",
+          "color": "#3A1730",
+          "fontSize": 24,
+          "text": "D-pad / stick  —  move the highlight",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "favourites",
+      "title": "Favourites",
+      "kind": "custom",
+      "background": "#181423",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#F0C044",
+            "borderW": 2,
+            "cornerRadius": 8,
+            "fill": "#221A33"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            40,
+            24,
+            560,
+            40
+          ],
+          "z": 1,
+          "align": "center",
+          "color": "#F5E6B8",
+          "font": "Foneitwu-R9yOW",
+          "fontSize": 32,
+          "letterSpacing": 2,
+          "text": "FAVOURITES",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "k-z",
+          "type": "panel",
+          "rect": [
+            40,
+            74,
+            40,
+            40
+          ],
+          "z": 2,
+          "align": "center",
+          "aspectLock": true,
+          "box": {
+            "border": "#3A3A3A",
+            "borderW": 4,
+            "cornerRadius": 6,
+            "fill": "#5B5B5B"
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "text": "Z",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "k-z-cap",
+          "type": "text",
+          "rect": [
+            92,
+            70,
+            508,
+            48
+          ],
+          "z": 3,
+          "align": "left",
+          "color": "#D8CBAF",
+          "fontSize": 24,
+          "text": "Press Z on any game to save it.\nPress Z again to remove it.",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "sub",
+          "type": "text",
+          "rect": [
+            44,
+            122,
+            560,
+            14
+          ],
+          "z": 4,
+          "align": "center",
+          "color": "#9C8F6E",
+          "letterSpacing": 1,
+          "text": "collections keep separate shelves  —  Zelda, Racing, and so on",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "grid-panel",
+          "type": "panel",
+          "rect": [
+            32,
+            144,
+            576,
+            236
+          ],
+          "z": 5,
+          "align": "center",
+          "box": {
+            "border": "#8A7430",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#1B1428"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "favs",
+          "type": "gameList",
+          "rect": [
+            46,
+            156,
+            548,
+            212
+          ],
+          "z": 6,
+          "gridCols": 5,
+          "gridGap": 12,
+          "gridLabelPos": "overlay",
+          "gridLabelWrap": false,
+          "gridLabels": true,
+          "gridRows": 2,
+          "highlight": "#F0C044",
+          "rowH": 24,
+          "source": "favorites",
+          "style": "grid",
+          "textColor": "#FFF3D0",
+          "textDy": 16,
+          "textPadL": 10,
+          "textPadR": 8
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            170,
+            388,
+            300,
+            32
+          ],
+          "z": 7,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#8A7430",
+            "borderW": 2,
+            "cornerRadius": 6,
+            "fill": "#3A2E17"
+          },
+          "color": "#F5E6B8",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "<",
+          "label": "BACK TO HOME",
+          "letterSpacing": 2,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 8,
+          "align": "center",
+          "box": {
+            "border": "#8A7430",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#1B1428"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 9,
+          "align": "center",
+          "color": "#C9B98A",
+          "letterSpacing": 1,
+          "text": "A  LAUNCH        Z  ADD TO / REMOVE FROM A SHELF        L R  FLIP PAGES",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "zelda",
+      "title": "Zelda",
+      "kind": "custom",
+      "background": "#0E1F16",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#C8A24A",
+            "borderW": 3,
+            "cornerRadius": 6,
+            "fill": "#16281C"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "logo0",
+          "type": "image",
+          "rect": [
+            30,
+            22,
+            124,
+            54
+          ],
+          "z": 1,
+          "fit": "contain",
+          "src": "boxart/CZLE/logo.png"
+        },
+        {
+          "id": "logo1",
+          "type": "image",
+          "rect": [
+            486,
+            22,
+            124,
+            54
+          ],
+          "z": 2,
+          "fit": "contain",
+          "src": "boxart/NZSE/logo.png"
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            166,
+            24,
+            308,
+            46
+          ],
+          "z": 3,
+          "align": "center",
+          "color": "#E8D9A0",
+          "font": "Triforce-y07d",
+          "fontSize": 32,
+          "letterSpacing": 3,
+          "text": "ZELDA",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "tri-t",
+          "type": "panel",
+          "rect": [
+            309,
+            74,
+            22,
+            18
+          ],
+          "z": 4,
+          "align": "center",
+          "box": {
+            "fill": "#E8C84A",
+            "shape": "triangle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "tri-l",
+          "type": "panel",
+          "rect": [
+            298,
+            92,
+            22,
+            18
+          ],
+          "z": 5,
+          "align": "center",
+          "box": {
+            "fill": "#E8C84A",
+            "shape": "triangle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "tri-r",
+          "type": "panel",
+          "rect": [
+            320,
+            92,
+            22,
+            18
+          ],
+          "z": 6,
+          "align": "center",
+          "box": {
+            "fill": "#E8C84A",
+            "shape": "triangle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "rule-l",
+          "type": "panel",
+          "rect": [
+            120,
+            84,
+            160,
+            2
+          ],
+          "z": 7,
+          "align": "center",
+          "box": {
+            "fill": "#8A7A3E"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "rule-r",
+          "type": "panel",
+          "rect": [
+            360,
+            84,
+            160,
+            2
+          ],
+          "z": 8,
+          "align": "center",
+          "box": {
+            "fill": "#8A7A3E"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf-panel",
+          "type": "panel",
+          "rect": [
+            32,
+            108,
+            576,
+            272
+          ],
+          "z": 9,
+          "align": "center",
+          "box": {
+            "border": "#8A7A3E",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#12211A"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf",
+          "type": "gameList",
+          "rect": [
+            46,
+            120,
+            548,
+            248
+          ],
+          "z": 10,
+          "collection": "Zelda",
+          "gridCols": 5,
+          "gridGap": 12,
+          "gridLabelPos": "overlay",
+          "gridLabelWrap": false,
+          "gridLabels": true,
+          "gridRows": 2,
+          "highlight": "#C8A24A",
+          "rowH": 24,
+          "source": "favorites",
+          "style": "grid",
+          "textColor": "#F1E7C6",
+          "textDy": 16,
+          "textPadL": 10,
+          "textPadR": 8
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            170,
+            386,
+            300,
+            32
+          ],
+          "z": 11,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5E7A3E",
+            "borderW": 2,
+            "cornerRadius": 4,
+            "fill": "#2E4A2E"
+          },
+          "color": "#F3EAD0",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "<",
+          "label": "BACK TO HOME",
+          "letterSpacing": 2,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 12,
+          "align": "center",
+          "box": {
+            "border": "#8A7A3E",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#12211A"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 13,
+          "align": "center",
+          "color": "#B7A876",
+          "letterSpacing": 1,
+          "text": "A  LAUNCH        Z  REMOVE FROM SHELF        L R  FLIP PAGES",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "mario",
+      "title": "Mario",
+      "kind": "custom",
+      "background": "#2C74B8",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#F4C542",
+            "borderW": 4,
+            "cornerRadius": 8,
+            "fill": "#C33C2C"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "logo0",
+          "type": "image",
+          "rect": [
+            30,
+            22,
+            124,
+            54
+          ],
+          "z": 1,
+          "fit": "contain",
+          "src": "boxart/NSME/logo.png"
+        },
+        {
+          "id": "logo1",
+          "type": "image",
+          "rect": [
+            486,
+            22,
+            124,
+            54
+          ],
+          "z": 2,
+          "fit": "contain",
+          "src": "boxart/NMWE/logo.png"
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            166,
+            24,
+            308,
+            46
+          ],
+          "z": 3,
+          "align": "center",
+          "color": "#FFFFFF",
+          "font": "SuperMario286-18qg",
+          "fontSize": 32,
+          "letterSpacing": 1,
+          "text": "MARIO",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "coin0",
+          "type": "panel",
+          "rect": [
+            280,
+            78,
+            20,
+            20
+          ],
+          "z": 4,
+          "align": "center",
+          "box": {
+            "border": "#B98A16",
+            "borderW": 3,
+            "fill": "#F4C542",
+            "shape": "circle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "coin1",
+          "type": "panel",
+          "rect": [
+            312,
+            78,
+            20,
+            20
+          ],
+          "z": 5,
+          "align": "center",
+          "box": {
+            "border": "#B98A16",
+            "borderW": 3,
+            "fill": "#F4C542",
+            "shape": "circle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "coin2",
+          "type": "panel",
+          "rect": [
+            344,
+            78,
+            20,
+            20
+          ],
+          "z": 6,
+          "align": "center",
+          "box": {
+            "border": "#B98A16",
+            "borderW": 3,
+            "fill": "#F4C542",
+            "shape": "circle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cloud1",
+          "type": "panel",
+          "rect": [
+            140,
+            78,
+            76,
+            20
+          ],
+          "z": 7,
+          "align": "center",
+          "box": {
+            "fill": "#EAF4FF",
+            "shape": "ellipse"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cloud2",
+          "type": "panel",
+          "rect": [
+            424,
+            78,
+            76,
+            20
+          ],
+          "z": 8,
+          "align": "center",
+          "box": {
+            "fill": "#EAF4FF",
+            "shape": "ellipse"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf-panel",
+          "type": "panel",
+          "rect": [
+            32,
+            108,
+            576,
+            272
+          ],
+          "z": 9,
+          "align": "center",
+          "box": {
+            "border": "#F4C542",
+            "borderW": 1,
+            "cornerRadius": 6,
+            "fill": "#9E2E22"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf",
+          "type": "gameList",
+          "rect": [
+            46,
+            120,
+            548,
+            248
+          ],
+          "z": 10,
+          "collection": "Mario",
+          "gridCols": 5,
+          "gridGap": 12,
+          "gridLabelPos": "overlay",
+          "gridLabelWrap": false,
+          "gridLabels": true,
+          "gridRows": 2,
+          "highlight": "#F4C542",
+          "rowH": 24,
+          "source": "favorites",
+          "style": "grid",
+          "textColor": "#FFF3D0",
+          "textDy": 16,
+          "textPadL": 10,
+          "textPadR": 8
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            170,
+            386,
+            300,
+            32
+          ],
+          "z": 11,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#0E6A2A",
+            "borderW": 2,
+            "cornerRadius": 6,
+            "fill": "#1F8A3E"
+          },
+          "color": "#FFFFFF",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "<",
+          "label": "BACK TO HOME",
+          "letterSpacing": 2,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 12,
+          "align": "center",
+          "box": {
+            "border": "#F4C542",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#9E2E22"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 13,
+          "align": "center",
+          "color": "#FCE7B0",
+          "letterSpacing": 1,
+          "text": "A  LAUNCH        Z  REMOVE FROM SHELF        L R  FLIP PAGES",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "racing",
+      "title": "Racing",
+      "kind": "custom",
+      "background": "#17171B",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#E8B900",
+            "borderW": 3,
+            "cornerRadius": 2,
+            "fill": "#24242A"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "logo0",
+          "type": "image",
+          "rect": [
+            30,
+            22,
+            124,
+            54
+          ],
+          "z": 1,
+          "fit": "contain",
+          "src": "boxart/NKTE/logo.png"
+        },
+        {
+          "id": "logo1",
+          "type": "image",
+          "rect": [
+            486,
+            22,
+            124,
+            54
+          ],
+          "z": 2,
+          "fit": "contain",
+          "src": "boxart/NDYE/logo.png"
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            166,
+            24,
+            308,
+            46
+          ],
+          "z": 3,
+          "align": "center",
+          "color": "#E8B900",
+          "font": "RoBlueShellBold-gxn35",
+          "fontSize": 32,
+          "letterSpacing": 2,
+          "text": "RACING",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "ck0",
+          "type": "panel",
+          "rect": [
+            232,
+            80,
+            18,
+            12
+          ],
+          "z": 4,
+          "align": "center",
+          "box": {
+            "fill": "#1A1A1E"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck1",
+          "type": "panel",
+          "rect": [
+            250,
+            80,
+            18,
+            12
+          ],
+          "z": 5,
+          "align": "center",
+          "box": {
+            "fill": "#E8E8E8"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck2",
+          "type": "panel",
+          "rect": [
+            268,
+            80,
+            18,
+            12
+          ],
+          "z": 6,
+          "align": "center",
+          "box": {
+            "fill": "#1A1A1E"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck3",
+          "type": "panel",
+          "rect": [
+            286,
+            80,
+            18,
+            12
+          ],
+          "z": 7,
+          "align": "center",
+          "box": {
+            "fill": "#E8E8E8"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck4",
+          "type": "panel",
+          "rect": [
+            304,
+            80,
+            18,
+            12
+          ],
+          "z": 8,
+          "align": "center",
+          "box": {
+            "fill": "#1A1A1E"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck5",
+          "type": "panel",
+          "rect": [
+            322,
+            80,
+            18,
+            12
+          ],
+          "z": 9,
+          "align": "center",
+          "box": {
+            "fill": "#E8E8E8"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck6",
+          "type": "panel",
+          "rect": [
+            340,
+            80,
+            18,
+            12
+          ],
+          "z": 10,
+          "align": "center",
+          "box": {
+            "fill": "#1A1A1E"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck7",
+          "type": "panel",
+          "rect": [
+            358,
+            80,
+            18,
+            12
+          ],
+          "z": 11,
+          "align": "center",
+          "box": {
+            "fill": "#E8E8E8"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck8",
+          "type": "panel",
+          "rect": [
+            376,
+            80,
+            18,
+            12
+          ],
+          "z": 12,
+          "align": "center",
+          "box": {
+            "fill": "#1A1A1E"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "ck9",
+          "type": "panel",
+          "rect": [
+            394,
+            80,
+            18,
+            12
+          ],
+          "z": 13,
+          "align": "center",
+          "box": {
+            "fill": "#E8E8E8"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "chev0",
+          "type": "panel",
+          "rect": [
+            196,
+            78,
+            16,
+            16
+          ],
+          "z": 14,
+          "align": "center",
+          "box": {
+            "fill": "#E8B900",
+            "shape": "triangle"
+          },
+          "color": "#E7E9EF",
+          "rotation": 90,
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "chev1",
+          "type": "panel",
+          "rect": [
+            183,
+            78,
+            16,
+            16
+          ],
+          "z": 15,
+          "align": "center",
+          "box": {
+            "fill": "#E8B900",
+            "shape": "triangle"
+          },
+          "color": "#E7E9EF",
+          "rotation": 90,
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "chev2",
+          "type": "panel",
+          "rect": [
+            170,
+            78,
+            16,
+            16
+          ],
+          "z": 16,
+          "align": "center",
+          "box": {
+            "fill": "#E8B900",
+            "shape": "triangle"
+          },
+          "color": "#E7E9EF",
+          "rotation": 90,
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf-panel",
+          "type": "panel",
+          "rect": [
+            32,
+            108,
+            576,
+            272
+          ],
+          "z": 17,
+          "align": "center",
+          "box": {
+            "border": "#5A5A20",
+            "borderW": 1,
+            "cornerRadius": 0,
+            "fill": "#1E1E24"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf",
+          "type": "gameList",
+          "rect": [
+            46,
+            120,
+            300,
+            248
+          ],
+          "z": 18,
+          "collection": "Racing",
+          "highlight": "#E8B900",
+          "rowH": 26,
+          "source": "favorites",
+          "style": "list",
+          "textColor": "#E6E6E6",
+          "textDy": 17,
+          "textPadL": 14,
+          "textPadR": 10
+        },
+        {
+          "id": "cover-panel",
+          "type": "panel",
+          "rect": [
+            360,
+            108,
+            248,
+            176
+          ],
+          "z": 19,
+          "align": "center",
+          "box": {
+            "border": "#5A5A20",
+            "borderW": 1,
+            "cornerRadius": 0,
+            "fill": "#1E1E24"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cover",
+          "type": "boxArt",
+          "rect": [
+            372,
+            120,
+            224,
+            152
+          ],
+          "z": 20,
+          "aspectLock": true,
+          "bg": "#1E1E24",
+          "fit": "cover"
+        },
+        {
+          "id": "info-panel",
+          "type": "panel",
+          "rect": [
+            360,
+            294,
+            248,
+            86
+          ],
+          "z": 21,
+          "align": "center",
+          "box": {
+            "border": "#5A5A20",
+            "borderW": 1,
+            "cornerRadius": 0,
+            "fill": "#1E1E24"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "info",
+          "type": "infoPanel",
+          "rect": [
+            374,
+            304,
+            220,
+            66
+          ],
+          "z": 22,
+          "baselineDy": 14,
+          "labelColor": "#8A8A3A",
+          "labelW": 92,
+          "labels": [
+            "RELEASED",
+            "MAKER",
+            "REGION",
+            "PLAYERS",
+            ""
+          ],
+          "rowH": 20,
+          "valueColor": "#E6E6E6"
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            170,
+            386,
+            300,
+            32
+          ],
+          "z": 23,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#7A0F0F",
+            "borderW": 2,
+            "cornerRadius": 0,
+            "fill": "#B01818"
+          },
+          "color": "#FFFFFF",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "<",
+          "label": "BACK TO HOME",
+          "letterSpacing": 2,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 24,
+          "align": "center",
+          "box": {
+            "border": "#5A5A20",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#1E1E24"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 25,
+          "align": "center",
+          "color": "#C9C98A",
+          "letterSpacing": 1,
+          "text": "A  LAUNCH        Z  REMOVE FROM SHELF        L R  FLIP PAGES",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "party",
+      "title": "Party",
+      "kind": "custom",
+      "background": "#271640",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#FF5EC4",
+            "borderW": 3,
+            "cornerRadius": 16,
+            "fill": "#392552"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "logo0",
+          "type": "image",
+          "rect": [
+            30,
+            22,
+            124,
+            54
+          ],
+          "z": 1,
+          "fit": "contain",
+          "src": "boxart/NMWE/logo.png"
+        },
+        {
+          "id": "logo1",
+          "type": "image",
+          "rect": [
+            486,
+            22,
+            124,
+            54
+          ],
+          "z": 2,
+          "fit": "contain",
+          "src": "boxart/NALE/logo.png"
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            166,
+            24,
+            308,
+            46
+          ],
+          "z": 3,
+          "align": "center",
+          "color": "#FFE84D",
+          "font": "PolygonParty-3KXM",
+          "fontSize": 32,
+          "letterSpacing": 1,
+          "text": "PARTY",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "cf0",
+          "type": "panel",
+          "rect": [
+            250,
+            76,
+            18,
+            18
+          ],
+          "z": 4,
+          "align": "center",
+          "box": {
+            "fill": "#FF5EC4",
+            "shape": "diamond"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cf1",
+          "type": "panel",
+          "rect": [
+            286,
+            82,
+            12,
+            12
+          ],
+          "z": 5,
+          "align": "center",
+          "box": {
+            "fill": "#4DE8D0",
+            "shape": "circle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cf2",
+          "type": "panel",
+          "rect": [
+            320,
+            74,
+            18,
+            18
+          ],
+          "z": 6,
+          "align": "center",
+          "box": {
+            "fill": "#FFE84D",
+            "shape": "pentagon"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cf3",
+          "type": "panel",
+          "rect": [
+            356,
+            82,
+            12,
+            12
+          ],
+          "z": 7,
+          "align": "center",
+          "box": {
+            "fill": "#7FB2FF",
+            "shape": "circle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cf4",
+          "type": "panel",
+          "rect": [
+            388,
+            76,
+            16,
+            16
+          ],
+          "z": 8,
+          "align": "center",
+          "box": {
+            "fill": "#8AE06B",
+            "shape": "diamond"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cf5",
+          "type": "panel",
+          "rect": [
+            36,
+            398,
+            14,
+            14
+          ],
+          "z": 9,
+          "align": "center",
+          "box": {
+            "fill": "#FF5EC4",
+            "shape": "circle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cf6",
+          "type": "panel",
+          "rect": [
+            592,
+            396,
+            16,
+            16
+          ],
+          "z": 10,
+          "align": "center",
+          "box": {
+            "fill": "#4DE8D0",
+            "shape": "diamond"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf-panel",
+          "type": "panel",
+          "rect": [
+            32,
+            110,
+            576,
+            270
+          ],
+          "z": 11,
+          "align": "center",
+          "box": {
+            "border": "#8A4FB0",
+            "borderW": 1,
+            "cornerRadius": 14,
+            "fill": "#2C1B44"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf",
+          "type": "gameList",
+          "rect": [
+            46,
+            122,
+            548,
+            246
+          ],
+          "z": 12,
+          "collection": "Party",
+          "gridCols": 4,
+          "gridGap": 12,
+          "gridLabelPos": "overlay",
+          "gridLabelWrap": false,
+          "gridLabels": true,
+          "gridRows": 2,
+          "highlight": "#FF5EC4",
+          "rowH": 24,
+          "source": "favorites",
+          "style": "grid",
+          "textColor": "#F3E9FF",
+          "textDy": 16,
+          "textPadL": 10,
+          "textPadR": 8
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            170,
+            386,
+            300,
+            32
+          ],
+          "z": 13,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#A01E76",
+            "borderW": 2,
+            "cornerRadius": 14,
+            "fill": "#E23EA8"
+          },
+          "color": "#FFFFFF",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "<",
+          "label": "BACK TO HOME",
+          "letterSpacing": 2,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 14,
+          "align": "center",
+          "box": {
+            "border": "#8A4FB0",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#2C1B44"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 15,
+          "align": "center",
+          "color": "#D8B8F0",
+          "letterSpacing": 1,
+          "text": "A  LAUNCH        Z  REMOVE FROM SHELF        L R  FLIP PAGES",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "fps",
+      "title": "Shooters",
+      "kind": "custom",
+      "background": "#090C09",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#7F9E3A",
+            "borderW": 2,
+            "cornerRadius": 0,
+            "fill": "#12180F"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "logo0",
+          "type": "image",
+          "rect": [
+            30,
+            22,
+            124,
+            54
+          ],
+          "z": 1,
+          "fit": "contain",
+          "src": "boxart/NGEE/logo.png"
+        },
+        {
+          "id": "logo1",
+          "type": "image",
+          "rect": [
+            486,
+            22,
+            124,
+            54
+          ],
+          "z": 2,
+          "fit": "contain",
+          "src": "boxart/NPDE/logo.png"
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            166,
+            24,
+            308,
+            46
+          ],
+          "z": 3,
+          "align": "center",
+          "color": "#C9A227",
+          "font": "Nes2Regular-yxyd",
+          "fontSize": 32,
+          "letterSpacing": 3,
+          "text": "SHOOTERS",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "xh",
+          "type": "panel",
+          "rect": [
+            304,
+            72,
+            32,
+            32
+          ],
+          "z": 4,
+          "align": "center",
+          "box": {
+            "border": "#7F9E3A",
+            "borderW": 3,
+            "shape": "octagon"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "xh-dot",
+          "type": "panel",
+          "rect": [
+            316,
+            84,
+            8,
+            8
+          ],
+          "z": 5,
+          "align": "center",
+          "box": {
+            "fill": "#C9A227",
+            "shape": "circle"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "xh-l",
+          "type": "panel",
+          "rect": [
+            270,
+            87,
+            26,
+            2
+          ],
+          "z": 6,
+          "align": "center",
+          "box": {
+            "fill": "#7F9E3A"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "xh-r",
+          "type": "panel",
+          "rect": [
+            344,
+            87,
+            26,
+            2
+          ],
+          "z": 7,
+          "align": "center",
+          "box": {
+            "fill": "#7F9E3A"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hex1",
+          "type": "panel",
+          "rect": [
+            176,
+            78,
+            20,
+            18
+          ],
+          "z": 8,
+          "align": "center",
+          "box": {
+            "border": "#4A5A26",
+            "borderW": 2,
+            "fill": "#1A2410",
+            "shape": "hexagon"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hex2",
+          "type": "panel",
+          "rect": [
+            444,
+            78,
+            20,
+            18
+          ],
+          "z": 9,
+          "align": "center",
+          "box": {
+            "border": "#4A5A26",
+            "borderW": 2,
+            "fill": "#1A2410",
+            "shape": "hexagon"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf-panel",
+          "type": "panel",
+          "rect": [
+            32,
+            108,
+            576,
+            272
+          ],
+          "z": 10,
+          "align": "center",
+          "box": {
+            "border": "#4A5A26",
+            "borderW": 1,
+            "cornerRadius": 0,
+            "fill": "#0E130C"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "shelf",
+          "type": "gameList",
+          "rect": [
+            46,
+            120,
+            300,
+            248
+          ],
+          "z": 11,
+          "collection": "FPS",
+          "highlight": "#C9A227",
+          "rowH": 26,
+          "source": "favorites",
+          "style": "list",
+          "textColor": "#B8C99A",
+          "textDy": 17,
+          "textPadL": 14,
+          "textPadR": 10
+        },
+        {
+          "id": "cover-panel",
+          "type": "panel",
+          "rect": [
+            360,
+            108,
+            248,
+            176
+          ],
+          "z": 12,
+          "align": "center",
+          "box": {
+            "border": "#4A5A26",
+            "borderW": 1,
+            "cornerRadius": 0,
+            "fill": "#0E130C"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cover",
+          "type": "boxArt",
+          "rect": [
+            372,
+            120,
+            224,
+            152
+          ],
+          "z": 13,
+          "aspectLock": true,
+          "bg": "#0E130C",
+          "fit": "cover"
+        },
+        {
+          "id": "info-panel",
+          "type": "panel",
+          "rect": [
+            360,
+            294,
+            248,
+            86
+          ],
+          "z": 14,
+          "align": "center",
+          "box": {
+            "border": "#4A5A26",
+            "borderW": 1,
+            "cornerRadius": 0,
+            "fill": "#0E130C"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "info",
+          "type": "infoPanel",
+          "rect": [
+            374,
+            304,
+            220,
+            66
+          ],
+          "z": 15,
+          "baselineDy": 14,
+          "labelColor": "#6A7A3A",
+          "labelW": 92,
+          "labels": [
+            "RELEASED",
+            "MAKER",
+            "REGION",
+            "PLAYERS",
+            ""
+          ],
+          "rowH": 20,
+          "valueColor": "#B8C99A"
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            170,
+            386,
+            300,
+            32
+          ],
+          "z": 16,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#3A4A12",
+            "borderW": 2,
+            "cornerRadius": 0,
+            "fill": "#5A6E1E"
+          },
+          "color": "#E8F0D0",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "<",
+          "label": "BACK TO HOME",
+          "letterSpacing": 2,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 17,
+          "align": "center",
+          "box": {
+            "border": "#4A5A26",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#0E130C"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 18,
+          "align": "center",
+          "color": "#9AAE6A",
+          "letterSpacing": 1,
+          "text": "A  DEPLOY        Z  REMOVE FROM SQUAD        L R  CYCLE PAGES",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "all",
+      "title": "All Games",
+      "kind": "custom",
+      "background": "#101014",
+      "hint": "",
+      "elements": [
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            40,
+            16,
+            560,
+            26
+          ],
+          "z": 0,
+          "align": "center",
+          "color": "#D8D8E0",
+          "font": "Emulogic-zrEw",
+          "fontSize": 16,
+          "letterSpacing": 4,
+          "text": "ALL GAMES",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "rule",
+          "type": "panel",
+          "rect": [
+            270,
+            42,
+            100,
+            2
+          ],
+          "z": 1,
+          "align": "center",
+          "box": {
+            "fill": "#3A3A48"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "grid",
+          "type": "gameList",
+          "rect": [
+            28,
+            54,
+            584,
+            318
+          ],
+          "z": 2,
+          "gridCols": 6,
+          "gridGap": 8,
+          "gridLabels": false,
+          "gridRows": 4,
+          "highlight": "#5EE6D0",
+          "rowH": 24,
+          "source": "all",
+          "style": "grid",
+          "textColor": "#FFFFFF",
+          "textDy": 16,
+          "textPadL": 10,
+          "textPadR": 8
+        },
+        {
+          "id": "note",
+          "type": "text",
+          "rect": [
+            40,
+            378,
+            560,
+            12
+          ],
+          "z": 3,
+          "align": "center",
+          "color": "#5C5C6C",
+          "letterSpacing": 1,
+          "text": "highlight a game and press Z to file it on a genre shelf",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "shelf",
+          "type": "button",
+          "rect": [
+            28,
+            394,
+            300,
+            30
+          ],
+          "z": 4,
+          "action": {
+            "kind": "favorite.toggle"
+          },
+          "align": "center",
+          "box": {
+            "border": "#2FA593",
+            "borderW": 2,
+            "cornerRadius": 6,
+            "fill": "#5EE6D0"
+          },
+          "color": "#0B120B",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "Z",
+          "label": "ADD TO A SHELF",
+          "letterSpacing": 1,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            336,
+            394,
+            276,
+            30
+          ],
+          "z": 5,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#3A3A48",
+            "borderW": 2,
+            "cornerRadius": 6,
+            "fill": "#1C1C24"
+          },
+          "color": "#D8D8E0",
+          "focusOrder": 1,
+          "focusable": true,
+          "glyph": "<",
+          "label": "HOME",
+          "letterSpacing": 2,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "count",
+          "type": "text",
+          "rect": [
+            40,
+            430,
+            560,
+            14
+          ],
+          "z": 6,
+          "align": "center",
+          "color": "#666676",
+          "letterSpacing": 2,
+          "text": "{history_count} PLAYED   ·   {fav_count} SAVED   ·   {cart}",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "recent",
+      "title": "Recent",
+      "kind": "custom",
+      "background": "#14181C",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#3E4650",
+            "borderW": 2,
+            "cornerRadius": 3,
+            "fill": "#1B2026"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            40,
+            24,
+            560,
+            32
+          ],
+          "z": 1,
+          "align": "center",
+          "color": "#CFE8FF",
+          "font": "PixelEmulator-xq08",
+          "fontSize": 16,
+          "letterSpacing": 3,
+          "text": "RECENTLY PLAYED",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "list-panel",
+          "type": "panel",
+          "rect": [
+            32,
+            66,
+            340,
+            316
+          ],
+          "z": 2,
+          "align": "center",
+          "box": {
+            "border": "#333B44",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#161B20"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "list",
+          "type": "gameList",
+          "rect": [
+            44,
+            78,
+            316,
+            292
+          ],
+          "z": 3,
+          "highlight": "#2E5A78",
+          "rowH": 26,
+          "source": "history",
+          "style": "list",
+          "textColor": "#D6E4F0",
+          "textDy": 17,
+          "textPadL": 12,
+          "textPadR": 8
+        },
+        {
+          "id": "cover-panel",
+          "type": "panel",
+          "rect": [
+            384,
+            66,
+            224,
+            190
+          ],
+          "z": 4,
+          "align": "center",
+          "box": {
+            "border": "#333B44",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#161B20"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "cover",
+          "type": "boxArt",
+          "rect": [
+            396,
+            78,
+            200,
+            166
+          ],
+          "z": 5,
+          "aspectLock": true,
+          "bg": "#161B20",
+          "fit": "cover"
+        },
+        {
+          "id": "info-panel",
+          "type": "panel",
+          "rect": [
+            384,
+            266,
+            224,
+            116
+          ],
+          "z": 6,
+          "align": "center",
+          "box": {
+            "border": "#333B44",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#161B20"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "info",
+          "type": "infoPanel",
+          "rect": [
+            398,
+            276,
+            196,
+            96
+          ],
+          "z": 7,
+          "baselineDy": 14,
+          "labelColor": "#5E6A76",
+          "labelW": 84,
+          "labels": [
+            "RELEASED",
+            "MAKER",
+            "REGION",
+            "PLAYERS",
+            "GENRE"
+          ],
+          "rowH": 20,
+          "valueColor": "#D6E4F0"
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            170,
+            388,
+            300,
+            30
+          ],
+          "z": 8,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#3E5A72",
+            "borderW": 2,
+            "cornerRadius": 3,
+            "fill": "#1E3140"
+          },
+          "color": "#CFE8FF",
+          "focusOrder": 0,
+          "focusable": true,
+          "glyph": "<",
+          "label": "BACK TO HOME",
+          "letterSpacing": 2,
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 9,
+          "align": "center",
+          "box": {
+            "border": "#333B44",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#161B20"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 10,
+          "align": "center",
+          "color": "#7E8C98",
+          "letterSpacing": 1,
+          "text": "A  PLAY AGAIN        L R  FLIP PAGES",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "files",
+      "title": "Files",
+      "kind": "custom",
+      "background": "#0D0F13",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#2E3640",
+            "borderW": 2,
+            "cornerRadius": 2,
+            "fill": "#14171C"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            40,
+            22,
+            560,
+            30
+          ],
+          "z": 1,
+          "align": "center",
+          "color": "#B7C4D0",
+          "font": "RoSpritendoSemiboldBeta-vmVwZ",
+          "fontSize": 16,
+          "letterSpacing": 4,
+          "text": "SD CARD",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "files",
+          "type": "fileList",
+          "rect": [
+            32,
+            60,
+            576,
+            356
+          ],
+          "z": 2,
+          "bg": "#101317",
+          "dirColor": "#7FB2FF",
+          "fg": "#C6D2DE",
+          "highlight": "#28323E",
+          "manage": true,
+          "romColor": "#7FE0B0",
+          "root": "sd:/",
+          "rowH": 22,
+          "showSize": true
+        },
+        {
+          "id": "hintbar",
+          "type": "panel",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 3,
+          "align": "center",
+          "box": {
+            "border": "#2E3640",
+            "borderW": 1,
+            "cornerRadius": 4,
+            "fill": "#101317"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "hinttext",
+          "type": "text",
+          "rect": [
+            32,
+            424,
+            576,
+            30
+          ],
+          "z": 4,
+          "align": "center",
+          "color": "#8592A0",
+          "letterSpacing": 1,
+          "text": "A  OPEN        START  MANAGE        B  UP A FOLDER        L R  PAGES",
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "kind": "custom",
+      "background": "#0F1728",
+      "hint": "",
+      "elements": [
+        {
+          "id": "frame",
+          "type": "panel",
+          "rect": [
+            16,
+            12,
+            608,
+            456
+          ],
+          "z": 0,
+          "align": "center",
+          "box": {
+            "border": "#4A5A8A",
+            "borderW": 2,
+            "cornerRadius": 3,
+            "fill": "#16203A"
+          },
+          "color": "#E7E9EF",
+          "text": "",
+          "valign": "middle",
+          "wrap": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "rect": [
+            40,
+            22,
+            560,
+            34
+          ],
+          "z": 1,
+          "align": "center",
+          "color": "#D6E0F5",
+          "font": "GamecubenDualset-L85D",
+          "fontSize": 32,
+          "letterSpacing": 3,
+          "text": "SETTINGS",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "sec0",
+          "type": "text",
+          "rect": [
+            52,
+            64,
+            500,
+            14
+          ],
+          "z": 2,
+          "align": "left",
+          "color": "#7C8AB8",
+          "letterSpacing": 3,
+          "text": "SOUND",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "set-bgm_enabled",
+          "type": "setting",
+          "rect": [
+            52,
+            82,
+            268,
+            30
+          ],
+          "z": 3,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 0,
+          "label": "Music",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "bgm_enabled",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "set-soundfx_enabled",
+          "type": "setting",
+          "rect": [
+            334,
+            82,
+            268,
+            30
+          ],
+          "z": 4,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 1,
+          "label": "Sound FX",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "soundfx_enabled",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "set-rumble_enabled",
+          "type": "setting",
+          "rect": [
+            52,
+            116,
+            268,
+            30
+          ],
+          "z": 5,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 2,
+          "label": "Rumble Pak",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "rumble_enabled",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "sec1",
+          "type": "text",
+          "rect": [
+            52,
+            172,
+            500,
+            14
+          ],
+          "z": 6,
+          "align": "left",
+          "color": "#7C8AB8",
+          "letterSpacing": 3,
+          "text": "VIDEO",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "set-pal60_enabled",
+          "type": "setting",
+          "rect": [
+            52,
+            190,
+            268,
+            30
+          ],
+          "z": 7,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 3,
+          "label": "PAL 60 Hz",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "pal60_enabled",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "set-force_progressive_sc",
+          "type": "setting",
+          "rect": [
+            334,
+            190,
+            268,
+            30
+          ],
+          "z": 8,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 4,
+          "label": "240p scan",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "force_progressive_scan",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "sec2",
+          "type": "text",
+          "rect": [
+            52,
+            246,
+            500,
+            14
+          ],
+          "z": 9,
+          "align": "left",
+          "color": "#7C8AB8",
+          "letterSpacing": 3,
+          "text": "LIBRARY",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "set-use_custom_files",
+          "type": "setting",
+          "rect": [
+            52,
+            264,
+            268,
+            30
+          ],
+          "z": 10,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 5,
+          "label": "Custom art",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "use_custom_files",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "set-always_sort_az",
+          "type": "setting",
+          "rect": [
+            334,
+            264,
+            268,
+            30
+          ],
+          "z": 11,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 6,
+          "label": "Sort A–Z",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "always_sort_az",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "set-use_legacy_font",
+          "type": "setting",
+          "rect": [
+            52,
+            298,
+            268,
+            30
+          ],
+          "z": 12,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 7,
+          "label": "Legacy font",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "use_legacy_font",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "sec3",
+          "type": "text",
+          "rect": [
+            52,
+            354,
+            500,
+            14
+          ],
+          "z": 13,
+          "align": "left",
+          "color": "#7C8AB8",
+          "letterSpacing": 3,
+          "text": "MISC",
+          "valign": "middle",
+          "wrap": false
+        },
+        {
+          "id": "set-screensaver_favorite",
+          "type": "setting",
+          "rect": [
+            52,
+            372,
+            268,
+            30
+          ],
+          "z": 14,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 8,
+          "label": "Saver: favs only",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "screensaver_favorites_only",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "set-rom_boot_enabled",
+          "type": "setting",
+          "rect": [
+            334,
+            372,
+            268,
+            30
+          ],
+          "z": 15,
+          "align": "left",
+          "box": {
+            "border": "#3E4E80",
+            "borderW": 1,
+            "cornerRadius": 3,
+            "fill": "#1B2748"
+          },
+          "color": "#D6E0F5",
+          "focusOrder": 9,
+          "label": "Direct ROM boot",
+          "pad": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "settingKey": "rom_boot_enabled",
+          "valign": "middle",
+          "valueColor": "#6BE6C0",
+          "wrap": false
+        },
+        {
+          "id": "home",
+          "type": "button",
+          "rect": [
+            52,
+            414,
+            536,
+            32
+          ],
+          "z": 16,
+          "action": {
+            "kind": "goto",
+            "page": "home"
+          },
+          "align": "center",
+          "box": {
+            "border": "#5A6AA8",
+            "borderW": 2,
+            "cornerRadius": 4,
+            "fill": "#2A3A66"
+          },
+          "color": "#EDEFF7",
+          "focusOrder": 10,
+          "focusable": true,
+          "label": "RETURN HOME",
+          "letterSpacing": 3,
+          "valign": "middle",
+          "wrap": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "format": 2,
+  "pages": [
+    {
+      "id": "home",
+      "title": "Home",
+      "kind": "custom",
+      "start": true,
+      "background": "#141210",
+      "hint": "",
+      "elements": [
+        { "id": "wall", "type": "panel", "rect": [0, 0, 640, 480], "z": 0, "text": "", "box": { "fill": "#1A1713" } },
+        { "id": "title", "type": "text", "rect": [40, 28, 560, 40], "z": 1, "text": "THE GALLERY", "align": "center", "valign": "middle", "color": "#C9A24B", "font": "Foneitwu-1jEOg", "fontSize": 32, "letterSpacing": 3 },
+        { "id": "sub", "type": "text", "rect": [40, 72, 560, 16], "z": 1, "text": "A CURATED N64 COLLECTION", "align": "center", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 4 },
+        { "id": "frm-1", "type": "panel", "rect": [56, 100, 172, 162], "z": 1, "text": "", "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2 } },
+        { "id": "art-1", "type": "image", "rect": [64, 108, 156, 146], "z": 2, "src": "boxart/NSME/box3d.png", "fit": "contain" },
+        { "id": "frm-2", "type": "panel", "rect": [234, 100, 172, 162], "z": 1, "text": "", "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2 } },
+        { "id": "art-2", "type": "image", "rect": [242, 108, 156, 146], "z": 2, "src": "boxart/CZLE/box3d.png", "fit": "contain" },
+        { "id": "frm-3", "type": "panel", "rect": [412, 100, 172, 162], "z": 1, "text": "", "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2 } },
+        { "id": "art-3", "type": "image", "rect": [420, 108, 156, 146], "z": 2, "src": "boxart/NGEE/box3d.png", "fit": "contain" },
+        { "id": "frm-4", "type": "panel", "rect": [56, 272, 172, 148], "z": 1, "text": "", "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2 } },
+        { "id": "art-4", "type": "image", "rect": [64, 280, 156, 132], "z": 2, "src": "boxart/NBKE/box3d.png", "fit": "contain" },
+        { "id": "frm-5", "type": "panel", "rect": [234, 272, 172, 148], "z": 1, "text": "", "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2 } },
+        { "id": "art-5", "type": "image", "rect": [242, 280, 156, 132], "z": 2, "src": "boxart/NKTE/box3d.png", "fit": "contain" },
+        { "id": "frm-6", "type": "panel", "rect": [412, 272, 172, 148], "z": 1, "text": "", "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2 } },
+        { "id": "art-6", "type": "image", "rect": [420, 280, 156, 132], "z": 2, "src": "boxart/NFXE/box3d.png", "fit": "contain" },
+        { "id": "count", "type": "text", "rect": [56, 434, 220, 24], "z": 2, "text": "{history_count} VIEWED", "align": "left", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 2 },
+        { "id": "enter", "type": "button", "rect": [372, 430, 212, 30], "z": 3, "label": "ENTER THE GALLERY", "glyph": ">", "color": "#C9A24B", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 0, "box": { "border": "#B89250", "borderW": 2, "cornerRadius": 2 }, "action": { "kind": "goto", "page": "library" } }
+      ]
+    },
+    {
+      "id": "library",
+      "title": "Archive",
+      "kind": "custom",
+      "background": "#141210",
+      "hint": "",
+      "elements": [
+        { "id": "title", "type": "text", "rect": [40, 26, 400, 36], "z": 1, "text": "THE ARCHIVE", "align": "left", "valign": "middle", "color": "#C9A24B", "font": "Foneitwu-1jEOg", "fontSize": 32, "letterSpacing": 2 },
+        { "id": "list-frame", "type": "panel", "rect": [32, 74, 300, 338], "z": 1, "text": "", "box": { "fill": "#1C1915", "border": "#B89250", "borderW": 2 } },
+        { "id": "list", "type": "gameList", "rect": [44, 86, 276, 314], "z": 2, "source": "all", "style": "list", "rowH": 26, "textPadL": 14, "textPadR": 10, "textDy": 17, "highlight": "#3A2F1C", "textColor": "#EDE6D6" },
+        { "id": "cover-frame", "type": "panel", "rect": [348, 74, 260, 236], "z": 1, "text": "", "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2 } },
+        { "id": "cover", "type": "boxArt", "rect": [362, 88, 232, 208], "z": 2, "fit": "contain", "bg": "#211D18", "aspectLock": true },
+        { "id": "plaque", "type": "panel", "rect": [348, 320, 260, 92], "z": 1, "text": "", "box": { "fill": "#1C1915", "border": "#B89250", "borderW": 2 } },
+        { "id": "info", "type": "infoPanel", "rect": [362, 330, 232, 74], "z": 2, "rowH": 18, "labelW": 96, "baselineDy": 13, "labels": ["RELEASED", "MAKER", "REGION", "PLAYERS", ""], "labelColor": "#9A8F7A", "valueColor": "#EDE6D6" },
+        { "id": "hint", "type": "text", "rect": [32, 424, 576, 26], "z": 2, "text": "A  VIEW        Z  ACQUIRE        L R  NEXT WING", "align": "center", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 2 }
+      ]
+    },
+    {
+      "id": "grid",
+      "title": "Every Piece",
+      "kind": "custom",
+      "background": "#141210",
+      "hint": "",
+      "elements": [
+        { "id": "title", "type": "text", "rect": [40, 26, 560, 36], "z": 1, "text": "EVERY PIECE", "align": "center", "valign": "middle", "color": "#C9A24B", "font": "Foneitwu-1jEOg", "fontSize": 32, "letterSpacing": 2 },
+        { "id": "grid-frame", "type": "panel", "rect": [32, 72, 576, 342], "z": 1, "text": "", "box": { "fill": "#1C1915", "border": "#B89250", "borderW": 2 } },
+        { "id": "grid", "type": "gameList", "rect": [46, 86, 548, 314], "z": 2, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 14, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#C9A24B", "textColor": "#EDE6D6" },
+        { "id": "hint", "type": "text", "rect": [32, 424, 576, 26], "z": 2, "text": "A  VIEW        Z  ACQUIRE        L R  NEXT WING", "align": "center", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 2 }
+      ]
+    },
+    {
+      "id": "favourites",
+      "title": "Acquisitions",
+      "kind": "custom",
+      "background": "#141210",
+      "hint": "",
+      "elements": [
+        { "id": "title", "type": "text", "rect": [40, 26, 420, 36], "z": 1, "text": "ACQUISITIONS", "align": "left", "valign": "middle", "color": "#C9A24B", "font": "Foneitwu-1jEOg", "fontSize": 32, "letterSpacing": 2 },
+        { "id": "grid-frame", "type": "panel", "rect": [32, 72, 576, 300], "z": 1, "text": "", "box": { "fill": "#1C1915", "border": "#B89250", "borderW": 2 } },
+        { "id": "favs", "type": "gameList", "rect": [46, 86, 548, 272], "z": 2, "source": "favorites", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 14, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#C9A24B", "textColor": "#EDE6D6" },
+        { "id": "fav-toggle", "type": "button", "rect": [32, 382, 300, 30], "z": 3, "label": "ACQUIRE / RELEASE", "glyph": "Z", "color": "#141210", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 0, "box": { "fill": "#C9A24B", "cornerRadius": 2 }, "action": { "kind": "favorite.toggle" } },
+        { "id": "to-settings", "type": "button", "rect": [340, 382, 268, 30], "z": 3, "label": "PREFERENCES", "glyph": ">", "color": "#C9A24B", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 1, "box": { "border": "#B89250", "borderW": 2, "cornerRadius": 2 }, "action": { "kind": "goto", "page": "settings" } },
+        { "id": "hint", "type": "text", "rect": [32, 424, 576, 24], "z": 2, "text": "A  VIEW        Z  ACQUIRE / RELEASE        L R  NEXT WING", "align": "center", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 2 }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Preferences",
+      "kind": "custom",
+      "background": "#141210",
+      "hint": "",
+      "elements": [
+        { "id": "title", "type": "text", "rect": [40, 26, 420, 36], "z": 1, "text": "PREFERENCES", "align": "left", "valign": "middle", "color": "#C9A24B", "font": "Foneitwu-1jEOg", "fontSize": 32, "letterSpacing": 2 },
+        { "id": "panel", "type": "panel", "rect": [32, 72, 576, 308], "z": 1, "text": "", "box": { "fill": "#1C1915", "border": "#B89250", "borderW": 2 } },
+        { "id": "sec-sound", "type": "text", "rect": [52, 86, 300, 14], "z": 2, "text": "SOUND", "align": "left", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 3 },
+        { "id": "set-bgm", "type": "setting", "rect": [52, 104, 268, 30], "z": 3, "label": "MUSIC", "settingKey": "bgm_enabled", "color": "#EDE6D6", "valueColor": "#C9A24B", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 0, "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2, "cornerRadius": 2 } },
+        { "id": "set-sfx", "type": "setting", "rect": [320, 104, 268, 30], "z": 3, "label": "SOUND FX", "settingKey": "soundfx_enabled", "color": "#EDE6D6", "valueColor": "#C9A24B", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 1, "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2, "cornerRadius": 2 } },
+        { "id": "set-rumble", "type": "setting", "rect": [52, 140, 268, 30], "z": 3, "label": "RUMBLE PAK", "settingKey": "rumble_enabled", "color": "#EDE6D6", "valueColor": "#C9A24B", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 2, "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2, "cornerRadius": 2 } },
+        { "id": "set-custom", "type": "setting", "rect": [320, 140, 268, 30], "z": 3, "label": "CUSTOM ART", "settingKey": "use_custom_files", "color": "#EDE6D6", "valueColor": "#C9A24B", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 3, "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2, "cornerRadius": 2 } },
+        { "id": "sec-video", "type": "text", "rect": [52, 182, 300, 14], "z": 2, "text": "VIDEO", "align": "left", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 3 },
+        { "id": "set-pal60", "type": "setting", "rect": [52, 200, 268, 30], "z": 3, "label": "PAL 60 Hz", "settingKey": "pal60_enabled", "color": "#EDE6D6", "valueColor": "#C9A24B", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 4, "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2, "cornerRadius": 2 } },
+        { "id": "set-prog", "type": "setting", "rect": [320, 200, 268, 30], "z": 3, "label": "240p SCAN", "settingKey": "force_progressive_scan", "color": "#EDE6D6", "valueColor": "#C9A24B", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 5, "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2, "cornerRadius": 2 } },
+        { "id": "sec-lib", "type": "text", "rect": [52, 242, 300, 14], "z": 2, "text": "COLLECTION", "align": "left", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 3 },
+        { "id": "set-sort", "type": "button", "rect": [52, 260, 536, 30], "z": 3, "label": "SORT A-Z", "color": "#C9A24B", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusable": true, "focusOrder": 6, "box": { "fill": "#211D18", "border": "#B89250", "borderW": 2, "cornerRadius": 2 }, "action": { "kind": "runSort" } },
+        { "id": "to-home", "type": "button", "rect": [52, 332, 536, 32], "z": 3, "label": "BACK TO THE ENTRANCE", "color": "#C9A24B", "align": "center", "valign": "middle", "letterSpacing": 3, "focusable": true, "focusOrder": 7, "box": { "border": "#B89250", "borderW": 2, "cornerRadius": 2 }, "action": { "kind": "goto", "page": "home" } },
+        { "id": "hint", "type": "text", "rect": [32, 424, 576, 24], "z": 2, "text": "A  TOGGLE        L R  NEXT WING", "align": "center", "valign": "middle", "color": "#9A8F7A", "letterSpacing": 2 }
+      ]
+    }
+  ],
+  "buttons": { "d_up": "none", "d_down": "none", "d_left": "focusPrev", "d_right": "focusNext" }
+}

@@ -1,0 +1,14 @@
+node_modules/
+out/
+dist/
+release/
+release-build.log
+# icon.png/.ico are fixed, hand-designed assets (not generated) — keep them
+# tracked; ignore everything else electron-builder might drop in build/.
+build/*
+!build/icon.png
+!build/icon.ico
+resources/boxart/
+resources/menu-rom/
+.vite/
+*.log

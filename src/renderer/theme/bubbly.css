@@ -1,0 +1,81 @@
+/*
+ * bubbly.css — the "Bubbly" skin: a glossy, rounded Wii-Menu treatment.
+ * Overrides only token values; structure and components are unchanged.
+ */
+
+:root[data-skin="bubbly"] {
+  --app-bg:        #d6dde4;
+  --chrome:        #eef2f6;
+  --panel:         #ffffff;
+  --panel-sink:    #e7edf2;
+  --line:          #cdd8e1;
+  --line-soft:     #dde5ec;
+
+  --ink:           #3c4a58;
+  --ink-dim:       #7a8794;
+  --ink-faint:     #9aa6b2;
+
+  --accent:        #10a7dc;
+  --accent-hi:     #57cbf2;
+  --accent-lo:     #0a86b4;
+  --accent-ink:    #ffffff;
+  --accent-wash:   #e4f5fc;
+  --accent-ring:   rgba(24, 168, 222, .45);
+  --accent-glow:   rgba(24, 168, 222, .30);
+
+  --ctrl-bg:       linear-gradient(180deg, #ffffff, #e9eff4);
+  --ctrl-bg-hover: linear-gradient(180deg, #ffffff, #dfe7ee);
+  --prime-bg:      linear-gradient(180deg, var(--accent-hi), var(--accent-lo));
+
+  --mat:           radial-gradient(ellipse 90% 70% at 50% 38%, #f4f8fb, #c4cdd6);
+  --board-frame:   0 0 0 4px var(--panel), 0 0 0 5px var(--line), 0 18px 40px -8px rgba(40,55,71,.4);
+
+  --radius-window: 22px;
+  --radius-card:   16px;
+  --radius-ctrl:   10px;
+  --radius-pill:   999px;
+
+  --shadow-card:   0 1px 3px rgba(40,55,71,.12), inset 0 1px 0 #ffffff;
+  --shadow-pop:    0 1px 2px rgba(40,55,71,.12), 0 8px 22px -6px rgba(40,55,71,.18);
+  --shadow-lift:   0 6px 18px -4px rgba(24,168,222,.28), 0 2px 6px rgba(40,55,71,.12), inset 0 1px 0 #fff;
+  --shadow-win:    0 2px 6px rgba(40,55,71,.14), 0 34px 80px -20px rgba(40,55,71,.34);
+  --shadow-prime:  inset 0 1px 0 rgba(255,255,255,.55), 0 3px 12px var(--accent-glow);
+  --gloss-top:     inset 0 1px 0 rgba(255,255,255,.75);
+
+  --font-ui:       "Fredoka", "Segoe UI", system-ui, sans-serif;
+  --font-body:     "Nunito", "Segoe UI", system-ui, sans-serif;
+  --weight-label:  500;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-skin="bubbly"]:not([data-theme="light"]) {
+    --app-bg:        #161c24;
+    --chrome:        #1e2530;
+    --panel:         #273140;
+    --panel-sink:    #1c232e;
+    --line:          #37424f;
+    --line-soft:     #313b48;
+
+    --ink:           #e2eaf1;
+    --ink-dim:       #9fadba;
+    --ink-faint:     #74818e;
+
+    --accent:        #38bdec;
+    --accent-hi:     #6ed3f6;
+    --accent-lo:     #1f97c8;
+    --accent-ink:    #08222e;
+    --accent-wash:   #123243;
+    --accent-ring:   rgba(56, 189, 236, .55);
+    --accent-glow:   rgba(56, 189, 236, .34);
+
+    --ctrl-bg:       linear-gradient(180deg, #32404f, #232d39);
+    --ctrl-bg-hover: linear-gradient(180deg, #3a4959, #28323f);
+
+    --mat:           radial-gradient(ellipse 90% 70% at 50% 38%, #222c38, #10151c);
+    --board-frame:   0 0 0 4px var(--panel), 0 0 0 5px var(--line), 0 18px 40px -8px rgba(0,0,0,.55);
+
+    --shadow-card:   0 1px 3px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.06);
+    --shadow-lift:   0 8px 22px -4px rgba(56,189,236,.34), 0 3px 8px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.08);
+    --gloss-top:     inset 0 1px 0 rgba(255,255,255,.14);
+  }
+}

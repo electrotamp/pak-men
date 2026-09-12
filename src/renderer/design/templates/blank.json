@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "pages": [
+    {
+      "id": "menu",
+      "title": "Menu",
+      "kind": "custom",
+      "start": true,
+      "background": "#0C122C",
+      "hint": "A  Select        B  Back",
+      "elements": []
+    }
+  ],
+  "buttons": { "d_up": "none", "d_down": "none", "d_left": "focusPrev", "d_right": "focusNext" }
+}

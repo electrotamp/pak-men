@@ -1,0 +1,104 @@
+{
+  "format": 2,
+  "pages": [
+    {
+      "id": "home",
+      "title": "Attract",
+      "kind": "custom",
+      "start": true,
+      "background": "#05050A",
+      "elements": [
+        { "id": "bezel-o", "type": "panel", "rect": [8, 8, 624, 464], "z": 0, "text": "", "box": { "fill": "#140E24", "border": "#2A1E44", "borderW": 2, "cornerRadius": 18 } },
+        { "id": "bezel-i", "type": "panel", "rect": [20, 20, 600, 440], "z": 1, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 14 } },
+        { "id": "marquee-bg", "type": "panel", "rect": [40, 30, 560, 58], "z": 2, "text": "", "box": { "fill": "#1B1140", "border": "#FF2E88", "borderW": 2, "cornerRadius": 10 } },
+        { "id": "marquee", "type": "text", "rect": [40, 30, 560, 58], "z": 3, "text": "ARCADE", "align": "center", "valign": "middle", "color": "#22D3EE", "font": "PressStart2P-vaV7", "fontSize": 32, "letterSpacing": 2 },
+        { "id": "screen-frame", "type": "panel", "rect": [40, 100, 360, 240], "z": 2, "text": "", "box": { "fill": "#000000", "border": "#3A2A5E", "borderW": 2, "cornerRadius": 6 } },
+        { "id": "screen-art", "type": "image", "rect": [52, 112, 336, 216], "z": 3, "src": "boxart/NSME/box3d.png", "fit": "contain" },
+        { "id": "sidelist", "type": "panel", "rect": [412, 100, 188, 240], "z": 2, "text": "", "box": { "fill": "#0E0A18", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 6 } },
+        { "id": "covers", "type": "gameList", "rect": [420, 108, 172, 224], "z": 3, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 2, "gridRows": 4, "gridGap": 8, "gridLabels": false, "highlight": "#FF2E88", "textColor": "#FCEE21" },
+        { "id": "insert", "type": "text", "rect": [40, 350, 560, 22], "z": 3, "text": "> INSERT CART - PRESS  A  TO PLAY <", "align": "center", "valign": "middle", "color": "#FF2E88", "font": "PixelEmulator-xq08", "fontSize": 16, "letterSpacing": 2 },
+        { "id": "credits", "type": "text", "rect": [56, 378, 280, 18], "z": 3, "text": "CREDITS  {history_count}", "align": "left", "valign": "middle", "color": "#22D3EE", "letterSpacing": 3 },
+        { "id": "hiscore", "type": "text", "rect": [300, 378, 300, 18], "z": 3, "text": "HI  {fav_count}", "align": "right", "valign": "middle", "color": "#FCEE21", "letterSpacing": 3 },
+        { "id": "start", "type": "button", "rect": [220, 400, 200, 32], "z": 4, "label": "PLAY", "color": "#05050A", "align": "center", "valign": "middle", "font": "PixelEmulator-xq08", "fontSize": 16, "letterSpacing": 4, "focusable": true, "focusOrder": 0, "box": { "fill": "#FCEE21", "cornerRadius": 4 }, "action": { "kind": "goto", "page": "library" } },
+        { "id": "hint", "type": "text", "rect": [40, 436, 560, 16], "z": 4, "text": "<  >  CHANGE MACHINE", "align": "center", "valign": "middle", "color": "#7B6BA8", "letterSpacing": 2 }
+      ]
+    },
+    {
+      "id": "library",
+      "title": "Game Select",
+      "kind": "custom",
+      "background": "#05050A",
+      "elements": [
+        { "id": "bezel-o", "type": "panel", "rect": [8, 8, 624, 464], "z": 0, "text": "", "box": { "fill": "#140E24", "border": "#2A1E44", "borderW": 2, "cornerRadius": 18 } },
+        { "id": "bezel-i", "type": "panel", "rect": [20, 20, 600, 440], "z": 1, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 14 } },
+        { "id": "marquee-bg", "type": "panel", "rect": [40, 28, 560, 44], "z": 2, "text": "", "box": { "fill": "#1B1140", "border": "#22D3EE", "borderW": 2, "cornerRadius": 8 } },
+        { "id": "marquee", "type": "text", "rect": [40, 28, 560, 44], "z": 3, "text": "GAME SELECT", "align": "center", "valign": "middle", "color": "#22D3EE", "font": "PressStart2P-vaV7", "fontSize": 16, "letterSpacing": 1 },
+        { "id": "list-panel", "type": "panel", "rect": [36, 84, 320, 344], "z": 2, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 6 } },
+        { "id": "list", "type": "gameList", "rect": [48, 96, 296, 320], "z": 3, "source": "all", "style": "list", "rowH": 26, "textPadL": 14, "textPadR": 10, "textDy": 17, "highlight": "#3A1030", "textColor": "#FCEE21" },
+        { "id": "screen-frame", "type": "panel", "rect": [368, 84, 236, 200], "z": 2, "text": "", "box": { "fill": "#000000", "border": "#3A2A5E", "borderW": 2, "cornerRadius": 6 } },
+        { "id": "cover", "type": "boxArt", "rect": [378, 94, 216, 180], "z": 3, "fit": "cover", "bg": "#000000", "aspectLock": true },
+        { "id": "info-panel", "type": "panel", "rect": [368, 294, 236, 134], "z": 2, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 6 } },
+        { "id": "info", "type": "infoPanel", "rect": [380, 304, 212, 114], "z": 3, "rowH": 20, "labelW": 88, "baselineDy": 14, "labels": ["YEAR", "MAKER", "REGION", "PLAYERS", ""], "labelColor": "#FF2E88", "valueColor": "#EDE6FF" },
+        { "id": "hint", "type": "text", "rect": [36, 436, 568, 16], "z": 3, "text": "A  PLAY        Z  FAV        <  >  NEXT MACHINE", "align": "center", "valign": "middle", "color": "#7B6BA8", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "grid",
+      "title": "All Machines",
+      "kind": "custom",
+      "background": "#05050A",
+      "elements": [
+        { "id": "bezel-o", "type": "panel", "rect": [8, 8, 624, 464], "z": 0, "text": "", "box": { "fill": "#140E24", "border": "#2A1E44", "borderW": 2, "cornerRadius": 18 } },
+        { "id": "bezel-i", "type": "panel", "rect": [20, 20, 600, 440], "z": 1, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 14 } },
+        { "id": "marquee-bg", "type": "panel", "rect": [40, 28, 560, 44], "z": 2, "text": "", "box": { "fill": "#1B1140", "border": "#22D3EE", "borderW": 2, "cornerRadius": 8 } },
+        { "id": "marquee", "type": "text", "rect": [40, 28, 560, 44], "z": 3, "text": "ALL MACHINES", "align": "center", "valign": "middle", "color": "#22D3EE", "font": "PressStart2P-vaV7", "fontSize": 16, "letterSpacing": 1 },
+        { "id": "grid-panel", "type": "panel", "rect": [36, 84, 568, 344], "z": 2, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 6 } },
+        { "id": "grid", "type": "gameList", "rect": [50, 98, 540, 316], "z": 3, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 12, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#FF2E88", "textColor": "#FCEE21" },
+        { "id": "hint", "type": "text", "rect": [36, 436, 568, 16], "z": 3, "text": "A  PLAY        Z  FAV        <  >  NEXT MACHINE", "align": "center", "valign": "middle", "color": "#7B6BA8", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "favourites",
+      "title": "High Scores",
+      "kind": "custom",
+      "background": "#05050A",
+      "elements": [
+        { "id": "bezel-o", "type": "panel", "rect": [8, 8, 624, 464], "z": 0, "text": "", "box": { "fill": "#140E24", "border": "#2A1E44", "borderW": 2, "cornerRadius": 18 } },
+        { "id": "bezel-i", "type": "panel", "rect": [20, 20, 600, 440], "z": 1, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 14 } },
+        { "id": "marquee-bg", "type": "panel", "rect": [40, 28, 560, 44], "z": 2, "text": "", "box": { "fill": "#1B1140", "border": "#FCEE21", "borderW": 2, "cornerRadius": 8 } },
+        { "id": "marquee", "type": "text", "rect": [40, 28, 560, 44], "z": 3, "text": "HIGH SCORES", "align": "center", "valign": "middle", "color": "#FCEE21", "font": "PressStart2P-vaV7", "fontSize": 16, "letterSpacing": 1 },
+        { "id": "logo1", "type": "image", "rect": [44, 82, 150, 48], "z": 3, "src": "boxart/NSME/logo.png", "fit": "contain" },
+        { "id": "logo2", "type": "image", "rect": [446, 82, 150, 48], "z": 3, "src": "boxart/CZLE/logo.png", "fit": "contain" },
+        { "id": "grid-panel", "type": "panel", "rect": [36, 138, 568, 240], "z": 2, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 6 } },
+        { "id": "favs", "type": "gameList", "rect": [50, 150, 540, 216], "z": 3, "source": "favorites", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 2, "gridGap": 12, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#FCEE21", "textColor": "#FCEE21" },
+        { "id": "fav-toggle", "type": "button", "rect": [36, 390, 300, 30], "z": 4, "label": "HI-SCORE / CLEAR", "glyph": "Z", "color": "#FCEE21", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 0, "box": { "fill": "#0A0710", "border": "#FCEE21", "borderW": 1, "cornerRadius": 4 }, "action": { "kind": "favorite.toggle" } },
+        { "id": "to-settings", "type": "button", "rect": [344, 390, 260, 30], "z": 4, "label": "OPTIONS", "glyph": ">", "color": "#22D3EE", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 1, "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 4 }, "action": { "kind": "goto", "page": "settings" } },
+        { "id": "hint", "type": "text", "rect": [36, 430, 568, 16], "z": 3, "text": "A  PLAY        Z  HI-SCORE / CLEAR        <  >  NEXT", "align": "center", "valign": "middle", "color": "#7B6BA8", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Operator",
+      "kind": "custom",
+      "background": "#05050A",
+      "elements": [
+        { "id": "bezel-o", "type": "panel", "rect": [8, 8, 624, 464], "z": 0, "text": "", "box": { "fill": "#140E24", "border": "#2A1E44", "borderW": 2, "cornerRadius": 18 } },
+        { "id": "bezel-i", "type": "panel", "rect": [20, 20, 600, 440], "z": 1, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 14 } },
+        { "id": "marquee-bg", "type": "panel", "rect": [40, 28, 560, 44], "z": 2, "text": "", "box": { "fill": "#1B1140", "border": "#22D3EE", "borderW": 2, "cornerRadius": 8 } },
+        { "id": "marquee", "type": "text", "rect": [40, 28, 560, 44], "z": 3, "text": "OPERATOR MENU", "align": "center", "valign": "middle", "color": "#22D3EE", "font": "PressStart2P-vaV7", "fontSize": 16, "letterSpacing": 1 },
+        { "id": "panel", "type": "panel", "rect": [36, 84, 568, 300], "z": 2, "text": "", "box": { "fill": "#0A0710", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 6 } },
+        { "id": "sec-sound", "type": "text", "rect": [56, 98, 300, 14], "z": 3, "text": "SOUND", "align": "left", "valign": "middle", "color": "#7B6BA8", "letterSpacing": 3 },
+        { "id": "set-bgm", "type": "setting", "rect": [56, 116, 262, 30], "z": 4, "label": "MUSIC", "settingKey": "bgm_enabled", "color": "#EDE6FF", "valueColor": "#22D3EE", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 0, "box": { "fill": "#140E24", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "set-sfx", "type": "setting", "rect": [322, 116, 262, 30], "z": 4, "label": "SOUND FX", "settingKey": "soundfx_enabled", "color": "#EDE6FF", "valueColor": "#22D3EE", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 1, "box": { "fill": "#140E24", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "set-rumble", "type": "setting", "rect": [56, 152, 262, 30], "z": 4, "label": "RUMBLE PAK", "settingKey": "rumble_enabled", "color": "#EDE6FF", "valueColor": "#22D3EE", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 2, "box": { "fill": "#140E24", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "set-custom", "type": "setting", "rect": [322, 152, 262, 30], "z": 4, "label": "CUSTOM ART", "settingKey": "use_custom_files", "color": "#EDE6FF", "valueColor": "#22D3EE", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 3, "box": { "fill": "#140E24", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "sec-video", "type": "text", "rect": [56, 194, 300, 14], "z": 3, "text": "MONITOR", "align": "left", "valign": "middle", "color": "#7B6BA8", "letterSpacing": 3 },
+        { "id": "set-pal60", "type": "setting", "rect": [56, 212, 262, 30], "z": 4, "label": "PAL 60 Hz", "settingKey": "pal60_enabled", "color": "#EDE6FF", "valueColor": "#22D3EE", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 4, "box": { "fill": "#140E24", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "set-prog", "type": "setting", "rect": [322, 212, 262, 30], "z": 4, "label": "240p SCAN", "settingKey": "force_progressive_scan", "color": "#EDE6FF", "valueColor": "#22D3EE", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 5, "box": { "fill": "#140E24", "border": "#3A2A5E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "to-home", "type": "button", "rect": [56, 268, 528, 32], "z": 4, "label": "BACK TO ATTRACT MODE", "color": "#22D3EE", "align": "center", "valign": "middle", "letterSpacing": 3, "focusable": true, "focusOrder": 6, "box": { "fill": "#0A0710", "border": "#22D3EE", "borderW": 1, "cornerRadius": 4 }, "action": { "kind": "goto", "page": "home" } },
+        { "id": "hint", "type": "text", "rect": [36, 434, 568, 16], "z": 3, "text": "A  TOGGLE        <  >  NEXT", "align": "center", "valign": "middle", "color": "#7B6BA8", "letterSpacing": 1 }
+      ]
+    }
+  ],
+  "buttons": { "d_up": "none", "d_down": "none", "d_left": "focusPrev", "d_right": "focusNext" }
+}

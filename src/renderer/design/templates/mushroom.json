@@ -1,0 +1,115 @@
+{
+  "format": 2,
+  "pages": [
+    {
+      "id": "home",
+      "title": "World 1-1",
+      "kind": "custom",
+      "start": true,
+      "background": "#5C94FC",
+      "hint": "",
+      "elements": [
+        { "id": "cloud1", "type": "panel", "rect": [54, 92, 116, 34], "z": 0, "text": "", "box": { "fill": "#FFFFFF", "cornerRadius": 17 } },
+        { "id": "cloud2", "type": "panel", "rect": [474, 120, 96, 28], "z": 0, "text": "", "box": { "fill": "#FFFFFF", "cornerRadius": 14 } },
+        { "id": "header", "type": "panel", "rect": [0, 0, 640, 72], "z": 1, "text": "", "box": { "fill": "#C84C0C" } },
+        { "id": "header-shadow", "type": "panel", "rect": [0, 70, 640, 5], "z": 2, "text": "", "box": { "fill": "#7A2E08" } },
+        { "id": "title", "type": "text", "rect": [24, 14, 320, 44], "z": 3, "text": "MY LIBRARY", "align": "left", "valign": "middle", "color": "#FFFFFF", "font": "SuperMarioBros-ov7d", "fontSize": 32, "letterSpacing": 1 },
+        { "id": "coin", "type": "panel", "rect": [418, 24, 24, 24], "z": 3, "text": "", "box": { "shape": "circle", "fill": "#FBD000", "border": "#7A2E08", "borderW": 3 } },
+        { "id": "coins", "type": "text", "rect": [452, 14, 170, 44], "z": 3, "text": "x {fav_count}", "align": "left", "valign": "middle", "color": "#FFFFFF", "font": "SuperMarioBros-ov7d", "fontSize": 32, "letterSpacing": 1 },
+        { "id": "logo", "type": "image", "rect": [186, 88, 268, 120], "z": 4, "src": "boxart/NSME/logo.png", "fit": "contain" },
+        { "id": "covers", "type": "gameList", "rect": [40, 220, 432, 174], "z": 4, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 4, "gridRows": 2, "gridGap": 12, "gridLabels": false, "highlight": "#FBD000", "textColor": "#FFFFFF" },
+        { "id": "box3d", "type": "image", "rect": [486, 226, 122, 156], "z": 4, "src": "boxart/NSME/box3d.png", "fit": "contain" },
+        { "id": "enter", "type": "button", "rect": [220, 392, 200, 34], "z": 5, "label": "LET'S-A GO", "glyph": ">", "color": "#FFFFFF", "align": "center", "valign": "middle", "letterSpacing": 1, "focusable": true, "focusOrder": 0, "box": { "fill": "#43B047", "border": "#1F6B2E", "borderW": 2, "cornerRadius": 6 }, "action": { "kind": "goto", "page": "library" } },
+        { "id": "grass", "type": "panel", "rect": [0, 432, 640, 8], "z": 6, "text": "", "box": { "fill": "#5FA842" } },
+        { "id": "ground", "type": "panel", "rect": [0, 440, 640, 40], "z": 6, "text": "", "box": { "fill": "#C77C3C" } },
+        { "id": "pipe-body", "type": "panel", "rect": [560, 400, 60, 32], "z": 5, "text": "", "box": { "fill": "#43B047", "border": "#1F6B2E", "borderW": 3, "cornerRadius": 3 } },
+        { "id": "pipe-lip", "type": "panel", "rect": [552, 394, 76, 12], "z": 5, "text": "", "box": { "fill": "#5FCB6A", "border": "#1F6B2E", "borderW": 3, "cornerRadius": 3 } },
+        { "id": "stat", "type": "text", "rect": [24, 444, 280, 30], "z": 7, "text": "{history_count} COURSES CLEARED", "align": "left", "valign": "middle", "color": "#3A2A0A", "letterSpacing": 1 },
+        { "id": "hint", "type": "text", "rect": [330, 444, 286, 30], "z": 7, "text": "A  GO        < >  PIPE", "align": "right", "valign": "middle", "color": "#3A2A0A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "library",
+      "title": "Library",
+      "kind": "custom",
+      "background": "#5C94FC",
+      "hint": "",
+      "elements": [
+        { "id": "header", "type": "panel", "rect": [0, 0, 640, 54], "z": 0, "text": "", "box": { "fill": "#C84C0C" } },
+        { "id": "header-shadow", "type": "panel", "rect": [0, 52, 640, 4], "z": 1, "text": "", "box": { "fill": "#7A2E08" } },
+        { "id": "heading", "type": "text", "rect": [24, 8, 420, 38], "z": 2, "text": "LIBRARY", "align": "left", "valign": "middle", "color": "#FFFFFF", "font": "SuperMarioBros-ov7d", "fontSize": 32, "letterSpacing": 1 },
+        { "id": "list-panel", "type": "panel", "rect": [28, 66, 320, 348], "z": 2, "text": "", "box": { "fill": "#1A1206", "border": "#E39D25", "borderW": 3, "cornerRadius": 3 } },
+        { "id": "list", "type": "gameList", "rect": [42, 78, 292, 324], "z": 3, "source": "all", "style": "list", "rowH": 26, "textPadL": 14, "textPadR": 10, "textDy": 17, "highlight": "#C84C0C", "textColor": "#FFFFFF" },
+        { "id": "cover-panel", "type": "panel", "rect": [360, 66, 252, 208], "z": 2, "text": "", "box": { "fill": "#1A1206", "border": "#E39D25", "borderW": 3, "cornerRadius": 3 } },
+        { "id": "cover", "type": "boxArt", "rect": [372, 78, 228, 184], "z": 3, "fit": "cover", "bg": "#1A1206", "aspectLock": true },
+        { "id": "info-panel", "type": "panel", "rect": [360, 286, 252, 128], "z": 2, "text": "", "box": { "fill": "#1A1206", "border": "#E39D25", "borderW": 3, "cornerRadius": 3 } },
+        { "id": "info", "type": "infoPanel", "rect": [374, 298, 224, 104], "z": 3, "rowH": 20, "labelW": 92, "baselineDy": 14, "labels": ["RELEASED", "MAKER", "REGION", "PLAYERS", ""], "labelColor": "#F6C453", "valueColor": "#FFFFFF" },
+        { "id": "ground", "type": "panel", "rect": [0, 430, 640, 50], "z": 4, "text": "", "box": { "fill": "#C77C3C" } },
+        { "id": "hint-text", "type": "text", "rect": [0, 440, 640, 30], "z": 5, "text": "A  PLAY        Z  COIN        L R  PIPE TO NEXT", "align": "center", "valign": "middle", "color": "#3A2A0A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "grid",
+      "title": "Courses",
+      "kind": "custom",
+      "background": "#5C94FC",
+      "hint": "",
+      "elements": [
+        { "id": "header", "type": "panel", "rect": [0, 0, 640, 54], "z": 0, "text": "", "box": { "fill": "#C84C0C" } },
+        { "id": "header-shadow", "type": "panel", "rect": [0, 52, 640, 4], "z": 1, "text": "", "box": { "fill": "#7A2E08" } },
+        { "id": "heading", "type": "text", "rect": [24, 8, 592, 38], "z": 2, "text": "ALL COURSES", "align": "center", "valign": "middle", "color": "#FFFFFF", "font": "SuperMarioBros-ov7d", "fontSize": 32, "letterSpacing": 1 },
+        { "id": "grid-panel", "type": "panel", "rect": [24, 62, 592, 356], "z": 2, "text": "", "box": { "fill": "#1A1206", "border": "#E39D25", "borderW": 3, "cornerRadius": 3 } },
+        { "id": "grid", "type": "gameList", "rect": [40, 76, 560, 328], "z": 3, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 12, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#FBD000", "textColor": "#FFFFFF" },
+        { "id": "ground", "type": "panel", "rect": [0, 430, 640, 50], "z": 4, "text": "", "box": { "fill": "#C77C3C" } },
+        { "id": "hint-text", "type": "text", "rect": [0, 440, 640, 30], "z": 5, "text": "A  PLAY        Z  COIN        L R  PIPE TO NEXT", "align": "center", "valign": "middle", "color": "#3A2A0A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "favourites",
+      "title": "Stars",
+      "kind": "custom",
+      "background": "#5C94FC",
+      "hint": "",
+      "elements": [
+        { "id": "header", "type": "panel", "rect": [0, 0, 640, 60], "z": 0, "text": "", "box": { "fill": "#C84C0C" } },
+        { "id": "header-shadow", "type": "panel", "rect": [0, 58, 640, 4], "z": 1, "text": "", "box": { "fill": "#7A2E08" } },
+        { "id": "heading", "type": "text", "rect": [24, 10, 380, 40], "z": 2, "text": "MY STARS", "align": "left", "valign": "middle", "color": "#FBD000", "font": "SuperMarioBros-ov7d", "fontSize": 32, "letterSpacing": 1 },
+        { "id": "star1", "type": "panel", "rect": [372, 18, 26, 26], "z": 2, "text": "", "rotation": 8, "box": { "shape": "pentagon", "fill": "#FBD000", "border": "#B8860B", "borderW": 2 } },
+        { "id": "logo", "type": "image", "rect": [462, 8, 156, 46], "z": 2, "src": "boxart/NSME/logo.png", "fit": "contain" },
+        { "id": "grid-panel", "type": "panel", "rect": [24, 70, 592, 316], "z": 2, "text": "", "box": { "fill": "#1A1206", "border": "#E39D25", "borderW": 3, "cornerRadius": 3 } },
+        { "id": "favs", "type": "gameList", "rect": [40, 84, 560, 288], "z": 3, "source": "favorites", "collection": "Mario", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 12, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#FBD000", "textColor": "#FFFFFF" },
+        { "id": "fav-toggle", "type": "button", "rect": [24, 394, 300, 32], "z": 4, "label": "GRAB / DROP STAR", "glyph": "Z", "color": "#FFFFFF", "align": "center", "valign": "middle", "letterSpacing": 1, "focusable": true, "focusOrder": 0, "box": { "fill": "#E52521", "border": "#8A1410", "borderW": 2, "cornerRadius": 4 }, "action": { "kind": "favorite.toggle", "collection": "Mario" } },
+        { "id": "to-settings", "type": "button", "rect": [332, 394, 284, 32], "z": 4, "label": "OPTIONS", "glyph": ">", "color": "#FFFFFF", "align": "center", "valign": "middle", "letterSpacing": 1, "focusable": true, "focusOrder": 1, "box": { "fill": "#43B047", "border": "#1F6B2E", "borderW": 2, "cornerRadius": 4 }, "action": { "kind": "goto", "page": "settings" } },
+        { "id": "ground", "type": "panel", "rect": [0, 434, 640, 46], "z": 4, "text": "", "box": { "fill": "#C77C3C" } },
+        { "id": "hint-text", "type": "text", "rect": [0, 442, 640, 28], "z": 5, "text": "A  PLAY        Z  GRAB / DROP        L R  PIPE TO NEXT", "align": "center", "valign": "middle", "color": "#3A2A0A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Options",
+      "kind": "custom",
+      "background": "#5C94FC",
+      "hint": "",
+      "elements": [
+        { "id": "header", "type": "panel", "rect": [0, 0, 640, 54], "z": 0, "text": "", "box": { "fill": "#C84C0C" } },
+        { "id": "header-shadow", "type": "panel", "rect": [0, 52, 640, 4], "z": 1, "text": "", "box": { "fill": "#7A2E08" } },
+        { "id": "heading", "type": "text", "rect": [24, 8, 420, 38], "z": 2, "text": "OPTIONS", "align": "left", "valign": "middle", "color": "#FFFFFF", "font": "SuperMarioBros-ov7d", "fontSize": 32, "letterSpacing": 1 },
+        { "id": "panel", "type": "panel", "rect": [28, 64, 584, 316], "z": 2, "text": "", "box": { "fill": "#2A1E10", "border": "#E39D25", "borderW": 3, "cornerRadius": 3 } },
+        { "id": "sec-sound", "type": "text", "rect": [48, 78, 300, 14], "z": 4, "text": "SOUND", "align": "left", "valign": "middle", "color": "#F6C453", "letterSpacing": 3 },
+        { "id": "set-bgm", "type": "setting", "rect": [48, 96, 268, 30], "z": 5, "label": "MUSIC", "settingKey": "bgm_enabled", "color": "#FFFFFF", "valueColor": "#FBD000", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 0, "box": { "fill": "#3E2E18", "border": "#E39D25", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "set-sfx", "type": "setting", "rect": [324, 96, 268, 30], "z": 5, "label": "SOUND FX", "settingKey": "soundfx_enabled", "color": "#FFFFFF", "valueColor": "#FBD000", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 1, "box": { "fill": "#3E2E18", "border": "#E39D25", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "set-rumble", "type": "setting", "rect": [48, 132, 268, 30], "z": 5, "label": "RUMBLE PAK", "settingKey": "rumble_enabled", "color": "#FFFFFF", "valueColor": "#FBD000", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 2, "box": { "fill": "#3E2E18", "border": "#E39D25", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "set-custom", "type": "setting", "rect": [324, 132, 268, 30], "z": 5, "label": "CUSTOM ART", "settingKey": "use_custom_files", "color": "#FFFFFF", "valueColor": "#FBD000", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 3, "box": { "fill": "#3E2E18", "border": "#E39D25", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "sec-video", "type": "text", "rect": [48, 174, 300, 14], "z": 4, "text": "VIDEO", "align": "left", "valign": "middle", "color": "#F6C453", "letterSpacing": 3 },
+        { "id": "set-pal60", "type": "setting", "rect": [48, 192, 268, 30], "z": 5, "label": "PAL 60 Hz", "settingKey": "pal60_enabled", "color": "#FFFFFF", "valueColor": "#FBD000", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 4, "box": { "fill": "#3E2E18", "border": "#E39D25", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "set-prog", "type": "setting", "rect": [324, 192, 268, 30], "z": 5, "label": "240p SCAN", "settingKey": "force_progressive_scan", "color": "#FFFFFF", "valueColor": "#FBD000", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 5, "box": { "fill": "#3E2E18", "border": "#E39D25", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "sec-lib", "type": "text", "rect": [48, 234, 300, 14], "z": 4, "text": "LIBRARY", "align": "left", "valign": "middle", "color": "#F6C453", "letterSpacing": 3 },
+        { "id": "set-sort", "type": "button", "rect": [48, 252, 544, 30], "z": 5, "label": "SORT COURSES A-Z", "color": "#FBD000", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusable": true, "focusOrder": 6, "box": { "fill": "#3E2E18", "border": "#E39D25", "borderW": 1, "cornerRadius": 3 }, "action": { "kind": "runSort" } },
+        { "id": "to-home", "type": "button", "rect": [48, 326, 544, 34], "z": 5, "label": "BACK TO WORLD 1-1", "color": "#FFFFFF", "align": "center", "valign": "middle", "letterSpacing": 1, "focusable": true, "focusOrder": 7, "box": { "fill": "#43B047", "border": "#1F6B2E", "borderW": 2, "cornerRadius": 4 }, "action": { "kind": "goto", "page": "home" } },
+        { "id": "ground", "type": "panel", "rect": [0, 434, 640, 46], "z": 4, "text": "", "box": { "fill": "#C77C3C" } },
+        { "id": "hint-text", "type": "text", "rect": [0, 442, 640, 28], "z": 5, "text": "A  TOGGLE        L R  PIPE TO NEXT", "align": "center", "valign": "middle", "color": "#3A2A0A", "letterSpacing": 1 }
+      ]
+    }
+  ],
+  "buttons": { "d_up": "none", "d_down": "none", "d_left": "focusPrev", "d_right": "focusNext" }
+}

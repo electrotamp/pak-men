@@ -1,0 +1,4007 @@
+[
+  {
+    "base": "CD6",
+    "title": "Densha de Go! 64",
+    "developer": "Taito",
+    "release_jp": "1999-07-30",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Real Japanese commuter and express lines, and a timetable with zero patience. Notch up, feather the brake, and stop dead on the platform mark - Taito's faithfully-ported arcade train sim, far tenser than 'driving a train' has any right to be."
+  },
+  {
+    "base": "CDZ",
+    "title": "Dezaemon 3D",
+    "developer": "Athena",
+    "release_jp": "1998-06-26",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A shoot-'em-up you build yourself: design the ships, bosses, stages and music, then blast through your own creation. Trade designs on a Controller Pak and pit your reflexes against the community's most deranged bullet-hell."
+  },
+  {
+    "base": "CFZ",
+    "title": "F-Zero X",
+    "developer": "Nintendo EAD",
+    "release_jp": "1998-07-14",
+    "release_us": "1998-10-27",
+    "release_eu": "1998-11-06",
+    "description": "Thirty machines, anti-gravity, and not one brake worth using. Scream past 1000 km/h through loops and corkscrews, burn your own shield as boost, and shoulder rivals into the scenery - including the gloriously vicious Death Race."
+  },
+  {
+    "base": "CLB",
+    "title": "Mario Party",
+    "developer": "Hudson Soft",
+    "release_jp": "1998-12-18",
+    "release_us": "1999-02-08",
+    "release_eu": "1999-03-09",
+    "description": "Four players, one board, fifty minigames, zero surviving friendships. Hoard coins and Stars, sabotage each other every turn, and let a frantic minigame settle the gloating - a party game that doubles as a stress test for relationships."
+  },
+  {
+    "base": "CP2",
+    "title": "Pokemon Stadium 2",
+    "developer": "Nintendo EAD",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Your Game Boy team, rendered in roaring 3D. Plug in the Transfer Pak to battle your own Red/Blue and Gold/Silver Pokemon through Poke-Cup tournaments and minigames for up to four - or grab rentals and start throwing down."
+  },
+  {
+    "base": "CPS",
+    "title": "Pokemon Stadium",
+    "developer": "Nintendo EAD",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "All 151 originals brawling in full 3D, just like the cartoon promised. Upload your Game Boy team via Transfer Pak to chase badges, items and minigames, then carry the spoils home - the closest you could get to watching your Pokemon fight."
+  },
+  {
+    "base": "CZL",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "developer": "Nintendo EAD",
+    "release_jp": "1998-11-21",
+    "release_us": "1998-11-23",
+    "release_eu": "1998-12-11",
+    "description": "A forest boy draws a sword from its pedestal and wakes seven years later as Hyrule's last hope. Z-target your foes, play the ocarina to bend time and weather, raise allies and ride Epona toward Ganondorf - the game that taught 3D action how to feel."
+  },
+  {
+    "base": "DEZ",
+    "title": "Dezaemon 3D (64DD)",
+    "developer": "Athena",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Athena's build-your-own shoot-'em-up, on 64DD: craft ships, bosses, stages and music, play them, and trade them - the disk's extra storage letting your designs run wilder than any cartridge could hold."
+  },
+  {
+    "base": "DKD",
+    "title": "Kyojin no Doshin 1",
+    "developer": "Nintendo",
+    "release_jp": "1999-12-11",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Be a gentle yellow giant. Soak up villagers' love to grow, heave the very land up and down to terraform their island, and - when the mood sours - turn into the red demon Jashin and wreck it all. A serene, strange 64DD god-game."
+  },
+  {
+    "base": "DKI",
+    "title": "Kyojin no Doshin (Store Demo)",
+    "developer": "Marigul / Param / Nintendo",
+    "release_jp": "1999-12-01",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japanese 64DD shop-demo slice of Doshin the Giant: raise the gentle yellow giant on villagers' love, reshape the island, and sample one of the system's oddest, calmest god-games."
+  },
+  {
+    "base": "DKK",
+    "title": "Kyojin no Doshin: Kaihou Sensen Chibikko Chikko Daishuugou",
+    "developer": "Nintendo",
+    "release_jp": "2000-02-23",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The Doshin expansion: new scenarios and a 'Liberation Front' mode. Keep fattening the giant on love and sculpting the island toward its monument. Needs the original Kyojin no Doshin disk to run."
+  },
+  {
+    "base": "DMB",
+    "title": "Mario Artist: Communication Kit",
+    "developer": "Nintendo",
+    "release_jp": "2000-06-29",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The online glue of the 64DD Mario Artist suite: beam your Paint, Polygon and Talent Studio creations over Japan's Randnet service, browse galleries, and swap artwork with other budding artists."
+  },
+  {
+    "base": "DMG",
+    "title": "Mario Artist: Polygon Studio",
+    "developer": "Nintendo",
+    "release_jp": "2000-08-29",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The 64DD's 3D modelling studio: sculpt, paint and animate your own polygon characters for the other Mario Artist tools. It also hides a minigame collection whose ideas would later grow into WarioWare."
+  },
+  {
+    "base": "DMP",
+    "title": "Mario Artist: Paint Studio",
+    "developer": "Nintendo",
+    "release_jp": "1999-12-11",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Mario Paint, all grown up. The 64DD's flagship image editor pulls in photos via the Capture Cassette, stamps in Nintendo characters, and even spins your doodles into 3D objects."
+  },
+  {
+    "base": "DMT",
+    "title": "Mario Artist: Talent Studio",
+    "developer": "Nintendo",
+    "release_jp": "2000-02-23",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Build, dress and animate your own 3D characters on the 64DD: digitize a face with the Capture Cassette, choreograph dances and skits, and cast your creations in little homemade movies."
+  },
+  {
+    "base": "DPG",
+    "title": "Japan Pro Golf Tour 64",
+    "developer": "Seta",
+    "release_jp": "2000-03-31",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Chase the Japanese pro golf tour across a full season. Read the lie, pick the club, and grind through tournament rounds - the 64DD disk holding all the deep stats and saves a campaign demands."
+  },
+  {
+    "base": "DRD",
+    "title": "Randnet Disk",
+    "developer": "Nintendo",
+    "release_jp": "1999-12-01",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The front door to Randnet, the 64DD's Japan-only online service: email, web, shopping and game-data swapping. Bundled with the Randnet modem, this startup-and-browser disk was the system's gateway online."
+  },
+  {
+    "base": "DSC",
+    "title": "SimCity 64",
+    "developer": "Nintendo",
+    "release_jp": "2000-02-23",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Maxis's city-builder in full 3D on the 64DD. Zone, wire and police a living city, weather the disasters - then drop to street level at night and walk among the citizens you made. A Japan-only disk exclusive."
+  },
+  {
+    "base": "EFZ",
+    "title": "F-Zero X Expansion Kit",
+    "developer": "Nintendo",
+    "release_jp": "2000-04-21",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The 64DD expansion for F-Zero X -- adds new tracks and cups, the X-Cup random track generator, and full track and machine editors (the very tools the developers used to The 64DD add-on for F-Zero X: new tracks and cups, plus the X-Cup generator that spins up fresh circuits on the fly - turning the fastest racer on the system into a bottomless one."
+  },
+  {
+    "base": "MGV",
+    "title": "Dragon Sword 64",
+    "developer": "Interactive Studios",
+    "release_jp": "Unreleased",
+    "release_us": "Unreleased",
+    "release_eu": "Unreleased",
+    "description": "Four champions, one doomed realm. Hack through monster hordes in co-op dungeon combat to topple a tyrant god and reclaim Avantaria - an N64 hack-and-slash that was finished, shelved, and only rescued years later."
+  },
+  {
+    "base": "N22",
+    "title": "Ready 2 Rumble Boxing: Round 2",
+    "developer": "Point of View",
+    "release_jp": null,
+    "release_us": "2000-11-13",
+    "release_eu": null,
+    "description": "Back in the ring, bigger and dumber in the best way. Train an oddball pugilist from chump to champ, fill the RUMBLE meter, and unleash flurries that fold opponents in half. Arcade boxing with a grin and a heavy right hand."
+  },
+  {
+    "base": "N2M",
+    "title": "Madden NFL 2002",
+    "developer": "Budcat Creations",
+    "release_jp": "2002-01-31",
+    "release_us": "2001-09-13",
+    "release_eu": null,
+    "description": "The last Madden to suit up on the N64, with refreshed rosters and franchise play. Draft rookies, build a dynasty across seasons, and call the play that decides the Super Bowl."
+  },
+  {
+    "base": "N2P",
+    "title": "Rampage 2: Universal Tour",
+    "developer": "Avalanche Software",
+    "release_jp": null,
+    "release_us": "1999-03-31",
+    "release_eu": "1999-05-21",
+    "description": "You're a giant monster and the city is a snack. Stomp the globe as George, Lizzie or Ralph, swatting helicopters and gulping anything that screams, while the army tries (and fails) to spoil the rampage."
+  },
+  {
+    "base": "N2V",
+    "title": "Chameleon Twist 2",
+    "developer": "Japan System Supply",
+    "release_jp": "1998-12-25",
+    "release_us": "1999-04-14",
+    "release_eu": "1999",
+    "description": "Davy the chameleon is back, and his tongue is still platforming's best tool. Lash and swing across colourful worlds, gulp enemies to spit them as ammo, untangle tongue-twister puzzles, and pile in for four-player minigames."
+  },
+  {
+    "base": "N32",
+    "title": "Army Men: Sarge's Heroes 2",
+    "developer": "The 3DO Company",
+    "release_jp": null,
+    "release_us": "2000-09-27",
+    "release_eu": null,
+    "description": "Green plastic versus Tan, fought across the house and yard at toy scale. Lead Sarge with flamethrowers, bazookas and grenades through living-room war zones to rescue your squad from the treacherous Tan."
+  },
+  {
+    "base": "N3D",
+    "title": "Doraemon 3: Nobita no Machi SOS!",
+    "developer": "A.I",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "An anime adventure: lead Doraemon, Nobita and friends across time periods to save the future city from a creeping threat. Explore, puzzle and battle, swapping between characters who each pack their own gadgets."
+  },
+  {
+    "base": "N3H",
+    "title": "International Track & Field 2000",
+    "developer": "Konami",
+    "release_jp": "2000-07-13",
+    "release_us": "2000-05-28",
+    "release_eu": "2000-09-06",
+    "description": "Olympic gold, won and lost at the mercy of your thumbs. Sprint, hurdle, long-jump and throw through Konami's button-masher - solo, or in a crowd elbowing each other off the couch for the podium."
+  },
+  {
+    "base": "N3P",
+    "title": "Triple Play 2000",
+    "developer": "Treyarch Invention",
+    "release_jp": null,
+    "release_us": "1999-03-24",
+    "release_eu": null,
+    "description": "EA baseball with full MLB rosters, real ballparks and a deep season grind. Set the lineup for the pennant chase, then step in and swing for the fences in smooth, arcade-paced at-bats."
+  },
+  {
+    "base": "N3T",
+    "title": "Tony Hawk's Pro Skater 3",
+    "developer": "Edge of Reality",
+    "release_jp": null,
+    "release_us": "2002-08-20",
+    "release_eu": null,
+    "description": "Skate the pros, now with the revert - so ground tricks chain into manuals into combos that never end. Stitch monster lines across open city levels in two-minute runs, clear pro goals, and vanish into the create-a-skater and park editor."
+  },
+  {
+    "base": "N4W",
+    "title": "40 Winks",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "2019-04-15",
+    "release_eu": null,
+    "description": "Nitekap is stealing the world's dreams. As the shape-shifting heroes Ruff and Tumble, leap, glide and brawl through a sleepy nightmare-land to free the forty captured Winks before bedtime turns permanent."
+  },
+  {
+    "base": "N64",
+    "title": "Kiratto Kaiketsu! 64 Tanteidan",
+    "developer": "Pandora Box",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Play kid detective in a sugoroku board game. Roll to advance, land on spaces to gather clues and build your stats, and when you share a square with a rival, settle it by duelling with the clue cards you've collected."
+  },
+  {
+    "base": "N7I",
+    "title": "FIFA Soccer 64",
+    "developer": "EA Canada",
+    "release_jp": null,
+    "release_us": "1997-03-27",
+    "release_eu": "1997-03-01",
+    "description": "EA's football juggernaut kicks off on N64 with club and international sides, real stadiums and arcade-smooth play. Bend in screamers with the stick through league and tournament modes - the game that brought EA football to Nintendo."
+  },
+  {
+    "base": "N8I",
+    "title": "FIFA: Road to World Cup '98",
+    "developer": "EA Canada",
+    "release_jp": "1998-04-12",
+    "release_us": "1997-12-22",
+    "release_eu": "1997-12-20",
+    "description": "Drag your nation from the qualifiers to the final, through 172 teams with authentic kits and anthems. Master indoor and outdoor pitches, survive the bracket, and lift the trophy."
+  },
+  {
+    "base": "N8M",
+    "title": "Madden Football 64",
+    "developer": "Tiburon Entertainment",
+    "release_jp": null,
+    "release_us": "1997-10-24",
+    "release_eu": "1997-12",
+    "description": "Hard-hitting NFL with real playbooks and the bone-crunching tackles the name is built on. Audible at the line, run the real schemes, and grind out a full season of smash-mouth football."
+  },
+  {
+    "base": "N8W",
+    "title": "World Cup '98",
+    "developer": "Software Creations",
+    "release_jp": "1998-11-05",
+    "release_us": "1998-05-19",
+    "release_eu": "1998-05-22",
+    "description": "The official game of France '98: all 32 finalists and authentic stadiums. Drill set-pieces, escape the group stage, and carry your country through the knockouts to lift the trophy."
+  },
+  {
+    "base": "N9B",
+    "title": "NBA Live 99",
+    "developer": "NuFX",
+    "release_jp": null,
+    "release_us": "1998-11-04",
+    "release_eu": "1998-12",
+    "description": "Full NBA rosters, signature moves and fast five-on-five. Cross up defenders, throw down signature jams, and run the season and playoffs against the league's biggest names."
+  },
+  {
+    "base": "N9C",
+    "title": "NASCAR 99",
+    "developer": "Stormfront Studios",
+    "release_jp": null,
+    "release_us": "1998-09-10",
+    "release_eu": "1998-11",
+    "description": "Climb into a stock car and trade paint with NASCAR's best. Tune the setup, draft past rivals at 200 mph, and grind a full points season across real ovals toward the title."
+  },
+  {
+    "base": "N9F",
+    "title": "FIFA 99",
+    "developer": "EA Canada",
+    "release_jp": "1999-08-06",
+    "release_us": "1998-11-30",
+    "release_eu": "1998-12-08",
+    "description": "Europe's top leagues, 16 stadiums and tighter ball control. Thread one-touch passes, curl in free kicks, and chase continental silverware across club and international play."
+  },
+  {
+    "base": "N9H",
+    "title": "NHL '99",
+    "developer": "MBL Research",
+    "release_jp": null,
+    "release_us": "1998-10-01",
+    "release_eu": "1998-11-30",
+    "description": "Fast, physical NHL hockey: full rosters, heavy checks and top-shelf one-timers. Deke past the defence, rattle the glass with a big hit, and snipe your way through a full season."
+  },
+  {
+    "base": "N9M",
+    "title": "Madden NFL 99",
+    "developer": "EA Tiburon",
+    "release_jp": null,
+    "release_us": "1998-09-22",
+    "release_eu": "1999-01",
+    "description": "The edition that introduced Franchise mode. Scout and draft rookies, trade and manage your roster year over year, and chase a dynasty in the mode that reshaped the whole series."
+  },
+  {
+    "base": "NA2",
+    "title": "Virtual Pro Wrestling 2: Oudou Keishou",
+    "developer": "AKI",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "AKI's Japan-only masterclass, a stone's throw from WWF No Mercy. Holds the All Japan license (21 real wrestlers) plus look-alikes you ID by their movesets - 98 wrestlers and 16 edit slots, the biggest roster AKI ever built."
+  },
+  {
+    "base": "NAB",
+    "title": "Airboarder 64",
+    "developer": "Human Entertainment",
+    "release_jp": "1998-03-27",
+    "release_us": null,
+    "release_eu": "1998-11",
+    "description": "Carve and trick down futuristic courses on a hovering airboard. Race rivals or chase ghost times, banking off ramps for big-air stunts, and unlock new boards and riders as you go."
+  },
+  {
+    "base": "NAC",
+    "title": "Army Men: Air Combat",
+    "developer": "The 3DO Company",
+    "release_jp": null,
+    "release_us": "2000-07-18",
+    "release_eu": null,
+    "description": "Toy war from the cockpit. Pilot plastic gunships and choppers across kitchen-and-garden battlefields, raining fire on Tan armour and plucking trapped Greens to safety from above."
+  },
+  {
+    "base": "NAD",
+    "title": "Worms: Armageddon",
+    "developer": "Infogrames Lyon House",
+    "release_jp": null,
+    "release_us": "2000-03-23",
+    "release_eu": "1999-12-11",
+    "description": "Turn-based artillery with a cartoon body count. Drop a squad of worms onto destructible terrain and lob bazookas, grenades and the legendary exploding sheep - then watch your masterplan backfire hilariously."
+  },
+  {
+    "base": "NAF",
+    "title": "Doubutsu no Mori",
+    "developer": "Nintendo EAD",
+    "release_jp": "2001-04-14",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The original Animal Crossing. Move into a village of animal neighbours and live in real time: fish, hunt fossils and furniture, write letters, and turn a bare house into a cosy home. The quiet game that became a phenomenon."
+  },
+  {
+    "base": "NAG",
+    "title": "AeroGauge",
+    "developer": "Locomotive Corporation",
+    "release_jp": "1997-12-19",
+    "release_us": "1998-05-21",
+    "release_eu": "1998-05-01",
+    "description": "Skim a hovering racer down anti-gravity tracks at silly speed, banking through loops and tunnels. Hug the line through hairpins, shave milliseconds in time-attack, and prise out the hidden machines."
+  },
+  {
+    "base": "NAH",
+    "title": "Asteroids Hyper 64",
+    "developer": "Syrox Developments",
+    "release_jp": null,
+    "release_us": "1999-12-14",
+    "release_eu": null,
+    "description": "The arcade granddaddy, reborn in 3D. Blast drifting rocks and swooping saucers across escalating waves, chaining power-ups and warping clear of disaster to chase a monster high score."
+  },
+  {
+    "base": "NAI",
+    "title": "Midway's Greatest Arcade Hits Vol. 1",
+    "developer": "Digital Eclipse",
+    "release_jp": null,
+    "release_us": "2000-11-14",
+    "release_eu": null,
+    "description": "A coin-op time capsule: Defender, Joust, Robotron, Sinistar and more golden-age legends in one box. Faithful conversions with the original sounds, ready for one- or two-player high-score chasing."
+  },
+  {
+    "base": "NAL",
+    "title": "Super Smash Bros.",
+    "developer": "HAL Laboratory",
+    "release_jp": "1999-01-21",
+    "release_us": "1999-04-26",
+    "release_eu": "1999-11-19",
+    "description": "Nintendo's mascots stop being friends. Mario, Pikachu, Link and pals trade blows to launch each other clean off the stage, racking up damage across arenas pulled from gaming history. Where it all began."
+  },
+  {
+    "base": "NAM",
+    "title": "Army Men: Sarge's Heroes",
+    "developer": "The 3DO Company",
+    "release_jp": null,
+    "release_us": "1999-09-28",
+    "release_eu": "2000-04-14",
+    "description": "Lead Sarge and the Green army to war on the Tan across kitchens, gardens and other giant household battlegrounds. Pack flamethrowers and grenades, escort hostages, and bring the carnage to everyday places."
+  },
+  {
+    "base": "NAR",
+    "title": "Armorines: Project S.W.A.R.M.",
+    "developer": "Acclaim Studios London",
+    "release_jp": null,
+    "release_us": "1999-12-09",
+    "release_eu": "1999-12-17",
+    "description": "Suit up in powered armour and exterminate an alien insect swarm before it eats the planet. Stomp jungles, deserts and hives with heavy weapons - solo or two-player co-op - against an enemy that just keeps coming."
+  },
+  {
+    "base": "NAS",
+    "title": "All-Star Baseball 2001",
+    "developer": "Acclaim",
+    "release_jp": null,
+    "release_us": "2000-03-30",
+    "release_eu": null,
+    "description": "Full MLB rosters, real ballparks and the polished play that made the series a favourite. Run a full season, chase home-run records, and field the league's stars in one of the N64's deepest baseball sims."
+  },
+  {
+    "base": "NAY",
+    "title": "Aidyn Chronicles: The First Mage",
+    "developer": "H2O Entertainment",
+    "release_jp": null,
+    "release_us": "2001-03-20",
+    "release_eu": "2001-08-03",
+    "description": "A sprawling fantasy RPG across the land of Aidyn. Recruit companions, fight tactical turn-based battles, and craft spells and gear as you grow from squire into the first mage on a vast, story-rich quest."
+  },
+  {
+    "base": "NB2",
+    "title": "NBA In The Zone '99",
+    "developer": "Konami",
+    "release_jp": null,
+    "release_us": "1999-04-08",
+    "release_eu": "1999",
+    "description": "Konami's run-and-gun NBA returns with full rosters and silky animation. Throw down highlight dunks, push the break, and outscore rivals in fast, flashy five-on-five with arcade flair."
+  },
+  {
+    "base": "NB3",
+    "title": "Bust-A-Move '99",
+    "developer": "Probe Entertainment",
+    "release_jp": "1999-03-05",
+    "release_us": "1999-04-05",
+    "release_eu": "1998-11",
+    "description": "Fire coloured bubbles to burst matching clusters before the ceiling grinds you flat. Clear puzzle stages solo or go head-to-head, dumping junk bubbles on your opponent until somebody's screen caves in."
+  },
+  {
+    "base": "NB4",
+    "title": "Bass Masters 2000",
+    "developer": "Mass Media",
+    "release_jp": null,
+    "release_us": "1999-12-16",
+    "release_eu": null,
+    "description": "Hit the lake in a tournament bass sim. Read the water, pick your lure, and work each spot for trophy largemouth, weighing in across pro events on multiple lakes."
+  },
+  {
+    "base": "NB5",
+    "title": "Biohazard 2",
+    "developer": "Capcom",
+    "release_jp": "2000-01-28",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The Japan-only N64 port of Capcom's survival-horror landmark. As rookie cop Leon and student Claire, claw through a zombie-drowned Raccoon City - both scenarios, the FMV and the voices, all squeezed onto a single cartridge."
+  },
+  {
+    "base": "NB6",
+    "title": "Super B-Daman: Battle Phoenix 64",
+    "developer": "Hudson Soft",
+    "release_jp": "1998-07-24",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Marble-firing battles straight off the toy line. Blast targets and rival B-Daman, customise your shooter, and climb the tournament ladder."
+  },
+  {
+    "base": "NB7",
+    "title": "Banjo-Tooie",
+    "developer": "Rare",
+    "release_jp": "2000-11-27",
+    "release_us": "2000-11-20",
+    "release_eu": "2001-04-12",
+    "description": "The bear and bird return, bigger and meaner. Learn split-up solo moves, pack serious firepower, and roam huge interconnected worlds to settle the score with Gruntilda's vengeful sisters."
+  },
+  {
+    "base": "NB8",
+    "title": "Beetle Adventure Racing!",
+    "developer": "Paradigm Entertainment",
+    "release_jp": "1999-11-26",
+    "release_us": "1999-03-23",
+    "release_eu": "1999-09-04",
+    "description": "Race the VW Beetle through sprawling tracks stuffed with shortcuts, jumps and secret routes. Hunt hidden bonus boxes, trigger spectacular detours, and wreck friends in a destructive battle mode - an underrated arcade gem."
+  },
+  {
+    "base": "NB9",
+    "title": "NBA Jam 99",
+    "developer": "Iguana West",
+    "release_jp": null,
+    "release_us": "1998-12-03",
+    "release_eu": "1998-12",
+    "description": "Two-on-two arcade hoops with monster dunks and on-fire streaks - boomshakalaka comes home. Pick your dream pair, catch fire after three straight buckets, and throw down from half court."
+  },
+  {
+    "base": "NBA",
+    "title": "NBA In The Zone '98",
+    "developer": "Konami",
+    "release_jp": "1998-01-29",
+    "release_us": "1998-02-16",
+    "release_eu": "1998-04",
+    "description": "Five-on-five NBA with full rosters, fluid animation and pick-up-and-play speed. Run-and-gun through the season and playoffs, throwing down highlights and outpacing rivals."
+  },
+  {
+    "base": "NBC",
+    "title": "Blast Corps",
+    "developer": "Rare",
+    "release_jp": "1997-03-21",
+    "release_us": "1997-03-24",
+    "release_eu": "1997-12-22",
+    "description": "A runaway nuclear carrier needs a clear path, and you bring the bulldozers, mechs and dump trucks. Flatten everything in its way, crack frantic demolition puzzles, and chase gold before it all goes up. Pure Rare ingenuity."
+  },
+  {
+    "base": "NBD",
+    "title": "Bomberman Hero",
+    "developer": "A.I",
+    "release_jp": "1998-04-30",
+    "release_us": "1998-08-31",
+    "release_eu": "1998-10-23",
+    "description": "Bomberman ditches the arena for a single-player quest, bombing across alien worlds to rescue Princess Millian. Run, jump and bomb, ride jet packs and submarines, and score high enough to unlock the true ending."
+  },
+  {
+    "base": "NBE",
+    "title": "All-Star Baseball 2000",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1999-04-07",
+    "release_eu": "1999-05-01",
+    "description": "MLB rosters, motion-captured players and deep season play. Run the pennant chase, chase records, and field big-leaguers in one of the era's most complete baseball sims."
+  },
+  {
+    "base": "NBF",
+    "title": "Bio F.R.E.A.K.S.",
+    "developer": "Midway Studios San Diego",
+    "release_jp": null,
+    "release_us": "1998-05-19",
+    "release_eu": "1998-09-01",
+    "description": "Cybernetic gladiators tear each other apart in a brutal 3D fighter - flight, projectiles and gory finishers included. Juggle foes from the air, rip off limbs, and end them with grisly fatalities."
+  },
+  {
+    "base": "NBH",
+    "title": "Body Harvest",
+    "developer": "DMA Design",
+    "release_jp": null,
+    "release_us": "1998-10-20",
+    "release_eu": "1998-11-13",
+    "description": "An open-world action-adventure across five eras of history. Commandeer any car, tank, plane or boat you find and battle a giant-insect alien invasion - a sprawling, ahead-of-its-time DMA Design experiment."
+  },
+  {
+    "base": "NBI",
+    "title": "NFL Blitz 2000",
+    "developer": "Midway Games",
+    "release_jp": null,
+    "release_us": "1999-08-18",
+    "release_eu": null,
+    "description": "Seven-on-seven arcade football with no rules and no mercy. Throw downfield bombs, spear ballcarriers after the whistle, and chain on-fire streaks in turbo-charged mayhem."
+  },
+  {
+    "base": "NBJ",
+    "title": "Bakushou Jinsei 64: Mezase! Resort Ou",
+    "developer": "Taito",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A board game in the Game of Life mould but closer to Monopoly. Roll to move, buy the businesses you land on, and bleed rivals dry on rent that pumps up your company's stock - built for multiplayer money-grabbing."
+  },
+  {
+    "base": "NBK",
+    "title": "Banjo-Kazooie",
+    "developer": "Rare",
+    "release_jp": "1998-12-06",
+    "release_us": "1998-06-29",
+    "release_eu": "1998-07-17",
+    "description": "A bear with a backpack, a bird with a mouth on her, and a witch who wants Banjo's sister for her looks. Stomp, peck, fire eggs and flap across nine stuffed-to-bursting worlds, prising loose every Jiggy. Rare's collectathon at its golden peak."
+  },
+  {
+    "base": "NBL",
+    "title": "Buck Bumble",
+    "developer": "Argonaut Software",
+    "release_jp": "1998-12-18",
+    "release_us": "1998-11-20",
+    "release_eu": "1998-12-04",
+    "description": "Be a cybernetic bumblebee defending a miniature garden from an invading insect swarm. Buzz and hover through 3D levels, blasting B.A.D. bugs with a heavy arsenal in one of the N64's odder shooters."
+  },
+  {
+    "base": "NBM",
+    "title": "Bomberman 64",
+    "developer": "Hudson Soft",
+    "release_jp": "1997-09-26",
+    "release_us": "1997-12-03",
+    "release_eu": "1997-11-21",
+    "description": "Bomberman goes 3D. Chain bomb-jumps to reach hidden gold cards, topple Altair's fortresses, and - of course - blow up your friends in four-player battle."
+  },
+  {
+    "base": "NBN",
+    "title": "Bakuretsu Muteki Bangaioh",
+    "developer": "Treasure",
+    "release_jp": "1999-09-03",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Treasure's gleefully unhinged shooter. Pilot a transforming robot through screens jammed with enemies, charging up screen-clearing missile counter-attacks that erupt bigger the more bullets surround you. Glorious overkill."
+  },
+  {
+    "base": "NBO",
+    "title": "Bottom of the 9th",
+    "developer": "Konami",
+    "release_jp": "1996-10-25",
+    "release_us": "1999-04-14",
+    "release_eu": null,
+    "description": "Arcade baseball headlined by Juan Gonzalez, against the sluggers of the home-run-chase era. Step up, swing for the fences, and play out a quick season."
+  },
+  {
+    "base": "NBP",
+    "title": "Blues Brothers 2000",
+    "developer": "Player 1",
+    "release_jp": null,
+    "release_us": "2000-11-17",
+    "release_eu": "2000-10-13",
+    "description": "Jake and Elwood are back on a mission from God, platforming across the South to put the band back together. Jump, dash and solve light puzzles through bayous and back roads, all to a soul beat."
+  },
+  {
+    "base": "NBQ",
+    "title": "BattleTanx: Global Assault",
+    "developer": "The 3DO Company",
+    "release_jp": null,
+    "release_us": "1999-10-12",
+    "release_eu": "2000-06-30",
+    "description": "Roll out across a war-torn world commanding squads of tanks. Grab power-ups, mix tank platoons, and protect your queen through a story campaign and frantic four-player arenas."
+  },
+  {
+    "base": "NBR",
+    "title": "Milo's Astro Lanes",
+    "developer": "Player 1",
+    "release_jp": null,
+    "release_us": "1998-11-24",
+    "release_eu": "1999-07-25",
+    "description": "Futuristic ten-pin bowling with wild power-ups and gravity-bending lanes. Curve your ball around obstacles, fire off bonus abilities, and bowl for strikes against three cosmic rivals."
+  },
+  {
+    "base": "NBS",
+    "title": "All-Star Baseball 99",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1998-05-27",
+    "release_eu": "1998-08-01",
+    "description": "Full MLB rosters and motion-captured stars in Acclaim's debut N64 baseball. Run a season, chase the pennant, and step into smooth, big-league at-bats."
+  },
+  {
+    "base": "NBU",
+    "title": "Bust-A-Move 2 Arcade Edition",
+    "developer": "Probe Entertainment",
+    "release_jp": null,
+    "release_us": "1998-05-20",
+    "release_eu": "1998",
+    "description": "Pop matching bubble clusters before they pile to the floor. Bank shots off the walls, drop junk on opponents, and survive the relentless rising ceiling solo or head-to-head."
+  },
+  {
+    "base": "NBV",
+    "title": "Bomberman 64: The Second Attack!",
+    "developer": "Hudson Soft",
+    "release_jp": "1999-12-03",
+    "release_us": "2000-05-29",
+    "release_eu": null,
+    "description": "A story-driven Bomberman with elemental bombs and a Charabom partner. Wield fire, water and more, raise your little ally, and bomb through a galaxy-spanning tale or split-screen battles."
+  },
+  {
+    "base": "NBW",
+    "title": "Super Bowling",
+    "developer": "Athena",
+    "release_jp": "1999-03-26",
+    "release_us": "2000-01-15",
+    "release_eu": null,
+    "description": "Pick-up-and-play ten-pin for up to four. Choose a bowler, tune your spin, and chase perfect games down the lane."
+  },
+  {
+    "base": "NBX",
+    "title": "BattleTanx",
+    "developer": "The 3DO Company",
+    "release_jp": null,
+    "release_us": "1998-12-29",
+    "release_eu": null,
+    "description": "Command a column of tanks through a lawless post-apocalypse. Smash gangs and rival armour across ruined cities, grab power-ups, and shield your queen in story and versus play."
+  },
+  {
+    "base": "NBY",
+    "title": "A Bug's Life",
+    "developer": "Traveller's Tales",
+    "release_jp": null,
+    "release_us": "1999-04-30",
+    "release_eu": "1999-01-01",
+    "description": "Join Flik the ant in a platformer of the Pixar film. Sprout berries into weapons, scurry past hungry birds, and outwit Hopper's grasshoppers across bug-sized worlds."
+  },
+  {
+    "base": "NBZ",
+    "title": "NFL Blitz",
+    "developer": "Midway Games",
+    "release_jp": null,
+    "release_us": "1998-09-12",
+    "release_eu": null,
+    "description": "Fast, brutal seven-on-seven where late hits are encouraged and every play ends in chaos. Bust out trick plays, spear runners after the whistle, and torch the secondary in no-rules arcade football."
+  },
+  {
+    "base": "NC2",
+    "title": "ClayFighter: Sculptor's Cut",
+    "developer": "Interplay Productions",
+    "release_jp": null,
+    "release_us": "1998-05-15",
+    "release_eu": "1997-11-19",
+    "description": "The wackiest claymation brawlers return in an expanded, ultra-rare collector's cut. Pummel rivals with slapstick combos and unlock the bigger roster in this prized N64 oddity."
+  },
+  {
+    "base": "NCB",
+    "title": "Charlie Blast's Territory",
+    "developer": "Realtime Associates",
+    "release_jp": null,
+    "release_us": "1999-04-30",
+    "release_eu": "1999-06-18",
+    "description": "Set chain-reaction bombs in just the right order to clear the path. A quirky N64-exclusive puzzler of hundreds of brain-teasing stages, solo or with friends."
+  },
+  {
+    "base": "NCC",
+    "title": "Command & Conquer",
+    "developer": "Westwood Studios",
+    "release_jp": "1997-04-25",
+    "release_us": "1999-05-31",
+    "release_eu": "1999-07-30",
+    "description": "The RTS classic, ported to N64. Harvest tiberium, raise a base, and crush the enemy through FMV-fuelled campaigns for both GDI and the Brotherhood of Nod."
+  },
+  {
+    "base": "NCD",
+    "title": "Carmageddon 64",
+    "developer": "Software Creations",
+    "release_jp": null,
+    "release_us": "2000-07-26",
+    "release_eu": "1999",
+    "description": "Win the race, or just run down everything that moves - your call. Earn time by trashing rivals and flattening anything in sight, in the N64 cut of the notorious vehicular-mayhem racer."
+  },
+  {
+    "base": "NCE",
+    "title": "Nuclear Strike 64",
+    "developer": "Pacific Coast Power & Light",
+    "release_jp": "1998-02-02",
+    "release_us": "1999-11-30",
+    "release_eu": "2000-03-03",
+    "description": "Isometric military action across chopper, jet, tank and hovercraft. Manage fuel and ammo, swap vehicles on the fly, and dismantle a madman's nuclear ambitions before the countdown ends."
+  },
+  {
+    "base": "NCF",
+    "title": "ClayFighter 63 1/3",
+    "developer": "Interplay Productions",
+    "release_jp": null,
+    "release_us": "1997-10-23",
+    "release_eu": "1997-11-19",
+    "description": "Claymation combatants in a screwball fighter of slapstick and oddballs. Mash out absurd specials as Bad Mr. Frosty, Earthworm Jim and a cast of clay weirdos."
+  },
+  {
+    "base": "NCG",
+    "title": "Choro Q 64 2: Hachamecha Grand Prix Race",
+    "developer": "Takara",
+    "release_jp": "1999-12-24",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Collect, customise and race pull-back toy cars. Soup up your little racer with new parts and drift through stunt-filled grand prix circuits."
+  },
+  {
+    "base": "NCH",
+    "title": "Chopper Attack",
+    "developer": "SETA",
+    "release_jp": "1997-11-28",
+    "release_us": "1998-06-17",
+    "release_eu": "1998-09-15",
+    "description": "Pilot a combat helicopter against a renegade terror cell bent on world domination. Strafe air and ground targets, swap weapon loadouts, and chase the threat across far-flung war zones."
+  },
+  {
+    "base": "NCK",
+    "title": "NBA Courtside 2 Featuring Kobe Bryant",
+    "developer": "Left Field Productions",
+    "release_jp": null,
+    "release_us": "1999-11-08",
+    "release_eu": null,
+    "description": "Run the hardwood with full NBA rosters and Kobe leading the charge. Call set plays, throw alley-oops, and dominate the season and playoffs in Nintendo's polished hoops sim."
+  },
+  {
+    "base": "NCL",
+    "title": "California Speed",
+    "developer": "Atari Games",
+    "release_jp": null,
+    "release_us": "1999-03-18",
+    "release_eu": null,
+    "description": "Burn coast-to-coast across the Golden State in an arcade racer thick with shortcuts. Drift dozens of circuits, hunt hidden cut-throughs, and unlock a garage of tunable rides."
+  },
+  {
+    "base": "NCO",
+    "title": "Jeremy McGrath Supercross 2000",
+    "developer": "Acclaim Studios Salt Lake City",
+    "release_jp": null,
+    "release_us": "2000-02-28",
+    "release_eu": "2000-09-19",
+    "description": "Hit the dirt with the King of Supercross. Nail the holeshot, scrub over tabletops, and battle bar-to-bar across stadium and outdoor tracks."
+  },
+  {
+    "base": "NCR",
+    "title": "Penny Racers",
+    "developer": "Locomotive Corporation",
+    "release_jp": "1998-07-17",
+    "release_us": "1999-02-04",
+    "release_eu": "1999-03-05",
+    "description": "Customise pull-back toy cars and race them around oversized rooms, swiping parts off rivals you knock out. Bolt on stolen upgrades, fire weapons, and barge everyone off the track."
+  },
+  {
+    "base": "NCS",
+    "title": "S.C.A.R.S.",
+    "developer": "Vivid Image",
+    "release_jp": null,
+    "release_us": "1998-12-04",
+    "release_eu": "1998-12-04",
+    "description": "Futuristic combat racing in animal-styled cars. Grab homing missiles and shields, learn each beast's handling, and blast your way to the front of neon circuits."
+  },
+  {
+    "base": "NCT",
+    "title": "Chameleon Twist",
+    "developer": "Japan System Supply",
+    "release_jp": "1997-12-12",
+    "release_us": "1997-12-09",
+    "release_eu": "1997-12-06",
+    "description": "Your stretchy chameleon tongue is grapple, weapon and puzzle-solver all at once. Vault chasms, slurp up enemies to fire them back, and twist through six dreamlike worlds and their bosses."
+  },
+  {
+    "base": "NCU",
+    "title": "Cruis'n USA",
+    "developer": "Midway",
+    "release_jp": null,
+    "release_us": "1996-12-03",
+    "release_eu": "1997-03-01",
+    "description": "Floor it coast to coast in Williams' arcade hit. Blast past American landmarks, dodge traffic, and pull the odd backflip on a wild cross-country dash."
+  },
+  {
+    "base": "NCW",
+    "title": "Cruis'n World",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "1998-09-28",
+    "release_eu": "1998-06-25",
+    "description": "A high-speed lap of the planet in exotic cars. Tour twenty locales past world landmarks, trigger stunts for points, and unlock hidden rides in this globe-trotting arcade racer."
+  },
+  {
+    "base": "NCX",
+    "title": "Custom Robo",
+    "developer": "Noise",
+    "release_jp": "1999-12-08",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Build a miniature fighting robot from interchangeable parts - body, gun, bomb, pod and legs - then duel in fast top-down holographic arenas, with a full story mode to back it up."
+  },
+  {
+    "base": "NCY",
+    "title": "South Park: Chef's Luv Shack",
+    "developer": "Acclaim Studios Austin",
+    "release_jp": null,
+    "release_us": "1999-12-08",
+    "release_eu": "1999-10-31",
+    "description": "Chef hosts a foul-mouthed game show. Buzz in for crude trivia between a string of minigames, for up to four potty-mouthed players."
+  },
+  {
+    "base": "NCZ",
+    "title": "Custom Robo V2",
+    "developer": "Noise",
+    "release_jp": "2000-11-10",
+    "release_us": null,
+    "release_eu": null,
+    "description": "An expanded sequel to the robot-building battler. Assemble deadlier robos from a bigger parts pool and fight through a fresh story and tougher arena rivals."
+  },
+  {
+    "base": "ND2",
+    "title": "Doraemon 2: Nobita to Hikari no Shinden",
+    "developer": "Epoch",
+    "release_jp": "1998-12-11",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A platforming adventure starring Doraemon and friends across colourful themed worlds. Deploy Doraemon's gadgets to clear obstacles and rescue his pals from trouble."
+  },
+  {
+    "base": "ND3",
+    "title": "Castlevania",
+    "developer": "Konami Computer Entertainment Kobe",
+    "release_jp": "1999-03-11",
+    "release_us": "1999-01-26",
+    "release_eu": "1999-05-14",
+    "description": "Enter Dracula's castle in full 3D as a Belmont. Crack the whip, hunt secondary weapons, and brave shifting corridors and curses to reach the count before the night claims you."
+  },
+  {
+    "base": "ND4",
+    "title": "Castlevania: Legacy of Darkness",
+    "developer": "Konami Computer Entertainment Kobe",
+    "release_jp": "1999-12-25",
+    "release_us": "1999-12-08",
+    "release_eu": "2000-03-03",
+    "description": "An expanded retelling of the N64 Castlevania with new heroes and stages. Play four characters, tame a werewolf's curse, and storm Dracula's castle all over again."
+  },
+  {
+    "base": "ND6",
+    "title": "Densha de Go! 64",
+    "developer": "Taito",
+    "release_jp": "1999-07-30",
+    "release_us": null,
+    "release_eu": null,
+    "description": "You, a real Japanese rail line, and a timetable that does not care about your feelings. Feather the notch and brake to hold the limit, then stop dead on the platform mark - a few centimetres late and the conductor judges you. Oddly tense, weirdly addictive."
+  },
+  {
+    "base": "NDA",
+    "title": "Derby Stallion 64",
+    "developer": "ParityBit",
+    "release_jp": "2001-08-10",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A deep thoroughbred sim. Breed and raise racehorses, drill training regimens, and play the bloodlines and race-day tactics that decide your stable's fortunes across seasons."
+  },
+  {
+    "base": "NDC",
+    "title": "SD Hiryu no Ken Densetsu",
+    "developer": "Culture Brain",
+    "release_jp": "1999-01-29",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Culture Brain's super-deformed martial-arts game, blending story-driven adventure with a fighting system of special moves and elemental techniques."
+  },
+  {
+    "base": "NDE",
+    "title": "Destruction Derby 64",
+    "developer": "Looking Glass Studios",
+    "release_jp": "1996-09-20",
+    "release_us": "1999-09-30",
+    "release_eu": "1999-10-12",
+    "description": "Win the race, or just total every rival - either works. Peel metal off opponents across races, stock-car bowls and last-car-standing arenas in a glorious demolition smash-fest."
+  },
+  {
+    "base": "NDF",
+    "title": "Dance Dance Revolution: Disney Dancing Museum",
+    "developer": "Konami Computer Entertainment Kobe",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The N64's lone Dance Dance Revolution, made for kids and bundled with a Disney dance pad. Step to 22 Disney and pop tracks (most unlocked by solving puzzles) across single, dual and 'dance magic' battles - one mode even mixes pad steps with button presses."
+  },
+  {
+    "base": "NDG",
+    "title": "Shadowgate 64: Trials of the Four Towers",
+    "developer": "Infinite Ventures",
+    "release_jp": "1999-08-13",
+    "release_us": "1999-06-09",
+    "release_eu": "1999-07-30",
+    "description": "Wake in a doomed wizard's tower with a torch, your wits, and a great many ways to die. Pick up everything, solve devious first-person puzzles, and undo an ancient evil - a faithful heir to the cult point-and-click."
+  },
+  {
+    "base": "NDH",
+    "title": "Dual Heroes",
+    "developer": "Produce!",
+    "release_jp": "1997-12-05",
+    "release_us": "1998-11-05",
+    "release_eu": "1998-04-12",
+    "description": "Polygon warriors and mechs square off one-on-one. Pick a fighter, chain combos and specials, and brawl through arcade and versus across a varied 3D roster."
+  },
+  {
+    "base": "NDK",
+    "title": "Dark Rift",
+    "developer": "Kronos Digital Entertainment",
+    "release_jp": "1998-03-27",
+    "release_us": "1997-07-08",
+    "release_eu": "1997-07-30",
+    "description": "Fast 3D one-on-one fighting as warriors and machines battle for a dimensional rift. Chain combos, throws and specials in a slick, speedy early-N64 brawler."
+  },
+  {
+    "base": "NDL",
+    "title": "The Legend of Zelda: Majora's Mask",
+    "developer": "Nintendo EAD",
+    "release_jp": null,
+    "release_us": "2000",
+    "release_eu": null,
+    "description": "Link rides into doomed Termina, where the moon falls in three days. Wear over 20 transformation masks - Deku, Goron, Zora and stranger - and rewind time to break the cycle before the sky lands. Needs the Expansion Pak."
+  },
+  {
+    "base": "NDM",
+    "title": "Doom 64",
+    "developer": "id Software",
+    "release_jp": "1997-08-01",
+    "release_us": "1997-04-04",
+    "release_eu": "1997-12-02",
+    "description": "The demons are back, meaner and uglier, in a brooding N64-exclusive Doom. Hunt them through 32 brand-new levels lit by moody coloured lighting and scored by an unnerving ambient soundtrack."
+  },
+  {
+    "base": "NDN",
+    "title": "Duke Nukem 64",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "1997-11-14",
+    "release_eu": "1997-11-14",
+    "description": "Duke takes his attitude and arsenal to the alien invasion, console-style. Blast through the classic shooter's maps with heavy weapons and one-liners, with co-op for a second Duke."
+  },
+  {
+    "base": "NDO",
+    "title": "Donkey Kong 64",
+    "developer": "Rare",
+    "release_jp": "1999-12-10",
+    "release_us": "1999-11-22",
+    "release_eu": "1999-12-06",
+    "description": "Swing into a giant 3D world as five Kongs, each with their own moves, to reclaim the Golden Bananas from King K. Rool. Gather bananas, coins and blueprints by the hundred and storm the island - the ultimate Rare collectathon."
+  },
+  {
+    "base": "NDP",
+    "title": "Donkey Kong 64",
+    "developer": "Rare",
+    "release_jp": null,
+    "release_us": "1999",
+    "release_eu": null,
+    "description": "K. Rool has kidnapped the Kongs and you've got an island to save. Swap among five family members: blast Kremlings with Chunky's Pineapple Launcher, parp Lanky's Trombone, float on Tiny's Ponytail Twirl, or rocket skyward on Diddy's Jetbarrel."
+  },
+  {
+    "base": "NDQ",
+    "title": "Donald Duck: Quack Attack",
+    "developer": "Ubi Soft Casablanca",
+    "release_jp": null,
+    "release_us": "2000-12-20",
+    "release_eu": "2000-12-08",
+    "description": "A short-fused Donald platforms through jungles and factories to rescue Daisy from the sorcerer Merlock. Run, jump and spin past hazards in a slick, cartoon-bright 3D adventure (a.k.a. Goin' Quackers)."
+  },
+  {
+    "base": "NDR",
+    "title": "Doraemon: Nobita to 3tsu no Seireiseki",
+    "developer": "Epoch",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "An anime 3D platformer in the Mario 64 mould: gather the pieces of three shattered crystals to stop a demon. Switch among five friends with their own moves, with gadgets that let Doraemon swim, fly, or ride a winged dragon."
+  },
+  {
+    "base": "NDS",
+    "title": "J.League Dynamite Soccer 64",
+    "developer": "Konami",
+    "release_jp": "1997-09-05",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Fast, breezy football featuring Japan's J.League clubs. Pick a side for quick exhibition and league matches built for instant, pick-up-and-play fun."
+  },
+  {
+    "base": "NDT",
+    "title": "South Park",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1998-12-21",
+    "release_eu": "1999-05-03",
+    "description": "The kids defend their town from alien invaders and mutant turkeys in an irreverent shooter. Lob snowballs and worse across the snowy streets, solo or in four-player split-screen."
+  },
+  {
+    "base": "NDU",
+    "title": "Duck Dodgers Starring Daffy Duck",
+    "developer": "Paradigm Entertainment",
+    "release_jp": null,
+    "release_us": "2000-09-16",
+    "release_eu": "2000-10-27",
+    "description": "Blast across the galaxy as Daffy's swaggering hero, gathering Atomic Elements to foil Marvin the Martian. Jet, swim and shoot across cartoony planets in a Looney Tunes 3D platformer."
+  },
+  {
+    "base": "NDW",
+    "title": "Daikatana",
+    "developer": "Ion Storm",
+    "release_jp": "2000-03-31",
+    "release_us": "2000-08-01",
+    "release_eu": "2000-05-05",
+    "description": "Wield the time-bending Daikatana across four eras, sidekicks in tow, in John Romero's infamous shooter. Fight from ancient Greece to a dark future and back - the game whose hype became a legend all its own."
+  },
+  {
+    "base": "NDY",
+    "title": "Diddy Kong Racing",
+    "developer": "Rare",
+    "release_jp": "1997-11-21",
+    "release_us": "1997-11-24",
+    "release_eu": "1997-11-21",
+    "description": "Race by car, hovercraft and plane across an adventure-driven world, picking the right vehicle for each track. Gather balloons through a story hub and topple the villainous Wizpig - Rare's racer with a whole campaign bolted on."
+  },
+  {
+    "base": "NDZ",
+    "title": "Duke Nukem: Zero Hour",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "1999-08-31",
+    "release_eu": "1999-09-24",
+    "description": "Duke time-travels to stop an alien plot, shooting his way from the Old West through Victorian London to a ruined future. Era-spanning guns and one-liners, in third-person this time."
+  },
+  {
+    "base": "NEA",
+    "title": "PGA European Tour",
+    "developer": "Infogrames Sheffield House",
+    "release_jp": null,
+    "release_us": "2000-06-15",
+    "release_eu": "2000-05",
+    "description": "Tee off on the European Tour with licensed pros and real courses. Read the wind and the lie, pick your club, and grind through stroke and tournament play in true-to-life golf."
+  },
+  {
+    "base": "NED",
+    "title": "Mario Kart 64: Amped Up",
+    "developer": "Litronom",
+    "release_jp": null,
+    "release_us": "2020-09-27",
+    "release_eu": null,
+    "description": "Romhacker Litronom's overhaul of Mario Kart 64: brand-new courses with original music and a separate 'N64 Coin Mode'. Tear around the fresh tracks and dig into an expanded options menu - a whole new spin on the classic."
+  },
+  {
+    "base": "NEG",
+    "title": "Extreme-G",
+    "developer": "Probe Entertainment",
+    "release_jp": "1998-05-29",
+    "release_us": "1997-10-27",
+    "release_eu": "1997-12-09",
+    "description": "Strap into a futuristic superbike and rocket through neon tubes and loops at lethal speed, weapons blazing. Blast rivals with pickups and hold your nerve as the sense of speed takes over."
+  },
+  {
+    "base": "NEL",
+    "title": "Elmo's Letter Adventure",
+    "developer": "Realtime Associates",
+    "release_jp": null,
+    "release_us": "1999-11-15",
+    "release_eu": null,
+    "description": "Join Elmo on a friendly trip through the alphabet. Trace letters, match sounds and spell along across gentle scenes built for early readers."
+  },
+  {
+    "base": "NEN",
+    "title": "Elmo's Number Journey",
+    "developer": "Realtime Associates",
+    "release_jp": null,
+    "release_us": "1999-11-30",
+    "release_eu": null,
+    "description": "Count along with Elmo across playful Sesame Street scenes. Sort, spot and tally numbers in a gentle learning game for the very young."
+  },
+  {
+    "base": "NEP",
+    "title": "Star Wars Episode I: Racer",
+    "developer": "LucasArts",
+    "release_jp": "1999-07-21",
+    "release_us": "1999-05-18",
+    "release_eu": "1999-06-04",
+    "description": "Strap into a podracer and scream across canyons and methane lakes at suicidal speed. Tune your engines and pit droid, then blitz galactic circuits in a blistering, lore-faithful Star Wars racer."
+  },
+  {
+    "base": "NER",
+    "title": "Aero Fighters Assault",
+    "developer": "Paradigm Entertainment",
+    "release_jp": "1998-03-19",
+    "release_us": "1997-11-21",
+    "release_eu": "1998-04-12",
+    "description": "Take the cockpit and blast through arcade dogfights and strafing runs to stop a global threat. Down rival aces and towering bosses across fast, missile-streaked aerial missions."
+  },
+  {
+    "base": "NET",
+    "title": "Quest 64",
+    "developer": "Imagineer",
+    "release_jp": "1999-07-09",
+    "release_us": "1998-06-10",
+    "release_eu": "1998-09-30",
+    "description": "A young apprentice mage wanders the open land of Celtland, learning elemental magic. Roam freely, grow your spirit power through battles, and shape your own path in an exploratory console RPG."
+  },
+  {
+    "base": "NEV",
+    "title": "Neon Genesis Evangelion",
+    "developer": "Bandai",
+    "release_jp": "1999-06-25",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Pilot Units 01, 00 and 02 through the anime's defining Angel battles. Cinematic combat and key story beats recreate the show's most pivotal, harrowing fights."
+  },
+  {
+    "base": "NF2",
+    "title": "F-1 World Grand Prix II",
+    "developer": "Paradigm Entertainment",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "1999-07-02",
+    "description": "Officially licensed Formula One returns with full grids, real circuits and deep tuning. Dial in the setup and chase the championship across another refined grand prix season."
+  },
+  {
+    "base": "NF9",
+    "title": "Fox Sports College Hoops '99",
+    "developer": "Z-Axis",
+    "release_jp": null,
+    "release_us": "1998-10-31",
+    "release_eu": null,
+    "description": "Run the floor with NCAA squads in a fast college-basketball sim, wrapped in Fox Sports broadcast flair."
+  },
+  {
+    "base": "NFB",
+    "title": "NFL Blitz 2001",
+    "developer": "Midway Games",
+    "release_jp": null,
+    "release_us": "2000-09-12",
+    "release_eu": null,
+    "description": "More no-rules arcade football: big hits, on-fire streaks and ridiculous touchdowns for up to four. Throw bombs, spear runners late, and turbo your way to the end zone, trash talk included."
+  },
+  {
+    "base": "NFD",
+    "title": "Flying Dragon",
+    "developer": "Culture Brain",
+    "release_jp": "1997-12-18",
+    "release_us": "1998-10-14",
+    "release_eu": "1999-07-25",
+    "description": "Switch between super-deformed and realistic fighters in a martial-arts brawler with an RPG twist. Level up between bouts, unlocking moves as you climb a story-driven tournament ladder."
+  },
+  {
+    "base": "NFE",
+    "title": "Forsaken 64",
+    "developer": "Iguana UK",
+    "release_jp": null,
+    "release_us": "1998-05-26",
+    "release_eu": "1998-05-22",
+    "description": "Pilot an armed hover-bike through claustrophobic 360-degree tunnels. Six-degrees-of-freedom flight lets you roll and strafe any direction while blasting rivals across a ruined future Earth."
+  },
+  {
+    "base": "NFF",
+    "title": "Fighting Force 64",
+    "developer": "Core Design",
+    "release_jp": "1998-01-15",
+    "release_us": "1999-06-01",
+    "release_eu": "1999-12",
+    "description": "Beat down waves of thugs solo or with a friend in a 3D streets-style brawler. Punch, kick and hurl barrels through a city under siege, the way the genre intended."
+  },
+  {
+    "base": "NFG",
+    "title": "Fighter Destiny 2",
+    "developer": "Genki",
+    "release_jp": "1999-08-27",
+    "release_us": "2000-06-22",
+    "release_eu": null,
+    "description": "Win by ring-out, knockout or submission in a technical 3D fighter where points crown the champ. Score with throws and clean hits across a deeper move set and a few new faces."
+  },
+  {
+    "base": "NFH",
+    "title": "Bass Hunter 64",
+    "developer": "Gear Head Entertainment",
+    "release_jp": null,
+    "release_us": "1999-07-30",
+    "release_eu": "1999-10-22",
+    "description": "Read the water, pick the lure, and work each lake for trophy largemouth. Weigh in across tournaments, or just fish in peace."
+  },
+  {
+    "base": "NFL",
+    "title": "Madden NFL 2001",
+    "developer": "EA Tiburon",
+    "release_jp": "2001-01-18",
+    "release_us": "2000-09-05",
+    "release_eu": null,
+    "description": "Updated rosters, a refined Franchise mode and bone-jarring tackles. Draft, trade and run a dynasty, or just hit the field for crunching, motion-captured EA gridiron."
+  },
+  {
+    "base": "NFO",
+    "title": "Forsaken 64",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1998-04-30",
+    "release_eu": "1998",
+    "description": "A six-degrees-of-freedom shooter: hover, roll and fly any direction through the ravaged tunnels of a doomed Earth, duelling rivals with a heavy arsenal."
+  },
+  {
+    "base": "NFQ",
+    "title": "Razor Freestyle Scooter",
+    "developer": "Titanium Studios",
+    "release_jp": null,
+    "release_us": "2001-11-27",
+    "release_eu": null,
+    "description": "Heel-flips, candybars and supermen on a freestyle scooter. Grind rails and stack combos across urban parks, unlocking riders and tricks in scooter-flavoured extreme sports."
+  },
+  {
+    "base": "NFR",
+    "title": "F1 Racing Championship",
+    "developer": "Ubi Soft",
+    "release_jp": null,
+    "release_us": "2000-12-08",
+    "release_eu": "2000-12-08",
+    "description": "Officially licensed Formula One: full grids, deep car tuning, and a complete championship season to conquer."
+  },
+  {
+    "base": "NFS",
+    "title": "Famista 64",
+    "developer": "Namco",
+    "release_jp": "1997-11-28",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Namco's long-running 'Family Stadium' arcade baseball, all cartoon teams and instant fun. Pick a squad and play breezy nine-inning games built for pick-up-and-play."
+  },
+  {
+    "base": "NFU",
+    "title": "Conker's Bad Fur Day",
+    "developer": "Rare",
+    "release_jp": null,
+    "release_us": "2001-03-05",
+    "release_eu": "2001-04-06",
+    "description": "A cute red squirrel, a vicious hangover, and a kids'-platformer art style hijacked for war-movie carnage, an opera-singing pile of dung, and a boss made of poo. Context prompts drive the gags; the multiplayer brings the war. Rare, gloriously off the leash."
+  },
+  {
+    "base": "NFW",
+    "title": "F-1 World Grand Prix",
+    "developer": "Paradigm Entertainment",
+    "release_jp": "1998-12-18",
+    "release_us": "1998-07-27",
+    "release_eu": "1998-09-14",
+    "description": "Officially licensed Formula One with real teams and circuits, capturing a grand prix weekend from practice to podium."
+  },
+  {
+    "base": "NFX",
+    "title": "Star Fox 64 / Lylat Wars",
+    "developer": "Nintendo EAD",
+    "release_jp": "1997-04-27",
+    "release_us": "1997-06-30",
+    "release_eu": "1997-10-04",
+    "description": "Do a barrel roll. Lead the Arwing squad down branching routes to Venom, deflecting fire, rescuing a wingmate who never stops needing it, and trading one-liners over the comms - all rattling through the first-ever Rumble Pak."
+  },
+  {
+    "base": "NFY",
+    "title": "Kakutou Denshou: F-Cup Maniax",
+    "developer": "Imagineer",
+    "release_jp": "1999-08-27",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only 3D fighter with an all-female roster. Pick a fighter and brawl through arcade and versus, chaining strikes, throws and specials in fast one-on-one bouts."
+  },
+  {
+    "base": "NFZ",
+    "title": "F-Zero X",
+    "developer": "Nintendo EAD",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "1998",
+    "description": "Thirty machines, one track, no brakes worth mentioning. Punch past 1,000 km/h through loops and corkscrews, spend your own shield as boost, and shoulder rivals into oblivion - locked to a rock-solid framerate that still embarrasses newer racers."
+  },
+  {
+    "base": "NG2",
+    "title": "Extreme-G 2",
+    "developer": "Probe Entertainment",
+    "release_jp": "1999-09-10",
+    "release_us": "1998-11-17",
+    "release_eu": "1998-12-04",
+    "description": "Faster, deadlier anti-grav superbike racing. Weave the neon circuits, unload upgraded weapons on rivals, and hold the line through an even more lethal championship."
+  },
+  {
+    "base": "NG5",
+    "title": "Mystical Ninja Starring Goemon",
+    "developer": "Konami",
+    "release_jp": "1997-08-07",
+    "release_us": "1998-04-16",
+    "release_eu": "1998-04-18",
+    "description": "The wild ninja Goemon and friends battle a stage-show villain across a comic, anime-flavoured feudal Japan. Explore towns and dungeons, swap among four heroes, and pilot the giant Impact mech."
+  },
+  {
+    "base": "NG6",
+    "title": "Goemon's Great Adventure",
+    "developer": "Konami",
+    "release_jp": "1998-12-23",
+    "release_us": "1999-09-15",
+    "release_eu": "1999-06-18",
+    "description": "Goemon and Ebisumaru return for a side-scrolling action-platformer to save Japan from a resurrected menace. Team up in co-op, swap heroes, and stomp around in the giant Impact mech, laughs intact."
+  },
+  {
+    "base": "NGA",
+    "title": "G.A.S.P!! Fighters' NEXTream",
+    "developer": "Konami",
+    "release_jp": "1998-03-26",
+    "release_us": "1998-09-29",
+    "release_eu": "1998-09-01",
+    "description": "A 3D fighter on multi-tiered arenas where you can knock rivals down to the floor below. Chain combos, time your ledge-drops, and brawl with a cast of original combatants."
+  },
+  {
+    "base": "NGB",
+    "title": "Top Gear Hyper-Bike",
+    "developer": "Snowblind Studios",
+    "release_jp": "2000-03-07",
+    "release_us": "2000-03-27",
+    "release_eu": null,
+    "description": "Big air and fast tracks: high-flying motocross meets knee-scraping street racing. Pop wheelies, soar off ramps, and chase best laps or trade bumps in multiplayer."
+  },
+  {
+    "base": "NGC",
+    "title": "GT 64: Championship Edition",
+    "developer": "Imagineer",
+    "release_jp": "1998-10-30",
+    "release_us": "1998-09-09",
+    "release_eu": "1998-04-14",
+    "description": "Tune touring cars and superbikes, qualify, and chase points across a full season of road-racing circuits in this championship racer."
+  },
+  {
+    "base": "NGD",
+    "title": "Gauntlet Legends",
+    "developer": "Atari Games",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Up to four players hack through the Gauntlet world to stop the Demon Lord Skorne. Pick from four classic heroes (plus five hidden), wield sorcery and Items of Legend, and grind hordes and bosses across seven kingdoms."
+  },
+  {
+    "base": "NGE",
+    "title": "GoldenEye 007",
+    "developer": "Rare",
+    "release_jp": "1997-08-23",
+    "release_us": "1997-08-25",
+    "release_eu": "1997-11-07",
+    "description": "Bond, a silenced PP7, and objective lists that grow with the difficulty. Sneak, snipe and blow the dam - then cram four to a couch for the Oddjob-banned, Slappers-Only deathmatches that defined a console generation."
+  },
+  {
+    "base": "NGL",
+    "title": "Getter Love!! Cho Renai Party Game",
+    "developer": "Hudson Soft",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A competitive dating sim: up to four players race to win the girls' hearts first. Each turn, scout interests, pick a destination, and trigger map events to talk, gift and ask on dates - until her love meter lets you confess."
+  },
+  {
+    "base": "NGM",
+    "title": "Goemon's Great Adventure",
+    "developer": "Konami",
+    "release_jp": "1998-12-23",
+    "release_us": "1999-09-15",
+    "release_eu": "1999-09-22",
+    "description": "Mystical Ninja sequel: side-scrolling action-platforming across a comic feudal Japan, alone or in two-player co-op, with giant-robot Impact battles."
+  },
+  {
+    "base": "NGN",
+    "title": "Golden Nugget 64",
+    "developer": "Westwood Pacific",
+    "release_jp": null,
+    "release_us": "1998-12-10",
+    "release_eu": null,
+    "description": "Hit the famous Vegas casino floor. Build a bankroll across blackjack, poker, craps, slots and more in a faithful gambling collection."
+  },
+  {
+    "base": "NGP",
+    "title": "Goemon: Mononoke Sugoroku",
+    "developer": "Konami Computer Entertainment Kobe",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Goemon and pals swap adventuring for a competitive board game. Race to the finish, battling by placing monster cards whose stats decide each duel - win cards or get knocked back. Links with the GBC game to trade monsters."
+  },
+  {
+    "base": "NGR",
+    "title": "Top Gear Rally",
+    "developer": "Boss Game Studios",
+    "release_jp": "1997-12-05",
+    "release_us": "1997-09-30",
+    "release_eu": "1997-11",
+    "description": "Slide through shifting weather and terrain in an acclaimed early-N64 rally racer. Tune and paint your car in the deep garage, then read the road across a demanding championship."
+  },
+  {
+    "base": "NGS",
+    "title": "Jikkyou G1 Stable",
+    "developer": "Konami Computer Entertainment Nagoya",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japanese horse-racing management sim. Open a stable, breed and customise bloodlines, train horses and jockeys, and campaign across real courses - flat, jump and even sled-pulling Ban'ei - chasing prestige wins."
+  },
+  {
+    "base": "NGT",
+    "title": "City-Tour GP: Zen-Nihon GT Senshuken",
+    "developer": "Imagineer",
+    "release_jp": "1998-10-30",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only GT racer based on the All-Japan Grand Touring championship. Race GT machines through single events and a full championship season across a set of circuits."
+  },
+  {
+    "base": "NGU",
+    "title": "Tsumi to Batsu: Hoshi no Keishousha",
+    "developer": "Treasure",
+    "release_jp": "2000-11-21",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Treasure's relentless rail-shooter (Sin and Punishment). Run, dodge and lock-on across a war-torn near-future Earth, blasting waves of enemies and towering bosses on foot. Fast, cinematic and famously intense - a Japan-only cult classic."
+  },
+  {
+    "base": "NGV",
+    "title": "Glover",
+    "developer": "Interactive Studios",
+    "release_jp": null,
+    "release_us": "1998-11-16",
+    "release_eu": "1998-11-24",
+    "description": "Guide a magical living glove that bounces, dribbles and guards a fragile crystal ball across themed worlds. Slap, bowl and transform the ball to solve hazard-filled platforming puzzles."
+  },
+  {
+    "base": "NGX",
+    "title": "Gauntlet Legends",
+    "developer": "Atari Games",
+    "release_jp": "2000-04-07",
+    "release_us": "1999-08-31",
+    "release_eu": "1999-12-01",
+    "description": "Hack and slash through monster hordes as warrior, wizard, valkyrie or jester. Quaff potions, hoard gold and grow your hero across branching realms, battling the demon Skorne in up to four-player co-op."
+  },
+  {
+    "base": "NH5",
+    "title": "Nagano Winter Olympics '98",
+    "developer": "Konami",
+    "release_jp": "1997-12-18",
+    "release_us": "1998-01-10",
+    "release_eu": "1998-02-01",
+    "description": "The officially licensed 1998 Winter Games. Go for gold across skiing, skating, ski jumping and bobsled in quick, accessible, button-timed events."
+  },
+  {
+    "base": "NH9",
+    "title": "NHL Breakaway 99",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1998-11-27",
+    "release_eu": "1998-12",
+    "description": "Full-season NHL hockey with deep stat tracking, franchise management, and hard-hitting action on the ice."
+  },
+  {
+    "base": "NHA",
+    "title": "Bomber Man 64",
+    "developer": "Hudson Soft",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Altair is draining Planet Bomber with the Omni Cube. Bomb through 24 areas of Adventure mode, toppling his allies and bases, then settle scores in Battle mode with a standard or custom, Controller-Pak-saved fighter."
+  },
+  {
+    "base": "NHB",
+    "title": "Nintama Rantarou 64 Game Gallery",
+    "developer": "Culture Brain",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only grab-bag of puzzles and minigames starring the child-ninja cast of the Nintama Rantarou anime - light, family-friendly brain-teasers and simple challenges."
+  },
+  {
+    "base": "NHC",
+    "title": "Hercules: The Legendary Journeys",
+    "developer": "Player 1",
+    "release_jp": null,
+    "release_us": "2000-08-18",
+    "release_eu": "2000-10-06",
+    "description": "Step into the demigod's sandals and battle the myths of the hit TV show. Hurl boulders at hydras, centaurs and the undead across labours drawn straight from the series."
+  },
+  {
+    "base": "NHF",
+    "title": "64 Hanafuda: Tenshi no Yakusoku",
+    "developer": "Altron",
+    "release_jp": "1999-11-05",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Traditional Japanese hanafuda flower-card games wrapped in a gentle story. Play Koi-Koi and other matches against charming rivals, with the centuries-old rules taught kindly for newcomers."
+  },
+  {
+    "base": "NHG",
+    "title": "F-1 Pole Position 64",
+    "developer": "Human Entertainment",
+    "release_jp": "1997-03-28",
+    "release_us": "1997-10-15",
+    "release_eu": "1997-10-01",
+    "description": "Qualify on pole and race wheel-to-wheel through a full Formula One season. Manage the team and tweak setups in one of the console's earliest grand-prix racers."
+  },
+  {
+    "base": "NHK",
+    "title": "Hiryuu no Ken Twin",
+    "developer": "Culture Brain",
+    "release_jp": "1997-12-18",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only martial-arts fighter in the Flying Dragon line. Win bouts with a read-and-counter system layered over real karate strikes and throws."
+  },
+  {
+    "base": "NHL",
+    "title": "NHL Breakaway 98",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1998-02-25",
+    "release_eu": "1998",
+    "description": "Full-season NHL hockey with deep stats and franchise control. Build a dynasty through trades, drafts and salaries, or drop into fast, checking-heavy exhibition hockey."
+  },
+  {
+    "base": "NHM",
+    "title": "Mia Hamm Soccer 64",
+    "developer": "Silicon Dreams Studio",
+    "release_jp": null,
+    "release_us": "2000-11-09",
+    "release_eu": "2000-11-10",
+    "description": "Take the pitch with soccer star Mia Hamm in fast, family-friendly matches for one to four. Pick international squads for quick games with simple, pick-up-and-play controls."
+  },
+  {
+    "base": "NHN",
+    "title": "Olympic Hockey '98",
+    "developer": "Treyarch Invention",
+    "release_jp": "1998-07-16",
+    "release_us": "1998-02-23",
+    "release_eu": "1998-04",
+    "description": "Chase the gold in officially licensed Olympic ice hockey. Field national squads through group play and medal rounds in fast, Nagano-era action."
+  },
+  {
+    "base": "NHO",
+    "title": "NHL Blades of Steel '99",
+    "developer": "Konami",
+    "release_jp": null,
+    "release_us": "1999-04-05",
+    "release_eu": "1999-09",
+    "description": "Konami's arcade hockey returns with full NHL rosters, big hits, and the bone-rattling fights the name is famous for. Drop the gloves, then run the rosters through fast, checking-heavy play."
+  },
+  {
+    "base": "NHP",
+    "title": "Hey You, Pikachu!",
+    "developer": "Ambrella",
+    "release_jp": "1998-12-12",
+    "release_us": "2000-11-06",
+    "release_eu": null,
+    "description": "Talk to Pikachu through the bundled microphone and actually befriend it. Issue spoken commands to play games, run errands and grow your bond in everyday little adventures."
+  },
+  {
+    "base": "NHS",
+    "title": "Hamster Monogatari 64",
+    "developer": "Culture Brain",
+    "release_jp": "2001-04-06",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Raise and pamper adorable hamsters in a cosy Japanese pet sim. Feed, groom and decorate their home, and watch them grow and play."
+  },
+  {
+    "base": "NHT",
+    "title": "Hydro Thunder",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "2000-03-06",
+    "release_eu": "2000-05-14",
+    "description": "Throttle up a powerboat and tear across stormy, hazard-strewn waterways. Boost over ramps and through hidden shortcuts in Midway's high-octane arcade racer."
+  },
+  {
+    "base": "NHV",
+    "title": "Hybrid Heaven",
+    "developer": "Konami",
+    "release_jp": "1999-08-05",
+    "release_us": "1999-08-31",
+    "release_eu": "1999-09-24",
+    "description": "A genetically engineered agent battles alien clones beneath the city. Blend shooting with grappling, real-time RPG combat - target body parts and level your stats as the fights get hairier."
+  },
+  {
+    "base": "NHW",
+    "title": "Hot Wheels: Turbo Racing",
+    "developer": "Stormfront Studios",
+    "release_jp": null,
+    "release_us": "1999-09-14",
+    "release_eu": "1999-05-11",
+    "description": "Race tricked-out Hot Wheels at toy scale through loop-the-loops and orange-track circuits, chaining stunts for turbo boosts."
+  },
+  {
+    "base": "NHX",
+    "title": "Hexen",
+    "developer": "Software Creations",
+    "release_jp": "1997-12-18",
+    "release_us": "1997-06-25",
+    "release_eu": "1997-12-01",
+    "description": "Pick fighter, cleric or mage - each with their own arsenal - and battle demonic hordes across a dark fantasy FPS. Solve sprawling hub puzzles between the carnage."
+  },
+  {
+    "base": "NHY",
+    "title": "Hybrid Heaven",
+    "developer": "Konami Computer Entertainment Osaka",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A 3D action-adventure with a twist: explore and platform freely, but every monster fight drops into a one-on-one tactical duel. Circle for position, build energy, then trade RPG-style attacks and defences in seconds."
+  },
+  {
+    "base": "NIB",
+    "title": "Itoi Shigesato no Bass Tsuri No. 1 Kettei Ban!",
+    "developer": "HAL Laboratory",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The Definitive Edition of the bass-fishing sim on fictional Lake Akahoshi. Read the weather and time of day, pick the right lure, and land trophy catches to win club tournaments. Supports a tackle-and-reel peripheral and rumble."
+  },
+  {
+    "base": "NIC",
+    "title": "Indy Racing 2000",
+    "developer": "Paradigm Entertainment",
+    "release_jp": null,
+    "release_us": "2000-06-07",
+    "release_eu": null,
+    "description": "Strap into an open-wheel IndyCar and fight for the lead on ovals and road courses. Tune the car, draft for the pass, and chase a full IRL championship."
+  },
+  {
+    "base": "NIJ",
+    "title": "Indiana Jones and the Infernal Machine",
+    "developer": "Factor 5",
+    "release_jp": null,
+    "release_us": "2000-12-15",
+    "release_eu": null,
+    "description": "Crack the whip and solve puzzles as Indy in a globe-trotting 3D adventure. Climb and swing from Peru to Babylon, racing the Soviets to a mythic ancient machine."
+  },
+  {
+    "base": "NIM",
+    "title": "Ide Yosuke no Mahjong Juku",
+    "developer": "Athena",
+    "release_jp": "2000-04-21",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Learn and master riichi mahjong under pro player Yosuke Ide. Part game, part school, it coaches hand-reading, strategy and scoring through lessons and matches with the celebrated pro."
+  },
+  {
+    "base": "NIR",
+    "title": "Utchan Nanchan no Hono no Challenger: Denryuu Ira Ira Bou",
+    "developer": "Yuke's",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only puzzler from the TV game-show segment. Like the buzz-wire game, thread a ball through six twisting, obstacle-packed courses without touching the sides - all against the clock."
+  },
+  {
+    "base": "NIS",
+    "title": "International Superstar Soccer 2000",
+    "developer": "Konami",
+    "release_jp": "1999-07-29",
+    "release_us": "2000-08-03",
+    "release_eu": "2000-10-06",
+    "description": "Konami's celebrated football: slick passing, deep tactics and a roster of national and club sides. Play through leagues, cups and exhibitions with the series' famously smooth feel."
+  },
+  {
+    "base": "NIV",
+    "title": "Space Invaders",
+    "developer": "Z-Axis",
+    "release_jp": null,
+    "release_us": "1999-11-30",
+    "release_eu": null,
+    "description": "The arcade icon reinvented. Defend Earth across the faithful original and a remixed 3D campaign of new waves, power-ups and bosses."
+  },
+  {
+    "base": "NJ2",
+    "title": "Wonder Project J2: Koruro no Mori no Jozet",
+    "developer": "Givro",
+    "release_jp": "1996",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Japan-only sequel to the SNES raising sim, 15 years on. Guide Josette, a robot girl built by Doctor Geppetto, through a yes/no, text-driven branching story where early choices shape her clash with the Silliconian Army."
+  },
+  {
+    "base": "NJ3",
+    "title": "Jikkyou World Soccer 3",
+    "developer": "Konami",
+    "release_jp": "1996-12-20",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Konami's arcade-style football with national teams. Pass, dribble and shoot through exhibition, cup and league play, with the series' slick controls and lively play-by-play."
+  },
+  {
+    "base": "NJ5",
+    "title": "Jikkyou Powerful Pro Yakyuu 5",
+    "developer": "Diamond Head Production",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "An entry in Japan's beloved 'Powerpro' baseball series. Build a stat-driven custom team and play Exhibition, Pennant Race, Home Run Derby or multiplayer, with live-style pro commentary throughout."
+  },
+  {
+    "base": "NJA",
+    "title": "NBA Jam 2000",
+    "developer": "Acclaim Studios Salt Lake City",
+    "release_jp": null,
+    "release_us": "1999-11-30",
+    "release_eu": "2000-01-21",
+    "description": "Over-the-top two-on-two hoops with flaming dunks, full NBA rosters and on-fire streaks - boomshakalaka intact, attitude turned up."
+  },
+  {
+    "base": "NJD",
+    "title": "Jet Force Gemini",
+    "developer": "Rare",
+    "release_jp": null,
+    "release_us": "1999",
+    "release_eu": null,
+    "description": "The insect invasion has begun: Mizar's Drone horde is swarming the galaxy. Twins Juno and Vela and their dog Lupus wield an arsenal of mega-weapons to free enslaved Tribals and splatter Drones before Mizar's plan lands."
+  },
+  {
+    "base": "NJE",
+    "title": "J.League Eleven Beat 1997",
+    "developer": "Hudson Soft",
+    "release_jp": "1997-10-24",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Fast, breezy football featuring Japan's J.League clubs. Pick a top-flight side for quick exhibition and league matches with controls built for instant fun."
+  },
+  {
+    "base": "NJF",
+    "title": "Jet Force Gemini",
+    "developer": "Rare",
+    "release_jp": "1999-12-01",
+    "release_us": "1999-10-11",
+    "release_eu": "1999-10-29",
+    "description": "Three heroes and a loyal dog wage a third-person war on an insectoid empire across alien worlds. Switch between Juno, Vela and the dog Lupus to blast the Drone army, free captive Tribals, and explore sprawling worlds in Rare's shooter."
+  },
+  {
+    "base": "NJG",
+    "title": "Jinsei Game 64",
+    "developer": "Takara",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A virtual board game of The Game of Life. Start as a kid, pass through school and a career, and live a whole lifetime in about four hours - richest player wins - peppered with luck- and skill-based minigames."
+  },
+  {
+    "base": "NJL",
+    "title": "J.League Live 64",
+    "developer": "EA Canada",
+    "release_jp": "1997-03-28",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A J.League football game with licensed Japanese clubs. Play exhibition matches or a full league season, with arcade-paced passing and light team management."
+  },
+  {
+    "base": "NJM",
+    "title": "Earthworm Jim 3D",
+    "developer": "VIS Interactive",
+    "release_jp": null,
+    "release_us": "1999-11-04",
+    "release_eu": "1999-12-17",
+    "description": "The wisecracking worm in the super-suit leaps into 3D, platforming through the bizarre corners of his own mind. Bounce across asylum-themed worlds collecting marbles and golden udders, slapstick fully intact."
+  },
+  {
+    "base": "NJO",
+    "title": "Jeopardy!",
+    "developer": "GameTek",
+    "release_jp": null,
+    "release_us": "1998-02-25",
+    "release_eu": null,
+    "description": "Buzz in against host Alex Trebek on a 3D set with full video. Answer across the classic categories solo or with friends, in the N64 take on the quiz show."
+  },
+  {
+    "base": "NJP",
+    "title": "International Superstar Soccer 64",
+    "developer": "Konami",
+    "release_jp": "1996-12-20",
+    "release_us": "1997-08-22",
+    "release_eu": "1997-06-01",
+    "description": "Konami brings its acclaimed football to N64 with international squads and real tactics. Marshal national sides with fluid passing through friendlies, leagues and a world-cup run."
+  },
+  {
+    "base": "NJQ",
+    "title": "Batman Beyond: Return of the Joker",
+    "developer": "Kemco",
+    "release_jp": null,
+    "release_us": "2000-12-13",
+    "release_eu": "2000-12-15",
+    "description": "Don the Batsuit of the future and beat down Jokerz gangs across Neo-Gotham. Mix combos and gadgets through a side-scrolling brawl against the gangs and their bosses."
+  },
+  {
+    "base": "NK2",
+    "title": "Snowboard Kids 2",
+    "developer": "Racdym",
+    "release_jp": "1999-02-19",
+    "release_us": "1999-03-02",
+    "release_eu": "1999-04-30",
+    "description": "Just when the slopes seemed safe, the Snowboard Kids return to stop the evil Damien. Race and trick down zanier runs with new boards and items, pelting rivals across story and multiplayer."
+  },
+  {
+    "base": "NK4",
+    "title": "Kirby 64: The Crystal Shards",
+    "developer": "HAL Laboratory",
+    "release_jp": "2000-03-24",
+    "release_us": "2000-06-26",
+    "release_eu": "2001-06-22",
+    "description": "Inhale enemies and mash their powers together as Kirby hunts Crystal Shards across dreamy 2.5D worlds. Mix fire plus needle, ice plus cutter and dozens more, with co-op help and party minigames."
+  },
+  {
+    "base": "NKA",
+    "title": "Fighters Destiny",
+    "developer": "Genki",
+    "release_jp": "1998-12-11",
+    "release_us": "1998-01-26",
+    "release_eu": "1998-03-01",
+    "description": "A 3D fighter where points - not just KOs - decide the round. Win by ring-out, throw, knockdown or clean hit, outsmarting rivals in a quirky, tactical brawler."
+  },
+  {
+    "base": "NKE",
+    "title": "Knife Edge: Nose Gunner",
+    "developer": "Kemco",
+    "release_jp": "1998-11-27",
+    "release_us": "1998-11-10",
+    "release_eu": "1998",
+    "description": "Man the guns in the nose of an attack craft and blast on rails through enemy strongholds. Choose branching routes and gun down waves of enemies and bosses from the cockpit."
+  },
+  {
+    "base": "NKG",
+    "title": "Major League Baseball Feat. Ken Griffey Jr.",
+    "developer": "Angel Studios",
+    "release_jp": null,
+    "release_us": "1998-05-26",
+    "release_eu": "1998",
+    "description": "Step up with full MLB rosters and the Kid himself headlining. Swing through season and home-run modes in an accessible, big-league baseball sim."
+  },
+  {
+    "base": "NKI",
+    "title": "Killer Instinct Gold",
+    "developer": "Rare",
+    "release_jp": null,
+    "release_us": "1996-11-25",
+    "release_eu": "1997-05-09",
+    "description": "Land outrageous combo strings, snap a Combo Breaker to stop one cold, then finish with an ULTRA. Rare's arcade fighter brings warriors and beasts to the N64 with announcer-fuelled, C-C-C-COMBO BREAKER mayhem."
+  },
+  {
+    "base": "NKJ",
+    "title": "Ken Griffey Jr.'s Slugfest",
+    "developer": "Angel Studios",
+    "release_jp": null,
+    "release_us": "1999-05-10",
+    "release_eu": null,
+    "description": "Swing for the fences with full MLB teams and Griffey on the cover. Play season and home-run derby modes with arcade-friendly hitting and pitching."
+  },
+  {
+    "base": "NKK",
+    "title": "Knockout Kings 2000",
+    "developer": "Black Ops Entertainment",
+    "release_jp": null,
+    "release_us": "1999-10-12",
+    "release_eu": "1999-10-10",
+    "description": "Step into the ring with boxing legends and trade haymakers in EA's hard-hitting sim. Manage stamina and combos round by round on the road to the title."
+  },
+  {
+    "base": "NKM",
+    "title": "Pro Mahjong Kiwame 64",
+    "developer": "Athena",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only riichi mahjong sim from Athena's long-running Kiwame series. Play traditional four-player mahjong against AI personalities or friends, climbing the ranks toward the top title."
+  },
+  {
+    "base": "NKQ",
+    "title": "Quake",
+    "developer": "Midway",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "1998-12-01",
+    "description": "id Software's seminal shooter, ported to N64. Tear through gothic, dimension-hopping levels with the nailgun, grenades and thunderbolt, lit by coloured dynamic lighting, with split-screen deathmatch."
+  },
+  {
+    "base": "NKR",
+    "title": "Rakuga Kids",
+    "developer": "Konami",
+    "release_jp": "1998-07-23",
+    "release_us": null,
+    "release_eu": "1998-12-04",
+    "description": "Crayon-drawn characters spring off the page to brawl in a charming, hand-drawn 2D fighter. Scribbly worlds and oddball special moves give it personality to spare."
+  },
+  {
+    "base": "NKT",
+    "title": "Mario Kart 64",
+    "developer": "Nintendo EAD",
+    "release_jp": "1996-12-14",
+    "release_us": "1997-02-10",
+    "release_eu": "1997-06-24",
+    "description": "Eight Mushroom-Kingdom regulars and one banana peel left in exactly the wrong corner. Power-slide for mini-turbos, hoard the blue shell for maximum betrayal, and settle it four-way in split-screen - Grand Prix, Time Trials, and the balloon-popping Battle arenas that ended friendships."
+  },
+  {
+    "base": "NL2",
+    "title": "Top Gear Rally 2",
+    "developer": "Saffire",
+    "release_jp": "2000-02-04",
+    "release_us": "1999-12-03",
+    "release_eu": "2000-02-28",
+    "description": "Slide through rain, snow and dust across a globe-trotting rally with deeper setup and damage. Paint and tune your car, then battle deformable wrecks across surfaces and weather."
+  },
+  {
+    "base": "NLB",
+    "title": "Mario Party",
+    "developer": "Hudson Soft",
+    "release_jp": "1998-12-18",
+    "release_us": "1999-02-08",
+    "release_eu": "1999-03-09",
+    "description": "Mario and friends square off across colourful boards stuffed with 50-plus frantic minigames. Roll the dice, hoard coins and Stars, sabotage everyone, and let a minigame decide who gloats - the party game that tests friendships to destruction."
+  },
+  {
+    "base": "NLC",
+    "title": "Automobili Lamborghini",
+    "developer": "Titus France",
+    "release_jp": "1998-05-28",
+    "release_us": "1997-11-22",
+    "release_eu": "1997-12-01",
+    "description": "Get behind the wheel of the Diablo, Countach and friends and tear up international circuits. Unlock cars and tracks across a championship of pure exotic speed."
+  },
+  {
+    "base": "NLG",
+    "title": "LEGO Racers",
+    "developer": "High Voltage Software",
+    "release_jp": null,
+    "release_us": "1999-10-22",
+    "release_eu": "1999-11-05",
+    "description": "Build your driver and your car brick by brick, then drift power-up circuits against minifig rivals. Climb a championship ladder and rebuild a faster racer every time you crash."
+  },
+  {
+    "base": "NLL",
+    "title": "Last Legion UX",
+    "developer": "Jaleco",
+    "release_jp": "1999-05-28",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Yuke's one-on-one mecha fighter: pick a human-piloted Legion, bolt on an arsenal of weapons, and duel across arenas. A Japan-only release."
+  },
+  {
+    "base": "NLR",
+    "title": "Lode Runner 3-D",
+    "developer": "Big Bang",
+    "release_jp": "1999-07-30",
+    "release_us": "1999-03-30",
+    "release_eu": "1999",
+    "description": "The ladder-climbing, gold-grabbing classic goes 3D. Dig traps, dodge the guards and grab every bar across brain-teasing stages - with an editor to build your own fiendish levels."
+  },
+  {
+    "base": "NM3",
+    "title": "Monster Truck Madness 64",
+    "developer": "Edge of Reality",
+    "release_jp": null,
+    "release_us": "1999-07-30",
+    "release_eu": "1999-10-29",
+    "description": "Climb into a giant monster truck and crush the field across circuit, rally and drag events. Grip and rip through the dirt, then free-roam open worlds in your tricked-out rig."
+  },
+  {
+    "base": "NM4",
+    "title": "Mortal Kombat 4",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "1998-06-23",
+    "release_eu": "1998-09-15",
+    "description": "The bloodbath goes 3D, with weapons, sidesteps and the gory fatalities that made the name infamous. Grab battlefield arms, chain combos, and finish them in glorious polygonal carnage."
+  },
+  {
+    "base": "NM6",
+    "title": "Mega Man 64",
+    "developer": "Capcom Production Studio 2",
+    "release_jp": "2000-11-22",
+    "release_us": "2001-01-10",
+    "release_eu": null,
+    "description": "The Blue Bomber stars in a 3D action-RPG as Mega Man Volnutt, exploring a flooded world and dungeon-crawling against the scheming air-pirate Bonnes. Upgrade your weapons and dig for treasure."
+  },
+  {
+    "base": "NM8",
+    "title": "Mario Tennis",
+    "developer": "Camelot Software Planning",
+    "release_jp": "2000-07-21",
+    "release_us": "2000-08-28",
+    "release_eu": "2000-11-03",
+    "description": "Mario and the gang serve, smash and lob in arcade tennis full of spin, power shots and chaos. Charge up shots across singles and doubles, on courts strewn with items and gimmicks."
+  },
+  {
+    "base": "NM9",
+    "title": "Harukanaru Augusta: Masters '98",
+    "developer": "T&E Soft",
+    "release_jp": "1997-12-26",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Golf at Augusta National, home of the Masters. Read the wind and the lightning-fast greens through stroke and tournament play to chase the green jacket. Japan-only."
+  },
+  {
+    "base": "NMA",
+    "title": "Jangou Simulation Mahjong Dou 64",
+    "developer": "Art",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The third N64 mahjong sim. Play 16 anime-styled characters' story arcs or local multiplayer across rule sets, with a 10-million-G title chase, free battle, a two-player story knockout, and a deep tutorial."
+  },
+  {
+    "base": "NMB",
+    "title": "Mike Piazza's Strike Zone",
+    "developer": "Devil's Thumb Entertainment",
+    "release_jp": null,
+    "release_us": "1998-06-16",
+    "release_eu": null,
+    "description": "MLB baseball headlined by Mike Piazza. Field full teams through season and playoff play, with a pick-up batting-and-pitching system tuned for fast, arcade-leaning ball."
+  },
+  {
+    "base": "NMD",
+    "title": "Madden NFL 2000",
+    "developer": "EA Tiburon",
+    "release_jp": null,
+    "release_us": "1999-08-31",
+    "release_eu": null,
+    "description": "Refined franchise play, updated rosters and crunching tackles in another edition of EA's NFL juggernaut. Run drafts and trades, or just hit the gridiron for motion-captured smash-mouth football."
+  },
+  {
+    "base": "NME",
+    "title": "Mace: The Dark Age",
+    "developer": "Midway Games",
+    "release_jp": null,
+    "release_us": "1997-09-30",
+    "release_eu": "1997-12",
+    "description": "Cross blades in a weapon-based 3D fighter spanning medieval and mythic warriors. Wield swords, axes and exotic arms, with ring-outs and gory finishers."
+  },
+  {
+    "base": "NMF",
+    "title": "Mario Golf",
+    "developer": "Camelot Software Planning",
+    "release_jp": "1999-06-11",
+    "release_us": "1999-07-26",
+    "release_eu": "1999-09-14",
+    "description": "Mario and friends hit the links in approachable arcade golf. Work the swing meter, bend the ball with spin, and climb tournaments with a colourful Mushroom-Kingdom field."
+  },
+  {
+    "base": "NMG",
+    "title": "Monaco Grand Prix Racing Simulation",
+    "developer": "Ubi Soft Paris",
+    "release_jp": null,
+    "release_us": "1999-09",
+    "release_eu": "1999-06",
+    "description": "Run a full Formula One season with detailed setup and a true sim feel. Fine-tune the machine, then chase the championship lap by lap."
+  },
+  {
+    "base": "NMH",
+    "title": "Mahjong Hourouki Classic",
+    "developer": "Imax",
+    "release_jp": "1997-08-01",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Traditional riichi mahjong wrapped in a relaxed journey-style story. Climb against escalating opponents with full rules, yaku and scoring for tile fans."
+  },
+  {
+    "base": "NMI",
+    "title": "Mission: Impossible",
+    "developer": "Infogrames",
+    "release_jp": null,
+    "release_us": "1998-07-16",
+    "release_eu": "1998-09-25",
+    "description": "Step into Ethan Hunt's shoes for a tense espionage adventure. Disguise, sneak and gadget your way through IMF missions, choosing stealth over force."
+  },
+  {
+    "base": "NMJ",
+    "title": "Mahjong 64",
+    "developer": "Koei",
+    "release_jp": "1997-04-04",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Classic Japanese riichi mahjong against a field of computer opponents, with full rules, yaku and scoring for fans of the tiles."
+  },
+  {
+    "base": "NMK",
+    "title": "Mortal Kombat Trilogy",
+    "developer": "Williams Entertainment",
+    "release_jp": null,
+    "release_us": "1996-11-12",
+    "release_eu": "1997-03-14",
+    "description": "The biggest MK roster yet gathers for combos, finishers, brutalities and the new Aggressor meter. Brawl across classic stages in the ultimate krypt of kombatants."
+  },
+  {
+    "base": "NML",
+    "title": "Mickey's Speedway USA",
+    "developer": "Rare",
+    "release_jp": "2001-01-21",
+    "release_us": "2000-11-13",
+    "release_eu": "2000-12-01",
+    "description": "Kart across US landmarks as Mickey, Donald and pals, slinging power-ups to rescue kidnapped Pluto from Pete and his dognappers."
+  },
+  {
+    "base": "NMM",
+    "title": "Mahjong Master",
+    "developer": "Konami",
+    "release_jp": "1996-12-20",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Riichi mahjong with a story mode and a roster of characterful rivals. Climb from novice to master, learning the tiles, yaku and scoring of authentic Japanese mahjong along the way."
+  },
+  {
+    "base": "NMO",
+    "title": "Monopoly",
+    "developer": "Mind's Eye Productions",
+    "release_jp": null,
+    "release_us": "1999-12-18",
+    "release_eu": null,
+    "description": "Buy, sell and bankrupt your rivals in the classic property-trading board game. Wheel and deal toward an empire against the computer or friends, house rules and animated tokens included."
+  },
+  {
+    "base": "NMP",
+    "title": "Mario no Photopie",
+    "developer": "Datt Japan",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Mario-themed photo-art tool. Edit pictures, add Mario artwork and borders, and import images via twin SmartMedia slots on its one-of-a-kind cartridge (special themed cards were sold for it). Includes a slide-puzzle minigame."
+  },
+  {
+    "base": "NMQ",
+    "title": "Paper Mario",
+    "developer": "Intelligent Systems",
+    "release_jp": "2000-08-11",
+    "release_us": "2001-02-05",
+    "release_eu": "2001-10-05",
+    "description": "A papercraft Mario sets off on a storybook RPG to save Peach. Recruit partners with their own skills, and time your button presses for bonus damage in a turn-based world that folds like a pop-up book."
+  },
+  {
+    "base": "NMR",
+    "title": "Multi-Racing Championship",
+    "developer": "Genki",
+    "release_jp": "1997-07-18",
+    "release_us": "1997-09-04",
+    "release_eu": "1997-10",
+    "description": "Pick your line on branching off-road circuits in one of the console's earliest rally racers. Choose your car and route, and read the dirt to the finish."
+  },
+  {
+    "base": "NMS",
+    "title": "Morita Shougi 64",
+    "developer": "SETA",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only shogi sim, sequel to launch title Saikyou Habu Shougi. Its cartridge even packs a built-in modem port that once let players face opponents across Japan online."
+  },
+  {
+    "base": "NMT",
+    "title": "Magical Tetris Challenge",
+    "developer": "Capcom",
+    "release_jp": "1998-11-20",
+    "release_us": "1999-01-14",
+    "release_eu": "1999-09",
+    "description": "Mickey and pals star in fresh Tetris modes, from frantic versus battles to a magic-fuelled puzzle story. Spell attacks and Disney charm meet the world's most addictive blocks."
+  },
+  {
+    "base": "NMU",
+    "title": "Big Mountain 2000",
+    "developer": "Imagineer",
+    "release_jp": "1998-12-26",
+    "release_us": "2000-10-10",
+    "release_eu": null,
+    "description": "Carve down snowy peaks on ski or board, racing the clock and rivals across open alpine runs. Chain tricks and shave seconds through races and free-ride challenges."
+  },
+  {
+    "base": "NMV",
+    "title": "Mario Party 3",
+    "developer": "Hudson Soft",
+    "release_jp": "2000-12-07",
+    "release_us": "2001-05-07",
+    "release_eu": "2001-11-16",
+    "description": "Mario and friends battle across game boards and 70-plus minigames, now with one-on-one Duel maps. Collect Stars, sabotage rivals, and settle grudges head-to-head."
+  },
+  {
+    "base": "NMW",
+    "title": "Mario Party 2",
+    "developer": "Hudson Soft",
+    "release_jp": "1999-12-17",
+    "release_us": "2000-01-24",
+    "release_eu": "2000-10-13",
+    "description": "Mario and pals don themed costumes for a fresh round of board-game warfare and dozens of wild minigames. Collect Stars, sabotage everyone, and let the minigames decide the bragging rights."
+  },
+  {
+    "base": "NMX",
+    "title": "Excitebike 64",
+    "developer": "Left Field Productions",
+    "release_jp": "2000-06-23",
+    "release_us": "2000-05-02",
+    "release_eu": "2001-06-08",
+    "description": "Pop big air and fight for the holeshot in a 3D revival of the motocross classic. Race stadium and desert tracks, build your own in the deep editor, and dig out the hidden original Excitebike."
+  },
+  {
+    "base": "NMY",
+    "title": "Mortal Kombat Mythologies: Sub-Zero",
+    "developer": "Avalanche Software",
+    "release_jp": null,
+    "release_us": "1997-12-11",
+    "release_eu": "1998-02-12",
+    "description": "Play the ninja Sub-Zero in a side-scrolling action game uncovering the saga's origins. Platform, fight and puzzle through a Mortal Kombat prequel - fatalities optional, frustration included."
+  },
+  {
+    "base": "NMZ",
+    "title": "Zool: Majuu Tsukai Densetsu",
+    "developer": "Imagineer",
+    "release_jp": "1999-06-11",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only fantasy action-adventure following the beast-tamer Zool. Tame and command monsters across a colourful realm, battling bosses with your captured creatures."
+  },
+  {
+    "base": "NN2",
+    "title": "NASCAR 2000",
+    "developer": "Stormfront Studios",
+    "release_jp": null,
+    "release_us": "1999-09-13",
+    "release_eu": null,
+    "description": "Trade paint with NASCAR's stars across real superspeedways. Draft, tune and grind a full points-chasing season of stock-car racing."
+  },
+  {
+    "base": "NN6",
+    "title": "Dr. Mario 64",
+    "developer": "Nintendo",
+    "release_jp": null,
+    "release_us": "2001-04-08",
+    "release_eu": null,
+    "description": "Toss vitamin capsules to wipe out viruses, with a story mode against Wario and four-player madness - Team Battle, Flash Mode and Marathon for the whole couch."
+  },
+  {
+    "base": "NN9",
+    "title": "NHL '99",
+    "developer": "MBL Research",
+    "release_jp": null,
+    "release_us": "1998-10-01",
+    "release_eu": "1998-11-30",
+    "description": "EA's hockey brings smooth skating, one-timers and full franchise play. Deke past the defence, rip a top-shelf snipe, and run updated rosters through a crisply-presented season."
+  },
+  {
+    "base": "NNA",
+    "title": "Star Wars Episode I: Battle for Naboo",
+    "developer": "Factor 5",
+    "release_jp": null,
+    "release_us": "2000-12-15",
+    "release_eu": "2001-03-30",
+    "description": "Pilot starfighters, tanks and gunships across land, sea and air to free Naboo. Fifteen arcade-style missions, three theatres of war, one besieged planet to save."
+  },
+  {
+    "base": "NNB",
+    "title": "Kobe Bryant in NBA Courtside",
+    "developer": "Left Field Productions",
+    "release_jp": null,
+    "release_us": "1998-04-27",
+    "release_eu": "1998-06-10",
+    "description": "Run full NBA rosters with motion-captured play and a young Kobe on the cover. Call plays, throw down, and dominate the season in Nintendo's polished hoops sim."
+  },
+  {
+    "base": "NNC",
+    "title": "Nightmare Creatures",
+    "developer": "Kalisto Entertainment",
+    "release_jp": null,
+    "release_us": "1998-11-30",
+    "release_eu": null,
+    "description": "Hack through a monster-infested Victorian London, cutting down horrors before a doomsday clock runs out - and keep moving, because your adrenaline gauge drains when you don't."
+  },
+  {
+    "base": "NNI",
+    "title": "Tommy Thunder",
+    "developer": "Player 1 Studios",
+    "release_jp": "Unreleased",
+    "release_us": "Unreleased",
+    "release_eu": "Unreleased",
+    "description": "A cancelled third-person action-adventure by Player 1 Studios for ASC Games. Tommy was to roam an alien world with gadgets like anti-grav boots, but ASC ran out of money in 1998 - only a 1997 N64 prototype survives."
+  },
+  {
+    "base": "NNL",
+    "title": "NBA Live 2000",
+    "developer": "NuFX",
+    "release_jp": "2000-02-24",
+    "release_us": "1999-10-29",
+    "release_eu": "1999-12",
+    "description": "Full NBA rosters, signature moves and a one-on-one mode headlined by legends. Run franchise play and settle it one-on-one in EA's hoops sim."
+  },
+  {
+    "base": "NNM",
+    "title": "Namco Museum 64",
+    "developer": "Mass Media",
+    "release_jp": null,
+    "release_us": "1999-11-29",
+    "release_eu": null,
+    "description": "Drop a quarter into Pac-Man, Galaga, Dig Dug, Pole Position and Galaxian, faithfully emulated with extras in one tidy cart of arcade history."
+  },
+  {
+    "base": "NNR",
+    "title": "Pro Mahjong Tsuwamono 64: Jansou Battle ni Chousen",
+    "developer": "Culture Brain",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only mahjong game: take on parlour rivals in four-player riichi across story and free-play. Read the discards, build your hands, and climb the ranks."
+  },
+  {
+    "base": "NNS",
+    "title": "Beetle Adventure Racing!",
+    "developer": "Paradigm Entertainment",
+    "release_jp": "1999-11-26",
+    "release_us": "1999-03-23",
+    "release_eu": "1999-09-04",
+    "description": "Race the VW Beetle through sprawling tracks packed with shortcuts, jumps and secrets. Hunt hidden boxes and detours, then square off in a chaotic bug-squashing battle mode."
+  },
+  {
+    "base": "NNX",
+    "title": "Excitebike 64",
+    "developer": "Left Field Productions",
+    "release_jp": null,
+    "release_us": "2000",
+    "release_eu": null,
+    "description": "The NES classic reborn in 3D: big jumps, precise timing and modes for season, four-player exhibition and time-trial. Unlock desert runs, hill climbs, motocross soccer and the pixel-perfect original - or build your own in the editor."
+  },
+  {
+    "base": "NO2",
+    "title": "64 Oozumou 2",
+    "developer": "Bottom Up",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A sumo sequel: shove or throw your rikishi's opponents out of the ring or onto the clay. A bigger roster with unique moves, a create-a-wrestler, and Exhibition, Tournament and Story modes on the climb to yokozuna - plus local multiplayer."
+  },
+  {
+    "base": "NO7",
+    "title": "The World Is Not Enough",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "2000-11-01",
+    "release_eu": "2000-12-08",
+    "description": "Be the world's top secret agent in a shooter from the Bond film. Infiltrate, snipe and sneak through 007's globe-trotting locales, Q-gadgets in hand, across stealth and action objectives."
+  },
+  {
+    "base": "NOB",
+    "title": "Ogre Battle 64: Person of Lordly Caliber",
+    "developer": "Quest Corporation",
+    "release_jp": "1999-07-14",
+    "release_us": "2000-10-05",
+    "release_eu": null,
+    "description": "Lead armies through a deep tactical RPG of shifting alliances. Manage reputation and alignment, deploy your units wisely, and steer branching paths through a civil war where every choice echoes."
+  },
+  {
+    "base": "NOF",
+    "title": "Off Road Challenge",
+    "developer": "Avalanche Software",
+    "release_jp": null,
+    "release_us": "1998-06-30",
+    "release_eu": "1998-09-15",
+    "description": "Slam trucks and buggies over jumps and through the mud across dusty desert courses. Unlock rides in a fast, airborne arcade off-road racer."
+  },
+  {
+    "base": "NOH",
+    "title": "Transformers: Beast Wars Transmetals",
+    "developer": "Locomotive Corporation",
+    "release_jp": "1999-10-01",
+    "release_us": "2000-07-12",
+    "release_eu": null,
+    "description": "Maximals and Predacons clash one-on-one in a fighter from the Beast Wars series. Transform mid-fight between robot and beast, chaining specials across the roster."
+  },
+  {
+    "base": "NOM",
+    "title": "Onegai Monsters",
+    "developer": "Bottom Up",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A monster-raising strategy RPG closer to Monster Rancher than Pokemon. As a young breeder, hatch an egg and grow it by feeding - your food choices set its element and evolution - then take quests and turn-based monster battles."
+  },
+  {
+    "base": "NOS",
+    "title": "64 Oozumou",
+    "developer": "Bottom Up",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A sumo game simulating a rikishi's life, diet and training included. Move with the stick and chain C-button combos for throws across 3D arenas - some set somewhere as unlikely as the Moon or Egypt - all in a comic style."
+  },
+  {
+    "base": "NOW",
+    "title": "Brunswick Circuit Pro Bowling",
+    "developer": "Point of View",
+    "release_jp": null,
+    "release_us": "1999-12-22",
+    "release_eu": null,
+    "description": "True-to-life ten-pin with real Brunswick gear. Read the oil pattern, tune your release, and climb a pro-circuit tour of tournaments."
+  },
+  {
+    "base": "NP2",
+    "title": "Chou Kuukan Nighter Pro Yakyuu King 2",
+    "developer": "Genki",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Anime-styled baseball with all 12 Japanese pro teams. Pitch, hit and field across Exhibition, full-season League and Tournament, with weather, fatigue and stadium effects feeding a responsive game."
+  },
+  {
+    "base": "NP3",
+    "title": "Pokemon Stadium 2",
+    "developer": "Nintendo EAD",
+    "release_jp": "2000-12-14",
+    "release_us": "2001-03-26",
+    "release_eu": "2001-10-10",
+    "description": "Bring your Gold and Silver teams into roaring 3D. Battle through the cups and every Gym Leader in the Stadium, then unwind with a pile of minigames."
+  },
+  {
+    "base": "NP4",
+    "title": "Jikkyou Powerful Pro Yakyuu 4",
+    "developer": "Diamond Head Production",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The Powerpro series' first N64 outing. Run fictional teams through Exhibition, Season, All-Star and Home Run Derby, handling pitching, batting, fielding and base-running, plus batting practice and skill-challenge minigames."
+  },
+  {
+    "base": "NP6",
+    "title": "Jikkyou Powerful Pro Yakyuu 6",
+    "developer": "Diamond Head Production",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The third Powerpro on N64. Easy to pick up and tricky to master, it blends old-school SNK sports feel with the depth to build a whole dome full of dedicated fans."
+  },
+  {
+    "base": "NP9",
+    "title": "Ms. Pac-Man Maze Madness",
+    "developer": "Mass Media",
+    "release_jp": null,
+    "release_us": "2000-11-13",
+    "release_eu": null,
+    "description": "Guide Ms. Pac-Man through 3D mazes of switches, blocks and power pellets to break Mesmerelda's curse on Pac-Land. Solve puzzle-mazes, gobble dots, and take on bosses across isometric stages."
+  },
+  {
+    "base": "NPA",
+    "title": "Jikkyou Powerful Pro Yakyuu 2000",
+    "developer": "Diamond Head Production",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The fourth N64 Powerpro, by Diamond Head for Konami. Build stat-driven teams and play across the series' modes, with Transfer Pak support for PowerPro Kun Pocket 2 on the Game Boy Color."
+  },
+  {
+    "base": "NPB",
+    "title": "Puzzle Bobble 64",
+    "developer": "Taito",
+    "release_jp": "1999-03-05",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Taito's bubble-popper (Bust-A-Move) in 3D. Aim and fire coloured bubbles to group three or more and clear the board before it crushes you, across puzzle, versus and multiplayer modes."
+  },
+  {
+    "base": "NPC",
+    "title": "Pachinko 365 Nichi",
+    "developer": "SETA",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only pachinko sim. Start Main mode with 30,000 yen and pick one of three parlours; Free mode gives unlimited balls; or face the CPU or a friend in a split-screen, three-minute VS."
+  },
+  {
+    "base": "NPD",
+    "title": "Perfect Dark",
+    "developer": "Rare",
+    "release_jp": "2000-10-21",
+    "release_us": "2000-05-22",
+    "release_eu": "2000-06-30",
+    "description": "Joanna Dark, a corporate conspiracy, and a gadget for every problem (the Farsight shoots through walls). GoldenEye's engine, now with a co-op campaign, simulant bots to fill out the deathmatch, and a weapon list that reads like a wishlist."
+  },
+  {
+    "base": "NPE",
+    "title": "Jikkyou Powerful Pro Yakyuu Basic Ban 2001",
+    "developer": "Diamond Head Production",
+    "release_jp": "2001",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A cartoon-styled Powerpro baseball game, Japan-only - and the very last entry in the series to land on the Nintendo 64."
+  },
+  {
+    "base": "NPF",
+    "title": "Pokemon Snap",
+    "developer": "HAL Laboratory",
+    "release_jp": "1999-03-21",
+    "release_us": "1999-07-26",
+    "release_eu": "2000-09-15",
+    "description": "Ride the rails through Pokemon habitats and shoot the best photos you can. Lure and snap 63 species along on-rails safari routes, then let Professor Oak grade your shots in the Pokemon Report."
+  },
+  {
+    "base": "NPG",
+    "title": "Hey You, Pikachu!",
+    "developer": "Ambrella",
+    "release_jp": "1998-12-12",
+    "release_us": "2000-11-06",
+    "release_eu": null,
+    "description": "Talk to Pikachu through the bundled microphone and befriend it. Issue spoken commands to play games, run errands, and grow your bond in everyday little adventures."
+  },
+  {
+    "base": "NPH",
+    "title": "Pokemon Snap Station",
+    "developer": "Nintendo",
+    "release_jp": "Unreleased",
+    "release_us": "Unreleased",
+    "release_eu": "Unreleased",
+    "description": "Not a game but a piece of history: the in-store kiosk that turned your Pokemon Snap photos into printed sticker sheets. Slot in your cartridge, pick your shots, take them home on paper."
+  },
+  {
+    "base": "NPK",
+    "title": "Chou Kuukan Nighter Pro Yakyuu King",
+    "developer": "Genki",
+    "release_jp": "1996",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Anime-styled baseball with Japanese pro-league teams. Play exhibitions or a full season with trades, where each athlete's stats shape their play and improve through batting, catching, pitching and fielding drills."
+  },
+  {
+    "base": "NPL",
+    "title": "Power League 64",
+    "developer": "Hudson Soft",
+    "release_jp": "1997-08-08",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Hudson's Power League arcade baseball: cartoon players, snappy controls and breezy nine-inning games, solo or head-to-head. A pillar of Japanese baseball gaming."
+  },
+  {
+    "base": "NPM",
+    "title": "Premier Manager 64",
+    "developer": "Gremlin Interactive",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "1999-08-01",
+    "description": "Hang up your boots and take the gaffer's chair. Sign players, drill tactics, balance the books and chase promotion up the divisions - or get the sack - in this deep football-management sim."
+  },
+  {
+    "base": "NPN",
+    "title": "Pokemon Puzzle League",
+    "developer": "Nintendo Software Technology",
+    "release_jp": null,
+    "release_us": "2000-09-25",
+    "release_eu": "2001-03-02",
+    "description": "Raise stacks and clear blocks in fast falling-puzzle duels, taking on the Gym Leaders. The Pokemon spin on Panel de Pon - simple to grasp, brutal to master."
+  },
+  {
+    "base": "NPO",
+    "title": "Pokemon Stadium",
+    "developer": "Nintendo EAD",
+    "release_jp": "1999-04-30",
+    "release_us": "2000-03-06",
+    "release_eu": "2000-04-07",
+    "description": "Bring your Game Boy Pokemon into full 3D battle. Conquer four cups and the Gym Leader Castle, then unwind with nine minigames - the closest thing to watching your team fight."
+  },
+  {
+    "base": "NPP",
+    "title": "Parlor! Pro 64: Pachinko Jikki Simulation Game",
+    "developer": "Irem",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Often reckoned the toughest of the N64 pachinko sims. Three tables are open from the start, with career and quick-play modes (and a mix of both) to grind your way through."
+  },
+  {
+    "base": "NPQ",
+    "title": "The Powerpuff Girls: Chemical X-Traction",
+    "developer": "VIS Entertainment",
+    "release_jp": null,
+    "release_us": "2001-11-19",
+    "release_eu": null,
+    "description": "Blossom, Bubbles and Buttercup battle the villains of Townsville to recover the stolen Chemical X. Swap between the three girls, each with their own powers, and clobber the rogues' gallery."
+  },
+  {
+    "base": "NPR",
+    "title": "South Park Rally",
+    "developer": "Tantalus Interactive",
+    "release_jp": null,
+    "release_us": "2000-02-28",
+    "release_eu": "2000-03-03",
+    "description": "Race the foul-mouthed South Park cast in weapon-strewn karts around the snowy town. Lob cows, snowballs and worse across Kenny-killing tracks, for up to four."
+  },
+  {
+    "base": "NPS",
+    "title": "Jikkyou J.League 1999: Perfect Striker 2",
+    "developer": "Major A",
+    "release_jp": "1996",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The first Perfect Striker on N64, carrying the J.League license with every team and player from the season. Konami's slick football engine - later reworked into the West's International Superstar Soccer 64."
+  },
+  {
+    "base": "NPT",
+    "title": "Puyo Puyo Sun 64",
+    "developer": "Compile",
+    "release_jp": "1997-10-31",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Match falling blobs into chains to bury your rival in garbage, with the Sun Puyo gimmick raining extra trouble in versus. Quick, colourful and viciously competitive."
+  },
+  {
+    "base": "NPU",
+    "title": "Power Rangers Lightspeed Rescue",
+    "developer": "Mass Media",
+    "release_jp": null,
+    "release_us": "2000-09-27",
+    "release_eu": "2000-12-08",
+    "description": "Morph into the Lightspeed Rangers and battle demons on foot, then pilot the giant Zords in towering showdowns. Action stages drawn straight from the TV series."
+  },
+  {
+    "base": "NPW",
+    "title": "Pilotwings 64",
+    "developer": "Nintendo EAD",
+    "release_jp": "1996-06-23",
+    "release_us": "1996-09-29",
+    "release_eu": "1997-03-01",
+    "description": "Earn your wings across sunny islands by hang glider, plane and rocketbelt. Nail precision landings and photo runs, with the gyrocopter, cannonball and the gloriously silly Birdman suit among the toys to master."
+  },
+  {
+    "base": "NPX",
+    "title": "Polaris SnoCross",
+    "developer": "Vicarious Visions",
+    "release_jp": null,
+    "release_us": "2000-12-27",
+    "release_eu": null,
+    "description": "Throttle a licensed Polaris snowmobile across icy circuits, hucking big jumps and trading bumps through a snocross championship."
+  },
+  {
+    "base": "NPY",
+    "title": "Puyo Puyo Sun 64",
+    "developer": "Compile",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The third main Puyo Puyo: the Dark Prince has swollen the sun and only you can cool it down. Drop and group same-colour blobs to clear your field and dump 'garbage' on your rival, across three story campaigns."
+  },
+  {
+    "base": "NPZ",
+    "title": "Susume! Taisen Puzzle Dama: Toukon! Marutama Chou",
+    "developer": "Konami Computer Entertainment Kobe",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Three puzzlers in one: a Puyo-like falling-block matcher, a Tetris-Attack-style swap-and-rise game, and a bowling variant where nailing the angle triggers a pin-clearing special attack."
+  },
+  {
+    "base": "NQ2",
+    "title": "Quake II",
+    "developer": "Raster Productions",
+    "release_jp": null,
+    "release_us": "1999-07-07",
+    "release_eu": "1999-02-07",
+    "description": "Wage a one-marine war against the alien Strogg, blasting through their war machine in id's relentless shooter. Storm the homeworld through objective-driven levels, with split-screen deathmatch on the side."
+  },
+  {
+    "base": "NQ8",
+    "title": "NFL Quarterback Club '98",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1997-11",
+    "release_eu": null,
+    "description": "Take the snap with full NFL rosters and motion-captured stars in Acclaim's fast, hard-hitting football."
+  },
+  {
+    "base": "NQ9",
+    "title": "NFL Quarterback Club '99",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1998-11-10",
+    "release_eu": "1998",
+    "description": "Updated rosters, real stadiums and a deep season mode. Run a full year with motion-captured stars and a create-a-player in Acclaim's fast, bruising football."
+  },
+  {
+    "base": "NQB",
+    "title": "NFL Quarterback Club 2000",
+    "developer": "Acclaim Studios Austin",
+    "release_jp": null,
+    "release_us": "1999-08-26",
+    "release_eu": "1999-09-24",
+    "description": "Lead your franchise through a full NFL season with refined play and a deep create-a-player. Build a roster, run the front office, and sculpt your own star with Acclaim's motion-captured action."
+  },
+  {
+    "base": "NQC",
+    "title": "NFL QB Club 2001",
+    "developer": "High Voltage Software",
+    "release_jp": null,
+    "release_us": "2000-08-24",
+    "release_eu": null,
+    "description": "Updated rosters and franchise play close out the Quarterback Club series on N64, with Acclaim's signature deep passing game."
+  },
+  {
+    "base": "NQK",
+    "title": "Quake 64",
+    "developer": "Midway Studios San Diego",
+    "release_jp": "1997-08-01",
+    "release_us": "1998-03-24",
+    "release_eu": "1998-05-24",
+    "description": "id's seminal shooter comes home. Rip through gothic dungeons and eldritch arenas with the nailgun and rocket launcher, lit by coloured dynamic lighting."
+  },
+  {
+    "base": "NR2",
+    "title": "Rush 2: Extreme Racing USA",
+    "developer": "Atari Games",
+    "release_jp": null,
+    "release_us": "1998-11-11",
+    "release_eu": "1999-02-04",
+    "description": "Catch absurd air across exaggerated American cities, built on shortcuts, stunts and secret routes. Hunt hidden coins and wild detours, then show off in a dedicated stunt arena."
+  },
+  {
+    "base": "NR3",
+    "title": "Stunt Racer 64",
+    "developer": "Boss Game Studios",
+    "release_jp": null,
+    "release_us": "2000-10-03",
+    "release_eu": null,
+    "description": "Climb a stadium-racing career, drafting, jumping and crashing for the crowd as you earn faster rides. Trade paint and pull stunts to climb the bill."
+  },
+  {
+    "base": "NR6",
+    "title": "Tom Clancy's Rainbow Six",
+    "developer": "Saffire",
+    "release_jp": null,
+    "release_us": "1999-11-17",
+    "release_eu": "1999-12",
+    "description": "Plan the assault, then lead an elite counter-terror team through tense, one-shot-kills tactical missions. Brief the squad, breach the room, and clear hostage and bomb scenarios where a single bullet ends it."
+  },
+  {
+    "base": "NR7",
+    "title": "Robot Poncots 64: 7tsu no Umi no Caramel",
+    "developer": "Red Company",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only Robopon RPG that plays much like Pokemon: turn-based battles where owners direct their robots to attack or defend. Links via Transfer Pak with the Robot Ponkottsu Sun, Star and Moon versions."
+  },
+  {
+    "base": "NRA",
+    "title": "Rally '99",
+    "developer": "Genki",
+    "release_jp": "1999-08-06",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only arcade rally racer. Power-slide through point-to-point stages over varied terrain and weather, shaving seconds in championship and time-trial modes, unlocking faster cars as you place."
+  },
+  {
+    "base": "NRC",
+    "title": "Top Gear Overdrive",
+    "developer": "Snowblind Studios",
+    "release_jp": "1999-03-19",
+    "release_us": "1998-11-23",
+    "release_eu": "1998-11-25",
+    "description": "Floor licensed exotics through wild, weather-swept circuits. Upgrade your ride, hunt the racing line, and trade paint in split-screen showdowns."
+  },
+  {
+    "base": "NRD",
+    "title": "Ready 2 Rumble Boxing",
+    "developer": "Point of View",
+    "release_jp": "2000-01-13",
+    "release_us": "1999-11-16",
+    "release_eu": "1999-12-10",
+    "description": "Train a total nobody into a champ in an over-the-top arcade boxing romp of big personalities and bigger punches. Fill the Rumble meter and unleash flashy flurries to flatten the bill."
+  },
+  {
+    "base": "NRE",
+    "title": "Resident Evil 2",
+    "developer": "Angel Studios",
+    "release_jp": "2000-01-28",
+    "release_us": "1999-11-16",
+    "release_eu": "2000-02-09",
+    "description": "Rookie cop Leon and student Claire fight to escape a zombie-drowned Raccoon City. Solve the police station's puzzles, ration scarce ammo, and survive the relentless Mr. X across two intertwining scenarios."
+  },
+  {
+    "base": "NRG",
+    "title": "Rugrats: Scavenger Hunt",
+    "developer": "Realtime Associates",
+    "release_jp": null,
+    "release_us": "1999-06-28",
+    "release_eu": "1999-08-10",
+    "description": "Tommy, Chuckie and the babies race across themed board games on a wild scavenger hunt - a quick party romp for up to four."
+  },
+  {
+    "base": "NRH",
+    "title": "Rockman Dash: Hagane no Boukenshin",
+    "developer": "Capcom",
+    "release_jp": "2000-11-22",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The Japanese N64 port of Mega Man Legends. As Mega Man Volnutt, explore a 3D world of ruins and dungeons, blast reaverbots, foil the air-pirate Bonnes, and dig for treasure in a charming action-RPG."
+  },
+  {
+    "base": "NRI",
+    "title": "The New Tetris",
+    "developer": "H2O Entertainment",
+    "release_jp": null,
+    "release_us": "1999-08-02",
+    "release_eu": "1999-10-15",
+    "description": "Merge four lines into solid 4x4 squares for gold-block bonuses, in a refreshed take on the world's most addictive puzzle. Race the modes set among world monuments to a driving beat."
+  },
+  {
+    "base": "NRK",
+    "title": "Rugrats in Paris: The Movie",
+    "developer": "Avalanche Software",
+    "release_jp": null,
+    "release_us": "2000-11-08",
+    "release_eu": "2001-03-30",
+    "description": "Join the Rugrats on a Parisian romp of minigames and platforming from the hit film. Play Tommy, Chuckie and the babies across stages drawn from the movie."
+  },
+  {
+    "base": "NRO",
+    "title": "Road Rash 64",
+    "developer": "Pacific Coast Power & Light",
+    "release_jp": null,
+    "release_us": "1999-09-22",
+    "release_eu": "1999-12-17",
+    "description": "Race motorcycles down public roads and brawl mid-race - punch, kick and club rivals off their bikes on your way to the line. Bank the winnings for faster, nastier rides."
+  },
+  {
+    "base": "NRP",
+    "title": "Rampage World Tour",
+    "developer": "Saffire",
+    "release_jp": null,
+    "release_us": "1998-03-30",
+    "release_eu": "1998-06",
+    "description": "Pick a kaiju and smash the world's cities to rubble, gobbling citizens and swatting the army. Two-player co-op destruction, one giant appetite."
+  },
+  {
+    "base": "NRR",
+    "title": "Roadsters",
+    "developer": "Titus Interactive",
+    "release_jp": null,
+    "release_us": "1999-12-14",
+    "release_eu": "1999-12-17",
+    "description": "Tune and upgrade a stable of roadster sports cars, banking prize money across international circuits to buy faster machines and climb the grid."
+  },
+  {
+    "base": "NRS",
+    "title": "Star Wars: Rogue Squadron",
+    "developer": "Factor 5",
+    "release_jp": "1999-08-27",
+    "release_us": "1998-12-08",
+    "release_eu": "1999-01-10",
+    "description": "Pilot the galaxy's finest starfighters through 16 cinematic missions as elite Rogue Squadron. Fly the X-wing, A-wing and snowspeeder, earning medals to unlock craft and secrets in this Factor 5 classic."
+  },
+  {
+    "base": "NRT",
+    "title": "Rat Attack!",
+    "developer": "Pure Entertainment",
+    "release_jp": null,
+    "release_us": "2000-09-12",
+    "release_eu": "2000-04-21",
+    "description": "Net, trap and zap a plague of rampaging rats across colourful puzzle-action stages. Clear the infestation solo or in frantic four-player play."
+  },
+  {
+    "base": "NRU",
+    "title": "San Francisco Rush 2049",
+    "developer": "Atari Games",
+    "release_jp": null,
+    "release_us": "2000-09-07",
+    "release_eu": "2000-11-17",
+    "description": "Three games in one: race futuristic SF circuits, pull insane stunt tricks, or blast rivals in battle arenas. Built on monster air, wingsuits and hidden coins."
+  },
+  {
+    "base": "NRV",
+    "title": "Re-Volt",
+    "developer": "Acclaim Studios London",
+    "release_jp": null,
+    "release_us": "1999-08-18",
+    "release_eu": "1999-09-03",
+    "description": "Race radio-controlled cars at toy scale through supermarkets, gardens and museums, blasting rivals with pickups - and build your own circuits in the track editor."
+  },
+  {
+    "base": "NRW",
+    "title": "Turok: Rage Wars",
+    "developer": "Acclaim Studios Austin",
+    "release_jp": null,
+    "release_us": "1999-11-23",
+    "release_eu": "1999-12-26",
+    "description": "The dinosaur-hunting saga goes multiplayer. Frag friends across arenas with Turok's outrageous arsenal, with bot battles and bounties to chase."
+  },
+  {
+    "base": "NRX",
+    "title": "Robotron 64",
+    "developer": "Player 1",
+    "release_jp": null,
+    "release_us": "1998-01-05",
+    "release_eu": "1998-06",
+    "description": "Survive relentless waves of killer robots while rescuing the last human family, in a faithful twin-stick arcade onslaught of pure high-score panic."
+  },
+  {
+    "base": "NRZ",
+    "title": "Ridge Racer 64",
+    "developer": "Nintendo Software Technology",
+    "release_jp": null,
+    "release_us": "2000-02-14",
+    "release_eu": "2000-07-04",
+    "description": "Master the four-wheel drift across neon-lit circuits and reverse tracks, shaving seconds and unlocking cars in Namco's arcade-pure racer."
+  },
+  {
+    "base": "NS2",
+    "title": "SimCity 2000",
+    "developer": "Imagineer",
+    "release_jp": "1998-01-30",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Plan, build and run your dream metropolis. Zone residential, commercial and industrial land, lay power and water, and weather the disasters as your city sprawls."
+  },
+  {
+    "base": "NS3",
+    "title": "AI Shougi 3",
+    "developer": "ASCII Something Good",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Shogi on the 9x9 board, versus the computer or a friend. Practise at many difficulty levels, play casual Free games, or climb the Tournament to champion, with tutorials covering rules and strategy."
+  },
+  {
+    "base": "NS4",
+    "title": "Super Robot Taisen 64",
+    "developer": "Monegi",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Turn-based strategy commanding mecha and pilots from across anime - Gundam, Dancouga, Godmars, Giant Robo - plus Banpresto originals. Pick one of four hero/rival pairs to shape the plot across 100-plus missions; the Transfer Pak unlocks bonus units."
+  },
+  {
+    "base": "NS6",
+    "title": "Star Soldier: Vanishing Earth",
+    "developer": "Hudson Soft",
+    "release_jp": "1998-07-10",
+    "release_us": "1998-12-15",
+    "release_eu": null,
+    "description": "Pilot the F98 Star Soldier against an alien military threatening mankind in 2098. Hudson's vertical shooter rains fire across enemy waves and screen-filling bosses, with scoring runs for arcade die-hards."
+  },
+  {
+    "base": "NSA",
+    "title": "AeroFighters Assault",
+    "developer": "Paradigm Entertainment",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "1997",
+    "description": "Save the Earth from the sinister Phutta Morgana and their machines of doom. Pick from six aircraft, each with unique missiles and special weapons, and blast through fast 3D dogfights."
+  },
+  {
+    "base": "NSB",
+    "title": "Twisted Edge Extreme Snowboarding",
+    "developer": "Boss Game Studios",
+    "release_jp": "1998-12-18",
+    "release_us": "1998-11-11",
+    "release_eu": "1999-03-12",
+    "description": "Carve and trick down steep snowboarding runs, chaining grabs and spins for big-air scores across a mountain of courses."
+  },
+  {
+    "base": "NSC",
+    "title": "Starshot: Space Circus Fever",
+    "developer": "Infogrames",
+    "release_jp": null,
+    "release_us": "1999-06-29",
+    "release_eu": "1998-12-04",
+    "description": "Help a circus showman platform across a space station to save his big top from a scheming ringmaster. Swing and puzzle through the station's modules, rescuing trapped performers."
+  },
+  {
+    "base": "NSD",
+    "title": "Shadow Man",
+    "developer": "Acclaim Studios Teesside",
+    "release_jp": null,
+    "release_us": "1999-08-31",
+    "release_eu": "1999-09-03",
+    "description": "Walk between the living world and the realm of the dead as the Shadow Man, wielding voodoo and the Gun. Hunt serial-killer souls across a dark, sprawling world that bends the rules of life and death."
+  },
+  {
+    "base": "NSE",
+    "title": "Turok 3: Shadow of Oblivion",
+    "developer": "Acclaim Studios Austin",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The third Turok shooter pits the family line against Oblivion. Pick Danielle or Joseph - siblings with different routes and unique weapon upgrades - through a cinematic, linear story. Multiplayer returns, now with bots."
+  },
+  {
+    "base": "NSF",
+    "title": "San Francisco Rush: Extreme Racing",
+    "developer": "Midway Games",
+    "release_jp": null,
+    "release_us": "1997-11-07",
+    "release_eu": "1997-12",
+    "description": "Launch off San Francisco's hills in an arcade racer built on huge jumps, shortcuts and hidden keys. Catch big air, hunt collectibles, and rack up gloriously violent crashes."
+  },
+  {
+    "base": "NSG",
+    "title": "Shadowgate 64: Trials of the Four Towers",
+    "developer": "Infinite Ventures",
+    "release_jp": "1999-08-13",
+    "release_us": "1999-05-31",
+    "release_eu": "1999-07-01",
+    "description": "A first-person fantasy adventure of inventory puzzles and lethal traps. Gather items, light torches, and survive a cursed castle to stop an ancient evil from waking."
+  },
+  {
+    "base": "NSH",
+    "title": "Saikyou Habu Shougi",
+    "developer": "SETA",
+    "release_jp": "1996",
+    "release_us": null,
+    "release_eu": null,
+    "description": "One of the N64's three Japanese launch titles: a shogi sim bearing the likeness of star player Yoshiharu Habu. Board and pieces render in 3D with an adjustable camera - quietly historic, gloriously dry."
+  },
+  {
+    "base": "NSI",
+    "title": "Fushigi no Dungeon: Fuurai no Shiren 2: Oni Shuurai! Shiren Jou!",
+    "developer": "Chunsoft",
+    "release_jp": "2000-09-27",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Chunsoft's roguelike: build up a town and delve ever-shifting dungeons where every step ages the world. Juggle items and hunger, and lose all your gear on death - a deep, punishing Mystery Dungeon. Japan-only."
+  },
+  {
+    "base": "NSJ",
+    "title": "J.League Tactics Soccer",
+    "developer": "ASCII",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A J.League management game: coach a real club or build custom players, then set formations and tactics. Guide a season, chase the Universal Cup against world teams, or out-think a friend in Battle Mode, tweaking strategy mid-match."
+  },
+  {
+    "base": "NSK",
+    "title": "Snowboard Kids",
+    "developer": "Racdym",
+    "release_jp": "1997-12-12",
+    "release_us": "1998-03-13",
+    "release_eu": "1998-03-16",
+    "description": "Race a cast of cartoon kids down wacky slopes, grabbing shortcuts, items and big air. Pelt rivals with power-ups across a cup-chasing season of zany boarding."
+  },
+  {
+    "base": "NSL",
+    "title": "Spider-Man",
+    "developer": "Edge of Reality",
+    "release_jp": null,
+    "release_us": "2000-11-21",
+    "release_eu": null,
+    "description": "Swing and wall-crawl through the city as Spidey, framed and on the run. Mix stealth and combat against Venom, Doctor Octopus and a packed rogues' gallery to clear your name."
+  },
+  {
+    "base": "NSM",
+    "title": "Super Mario 64",
+    "developer": "Nintendo EAD",
+    "release_jp": "1996-06-23",
+    "release_us": "1996-09-29",
+    "release_eu": "1997-03-01",
+    "description": "Dive into a painting and the rules of platforming rewrite themselves. Long-jump, wall-kick and triple-jump through 15 worlds hidden in Peach's castle, chasing 120 Power Stars - and the cake she promised. The blueprint every 3D game since has quietly cribbed from."
+  },
+  {
+    "base": "NSN",
+    "title": "Snow Speeder",
+    "developer": "Imagineer",
+    "release_jp": "1998-12-26",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only winter racer: hurtle down mountain courses on high-speed snow machines, carving gates and shortcuts across championship, time-trial and split-screen versus."
+  },
+  {
+    "base": "NSO",
+    "title": "NBA Showtime: NBA on NBC",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "1999-11-16",
+    "release_eu": null,
+    "description": "Two-on-two arcade hoops with monster jams and on-fire streaks, wrapped in the authentic NBA on NBC presentation. Catch fire and let the dunks fly."
+  },
+  {
+    "base": "NSP",
+    "title": "Superman",
+    "developer": "Titus Software",
+    "release_jp": null,
+    "release_us": "1999-05-29",
+    "release_eu": "1999-06-23",
+    "description": "Superman must save Lois and Jimmy from Lex Luthor and Brainiac's virtual Metropolis. Race through ring courses and timed trials in the fog-shrouded city - the infamous one. You have been warned."
+  },
+  {
+    "base": "NSQ",
+    "title": "StarCraft 64",
+    "developer": "Blizzard Entertainment",
+    "release_jp": null,
+    "release_us": "2000-06-13",
+    "release_eu": "2001-05-25",
+    "description": "Command Terran, Zerg or Protoss in the acclaimed sci-fi RTS, on the N64. Fight all three campaigns plus the Brood War expansion, with co-op play tailored to the console."
+  },
+  {
+    "base": "NSS",
+    "title": "Super Robot Spirits",
+    "developer": "Banpresto",
+    "release_jp": "1998-07-17",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A one-on-one fighter pitting iconic super-robot anime mecha against each other, each with signature attacks straight from the shows."
+  },
+  {
+    "base": "NST",
+    "title": "Eikou no Saint Andrews",
+    "developer": "SETA",
+    "release_jp": "1996",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Japan-only golf on the legendary Old Course at St Andrews. Pick from named pros with their own strengths, unlock clubs and gear, and compete across stroke, match and tournament play for the title."
+  },
+  {
+    "base": "NSU",
+    "title": "Rocket: Robot on Wheels",
+    "developer": "Sucker Punch",
+    "release_jp": null,
+    "release_us": "1999-11-17",
+    "release_eu": "1999-11-23",
+    "description": "Rocket the amusement-park robot uses a tractor beam and booster rockets to foil the jealous mascot Jojo's takeover. Grab, build and physics-puzzle across the park in a clever, underrated platformer."
+  },
+  {
+    "base": "NSV",
+    "title": "Space Station Silicon Valley",
+    "developer": "DMA Design",
+    "release_jp": null,
+    "release_us": "1998-10-21",
+    "release_eu": "1998-10-21",
+    "description": "Hijack the bodies of malfunctioning robot animals - each with unique abilities - to puzzle and platform across a runaway space station. An inventive curio from the makers of GTA."
+  },
+  {
+    "base": "NSW",
+    "title": "Star Wars: Shadows of the Empire",
+    "developer": "LucasArts",
+    "release_jp": "1997-06-14",
+    "release_us": "1996-12-03",
+    "release_eu": "1997-03-01",
+    "description": "Fight the Empire as mercenary Dash Rendar, from the Hoth speeder battle to swoop-bike chases and the criminal underworld. On foot and in vehicles, across the famous 'lost chapter' of the trilogy."
+  },
+  {
+    "base": "NSX",
+    "title": "Supercross 2000",
+    "developer": "MBL Research",
+    "release_jp": null,
+    "release_us": "1999-12-03",
+    "release_eu": "2000-02",
+    "description": "Whip over jumps and battle for the holeshot across indoor stadium tracks, racing a full season of arena motocross."
+  },
+  {
+    "base": "NSY",
+    "title": "Scooby-Doo! Classic Creep Capers",
+    "developer": "Terraglyph Interactive Studios",
+    "release_jp": null,
+    "release_us": "2000-11-30",
+    "release_eu": "2001-03-30",
+    "description": "Help Scooby and the gang unmask the Witch Doctor, Black Knight and Snow Ghost. Sneak past spooks, gather clues, and spend Scooby Snacks to crack four classic-cartoon mysteries."
+  },
+  {
+    "base": "NSZ",
+    "title": "NFL Blitz Special Edition",
+    "developer": "Point of View",
+    "release_jp": null,
+    "release_us": "2001-11-28",
+    "release_eu": null,
+    "description": "No-rules arcade football with bigger hits and on-fire streaks. Seven-on-seven mayhem with late hits and turbo, expanded here with new plays and teams."
+  },
+  {
+    "base": "NT2",
+    "title": "Turok 2: Seeds of Evil",
+    "developer": "Iguana Entertainment",
+    "release_jp": "1999-06-18",
+    "release_us": "1998-12-10",
+    "release_eu": "1998-12-18",
+    "description": "The Dinosaur Hunter returns to battle an alien evil across vast jungles, packing a savage arsenal led by the legendary, screen-clearing Cerebral Bore. Explore six huge worlds and gather the energy totems."
+  },
+  {
+    "base": "NT3",
+    "title": "Shin Nihon Pro Wrestling Toukon Road 2: The Next Generation",
+    "developer": "Yuke's",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "New Japan Pro Wrestling brings the burning fighting spirit to the ring. Legends and hungry young lions fire up for your greatest challenge yet - grapple your way to the top."
+  },
+  {
+    "base": "NT4",
+    "title": "CyberTiger",
+    "developer": "Saffire",
+    "release_jp": null,
+    "release_us": "2000-03-08",
+    "release_eu": "2000-05-05",
+    "description": "Tee off with Tiger Woods in lighthearted arcade golf on fantastical island courses. Pick a colourful pro and chip across whimsical tropics in breezy four-player play."
+  },
+  {
+    "base": "NT6",
+    "title": "Tetris 64",
+    "developer": "Amtex",
+    "release_jp": "1998-11-13",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The block-stacking classic, plus a Bio Tetris mode that speeds up or slows down in time with your pulse, via a bundled ear sensor. Yes, really."
+  },
+  {
+    "base": "NT9",
+    "title": "Tigger's Honey Hunt",
+    "developer": "DokiDenki Studio",
+    "release_jp": null,
+    "release_us": "2000-10-27",
+    "release_eu": "2001-04-06",
+    "description": "Bounce, glide and stomp through the Hundred Acre Wood as Tigger, hunting honeypots to help Pooh and friends."
+  },
+  {
+    "base": "NTA",
+    "title": "Disney's Tarzan",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "2000-01-31",
+    "release_eu": "2000-04-21",
+    "description": "Swing through the jungle as Tarzan to save your ape family. Ride boars, surf the trees and vine-swing across levels lifted from the Disney film, gathering letters and tokens."
+  },
+  {
+    "base": "NTB",
+    "title": "Transformers: Beast Wars Metals 64",
+    "developer": "Locomotive",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Command the heroic Maximals or the evil Predacons in their war for supremacy. Convert between beast, vehicle and robot modes, blasting your way to victory with the mighty Ultra Blast."
+  },
+  {
+    "base": "NTC",
+    "title": "64 Trump Collection: Alice no Waku Waku Trump World",
+    "developer": "Bottom Up",
+    "release_jp": "1998-08-07",
+    "release_us": null,
+    "release_eu": null,
+    "description": "An Alice-in-Wonderland-themed pack of classic card games. Whimsical Wonderland hosts run poker, blackjack, solitaire and more in a cheerful package made for casual play."
+  },
+  {
+    "base": "NTD",
+    "title": "O.D.T.",
+    "developer": "Psygnosis",
+    "release_jp": "Unreleased",
+    "release_us": "Unreleased",
+    "release_eu": "Unreleased",
+    "description": "Marooned aboard a doomed airship in a hostile world, four survivors fight for a way home - mixing gunplay, melee and arcane magic across brooding 3D battlegrounds. Escape, or die trying."
+  },
+  {
+    "base": "NTE",
+    "title": "1080 Snowboarding",
+    "developer": "Nintendo EAD",
+    "release_jp": "1998-02-28",
+    "release_us": "1998-04-01",
+    "release_eu": "1998-10-09",
+    "description": "Carve down mountains and nail tricks in Nintendo's pioneering snowboarder, built on slick, weighty physics. Pick a rider and board, then ride race, trick and half-pipe modes across eight courses."
+  },
+  {
+    "base": "NTF",
+    "title": "Tony Hawk's Pro Skater",
+    "developer": "Edge of Reality",
+    "release_jp": null,
+    "release_us": "2000-03-15",
+    "release_eu": "2000-03-24",
+    "description": "Skate a roster of real pros, stringing combos and grinding rails across iconic parks against the clock. Hit gaps, chase high scores, and unlock pros, tapes and decks - the one that started the craze."
+  },
+  {
+    "base": "NTH",
+    "title": "Toy Story 2: Buzz Lightyear to the Rescue",
+    "developer": "Traveller's Tales",
+    "release_jp": null,
+    "release_us": "1999-11-17",
+    "release_eu": "2000-04-02",
+    "description": "Help Buzz rescue Woody from greedy collector Al. Sprint, spin and laser-blast through 3D levels packed with Pixar characters and collectibles."
+  },
+  {
+    "base": "NTI",
+    "title": "WWF Attitude",
+    "developer": "Acclaim Studios Salt Lake City",
+    "release_jp": null,
+    "release_us": "1999-08-31",
+    "release_eu": "1999-08-09",
+    "description": "Create a superstar and brawl through the Attitude Era with a deep WWF roster. Climb a career storyline through dozens of match types, building your dream grappler in a deep create suite."
+  },
+  {
+    "base": "NTJ",
+    "title": "Tom and Jerry in Fists of Furry",
+    "developer": "VIS Entertainment",
+    "release_jp": null,
+    "release_us": "2000-11-08",
+    "release_eu": "2000",
+    "description": "The cat-and-mouse rivalry erupts into a frantic 3D brawler. Bash your foe with mallets, fish and frying pans across cartoon arenas, solo or in multiplayer."
+  },
+  {
+    "base": "NTK",
+    "title": "Turok 3: Shadow of Oblivion",
+    "developer": "Acclaim Studios Austin",
+    "release_jp": null,
+    "release_us": "2000-08-31",
+    "release_eu": "2000-09-08",
+    "description": "Choose one of two heroes and battle the forces of Oblivion in a darker, story-driven Turok. Switch between Joseph and Danielle, each with unique gear, across a cinematic dino-blasting campaign."
+  },
+  {
+    "base": "NTM",
+    "title": "Mischief Makers",
+    "developer": "Treasure",
+    "release_jp": "1997-06-27",
+    "release_us": "1997-10-01",
+    "release_eu": "1997-12-12",
+    "description": "Grab, shake and throw everything in sight as the robot maid Marina in Treasure's frantic side-scroller. Shake enemies and objects loose to solve puzzles - 'Shake, shake!' - across a delightfully odd adventure."
+  },
+  {
+    "base": "NTN",
+    "title": "All Star Tennis '99",
+    "developer": "Smart Dog",
+    "release_jp": null,
+    "release_us": "1999-08-31",
+    "release_eu": "1999-01",
+    "description": "Serve and volley through arcade tennis with a colourful cast. Rally across singles, doubles and tournaments with simple controls and pacey play."
+  },
+  {
+    "base": "NTO",
+    "title": "Shin Nihon Pro Wrestling Toukon Road: Brave Spirits",
+    "developer": "Yuke's",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Step into the ring with New Japan Pro Wrestling's bravest fighting souls and climb to the top. Slick 3D and an intuitive control system bring the burning-spirit grappling to life."
+  },
+  {
+    "base": "NTP",
+    "title": "Tetrisphere",
+    "developer": "H2O Entertainment",
+    "release_jp": "1998-11-13",
+    "release_us": "1997-08-11",
+    "release_eu": "1998-02",
+    "description": "Peel layers of blocks off a sphere in a hypnotic twist on falling-block puzzles. Slide and drop pieces to expose the core, racing puzzle and time-attack modes to a thumping techno beat."
+  },
+  {
+    "base": "NTQ",
+    "title": "Tony Hawk's Pro Skater 2",
+    "developer": "Edge of Reality",
+    "release_jp": null,
+    "release_us": "2001-08-21",
+    "release_eu": "2001-10-12",
+    "description": "Chain tricks with the new manual, cash in your scores for stats and gear, and skate the world's top pros across pro parks. Career and free-skate, sharper than ever."
+  },
+  {
+    "base": "NTR",
+    "title": "Top Gear Rally",
+    "developer": "Boss Game Studios",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "1997",
+    "description": "Race rally cars across high-speed on- and off-road tracks with shifting weather and shortcuts. Win Championship mode to unlock faster cars, and paint your own schemes - solo or split-screen."
+  },
+  {
+    "base": "NTS",
+    "title": "Centre Court Tennis",
+    "developer": "Tomy",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "1999",
+    "description": "Pick-up-and-play arcade tennis on grass, clay and hard courts. Rally through quick exhibitions and a climb to the title, with snappy doubles play."
+  },
+  {
+    "base": "NTT",
+    "title": "Tonic Trouble",
+    "developer": "Ubi Soft",
+    "release_jp": null,
+    "release_us": "1999-08-31",
+    "release_eu": "1999-08-31",
+    "description": "Lanky alien Ed is sent down to clean up the chaos after he drops a dangerous can on Earth. Platform across worlds twisted by the alien tonic, setting things right in a colourful 3D adventure."
+  },
+  {
+    "base": "NTU",
+    "title": "Turok: Dinosaur Hunter",
+    "developer": "Iguana Entertainment",
+    "release_jp": "1997-05-30",
+    "release_us": "1997-03-04",
+    "release_eu": "1997-03-04",
+    "description": "Hunt through a Lost Land of dinosaurs and aliens, packing a savage arsenal in this pioneering N64 shooter. Explore eight sprawling levels for keys and weapons, up to the screen-clearing Chronoscepter."
+  },
+  {
+    "base": "NTV",
+    "title": "Tonic Trouble",
+    "developer": "Ubi Soft Montreal",
+    "release_jp": null,
+    "release_us": "1999-08-31",
+    "release_eu": "1999-08-31",
+    "description": "Help clumsy alien Ed recover a reality-warping can and undo the chaos it caused, platforming through a colourful 3D world bent out of shape by its power."
+  },
+  {
+    "base": "NTW",
+    "title": "64 de Hakken!! Tamagotchi: Minna de Tamagotchi World",
+    "developer": "Bandai",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only Mario Party-style board game. Care for your Tamagotchi each turn and play minigames against rivals; the winner's character evolves into one of 59 game-exclusive forms. An early forerunner of Tamagotchi: Party On!."
+  },
+  {
+    "base": "NTX",
+    "title": "Looney Tunes: Taz Express",
+    "developer": "Zed Two",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "2000-08-01",
+    "description": "Spin into action as the Tasmanian Devil, devouring everything in your path across madcap platforming stages on a hungry trek home."
+  },
+  {
+    "base": "NTY",
+    "title": "Turok 2: Seeds of Evil",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "1998",
+    "description": "With the Campaigner beaten, an even deadlier foe - the Primagen - waits to break free from a buried craft at the Lost Land's core. Once more a Turok must restore peace and stop the worlds from merging."
+  },
+  {
+    "base": "NUB",
+    "title": "PD Ultraman Battle Collection 64",
+    "developer": "Bandai",
+    "release_jp": "1997",
+    "release_us": null,
+    "release_eu": null,
+    "description": "An RPG built around the hero Ultraman, and one of the few N64 games to use the Transfer Pak: connect any Game Boy game to generate a character from its save data, Monster Rancher-style."
+  },
+  {
+    "base": "NUM",
+    "title": "Nushi Zuri 64: Shiokaze ni Notte",
+    "developer": "Pack-In Video",
+    "release_jp": "2000",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A sea-set entry in the Nushi Tsuri fishing-RPG line (Japan only). Roam towns, buy tackle and fish the right spots, raising your catch in a tank. Random encounters let you flee or fight; transfers data from the Game Boy Color game."
+  },
+  {
+    "base": "NUT",
+    "title": "Nushi Zuri 64",
+    "developer": "DDL",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "The first N64 entry in the fishing RPG line (Japan only). Roam towns, talk to NPCs, buy tackle, then find a spot to fish and raise your catch in a tank. Random encounters let you scare enemies off, dash to safety - or take a beating."
+  },
+  {
+    "base": "NV2",
+    "title": "Chameleon Twist 2",
+    "developer": "Japan System Supply",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Sunsoft's direct sequel. When the rabbit returns and knocks a chameleon skyward, it transforms into a humanoid hero who must gather six carrots across six worlds - Ice, Carnival, Sky and more - using that ever-useful grabbing, swinging tongue."
+  },
+  {
+    "base": "NV3",
+    "title": "Micro Machines 64 Turbo",
+    "developer": "Codemasters",
+    "release_jp": null,
+    "release_us": "1999-03-29",
+    "release_eu": "1999-04-23",
+    "description": "Race tiny toy cars across breakfast tables and pool tables in frantic top-down mayhem. Knock rivals clean off-screen in pacey races for up to eight players."
+  },
+  {
+    "base": "NV8",
+    "title": "Vigilante 8",
+    "developer": "Luxoflux",
+    "release_jp": null,
+    "release_us": "1999-03-17",
+    "release_eu": "1999-03",
+    "description": "Battle a roster of armed vehicles across open arenas in a groovy 1970s car-combat blast. Story, arcade and split-screen, soaked in funk and fireballs."
+  },
+  {
+    "base": "NVB",
+    "title": "Bass Rush: ECOGEAR PowerWorm Championship",
+    "developer": "Visual Science",
+    "release_jp": "2000-04-28",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Competitive bass fishing built around real ECOGEAR tackle - from the cast to the catch, across tournaments on varied waters."
+  },
+  {
+    "base": "NVC",
+    "title": "Virtual Chess 64",
+    "developer": "Titus Interactive",
+    "release_jp": null,
+    "release_us": "1998-06-10",
+    "release_eu": "1998-07",
+    "description": "Sharpen your game against a strong chess engine. Adjustable difficulty, built-in tutorials, hints and puzzles for players of every level."
+  },
+  {
+    "base": "NVG",
+    "title": "Vigilante 8: 2nd Offense",
+    "developer": "Luxoflux",
+    "release_jp": null,
+    "release_us": "2000-02-01",
+    "release_eu": "2000-02-25",
+    "description": "More vehicular carnage: new rides, gnarlier weapons and destructible arenas. Wage 1970s car-combat war across story, arcade and multiplayer."
+  },
+  {
+    "base": "NVL",
+    "title": "V-Rally Edition '99",
+    "developer": "Eden Studios",
+    "release_jp": "1999-10-14",
+    "release_us": "1999-09-15",
+    "release_eu": "1998-12-11",
+    "description": "Slide through rally stages across changing surfaces and weather in a deep, demanding racer. Master throttle and handbrake through an unforgiving championship and time trials."
+  },
+  {
+    "base": "NVP",
+    "title": "Virtual Pro Wrestling 64",
+    "developer": "AKI Corporation",
+    "release_jp": "1997-12-19",
+    "release_us": null,
+    "release_eu": null,
+    "description": "AKI's celebrated grappling engine with a deep counter system and a roster of Japanese wrestling stars. Counter and chain holds in the engine that underpinned the West's WWF and WCW games."
+  },
+  {
+    "base": "NVR",
+    "title": "Virtual Pool 64",
+    "developer": "Celeris",
+    "release_jp": null,
+    "release_us": "1998-12-17",
+    "release_eu": "1999-02-26",
+    "description": "Line up your shot in a realistic pool sim. Sink true-physics racks of eight-ball, nine-ball and trick shots, with a free-aim cue for genuine table feel."
+  },
+  {
+    "base": "NVS",
+    "title": "Space Station Silicon Valley",
+    "developer": "DMA Design",
+    "release_jp": null,
+    "release_us": "1998-10-22",
+    "release_eu": "1998-10-21",
+    "description": "Body-swap into robotic animals, each with unique skills, to puzzle and platform across a wildlife-run space station. An inventive curio from the team that went on to make GTA."
+  },
+  {
+    "base": "NVY",
+    "title": "V-Rally Edition 99",
+    "developer": "Eden Studios",
+    "release_jp": "1998",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Rally across 40-plus tracks and eight world locations in 11 official WRC cars. Tackle jungle, canyon, desert and mountain through rain, fog and snow, tuning your setup to the road - with hidden cars and tracks to unlock."
+  },
+  {
+    "base": "NW2",
+    "title": "WCW/nWo Revenge",
+    "developer": "AKI Corporation",
+    "release_jp": null,
+    "release_us": "1998-10-26",
+    "release_eu": "1998-11-30",
+    "description": "Grapple a stacked roster of WCW and nWo stars in AKI's celebrated engine - the sequel that perfected N64 wrestling."
+  },
+  {
+    "base": "NW3",
+    "title": "WCW Nitro",
+    "developer": "Inland Productions",
+    "release_jp": null,
+    "release_us": "1999-02-09",
+    "release_eu": null,
+    "description": "Step into the ring with WCW's roster in a fast arcade wrestler based on Monday Nitro. Quick controls, big moves, and a stable of hidden wrestlers to unlock."
+  },
+  {
+    "base": "NW4",
+    "title": "WWF: No Mercy",
+    "developer": "AKI Corporation",
+    "release_jp": null,
+    "release_us": "2000-11-14",
+    "release_eu": "2000-12-15",
+    "description": "The pinnacle of N64 wrestling. A huge WWF roster, a deep create-a-wrestler, and a sprawling story mode where you manage the titles - in the AKI engine many still call the best wrestling game ever made."
+  },
+  {
+    "base": "NW8",
+    "title": "Wayne Gretzky's 3D Hockey '98",
+    "developer": "Software Creations",
+    "release_jp": null,
+    "release_us": "1997-12-03",
+    "release_eu": "1998-06-01",
+    "description": "Fast arcade hockey with NHL rosters, big checks and the Great One on the marquee. Refreshed rosters, smoother skating and one-timers headline the sequel."
+  },
+  {
+    "base": "NWA",
+    "title": "War Gods",
+    "developer": "Eurocom",
+    "release_jp": null,
+    "release_us": "1997-05-20",
+    "release_eu": "1997-11-28",
+    "description": "Ten ancient warriors, juiced up by a cosmic ore, clash in a 3D weapons fighter. Dial up brutal combos, fatalities and special moves across the roster."
+  },
+  {
+    "base": "NWB",
+    "title": "Iggy's Reckin' Balls",
+    "developer": "Iguana Entertainment",
+    "release_jp": "1998-08-28",
+    "release_us": "1998-08-24",
+    "release_eu": "1998-08-28",
+    "description": "Climb tangled towers and race rivals up a knot of tracks, swinging and bashing them off as you go. A frantic vertical scramble for up to four."
+  },
+  {
+    "base": "NWC",
+    "title": "Wild Choppers",
+    "developer": "SETA Corporation",
+    "release_jp": "1997-11-28",
+    "release_us": null,
+    "release_eu": null,
+    "description": "A Japan-only helicopter action game: pilot attack choppers through aerial combat and rescue missions, strafing ground and air targets across varied terrain, solo or in versus."
+  },
+  {
+    "base": "NWD",
+    "title": "WinBack: Covert Operations",
+    "developer": "Omega Force",
+    "release_jp": "1999-09-23",
+    "release_us": "1999-10-19",
+    "release_eu": "2000-07-07",
+    "description": "Take cover and lean out to shoot as an agent storming a terrorist-held base. A pioneering stop-and-pop shooter - duck, peek, fire, repeat - clearing rooms one by one."
+  },
+  {
+    "base": "NWF",
+    "title": "Wheel of Fortune",
+    "developer": "GameTek",
+    "release_jp": null,
+    "release_us": "1997-12-02",
+    "release_eu": null,
+    "description": "Spin the wheel, buy your vowels and solve the puzzle in the N64 take on the classic game show. Spin for cash and crack the board against rivals."
+  },
+  {
+    "base": "NWG",
+    "title": "Wayne Gretzky's 3D Hockey",
+    "developer": "Atari Games",
+    "release_jp": "1998-02-28",
+    "release_us": "1996-11-15",
+    "release_eu": "1997-03-01",
+    "description": "Fast, accessible arcade hockey with NHL teams and the Great One headlining. Built on big hits and end-to-end rushes."
+  },
+  {
+    "base": "NWI",
+    "title": "ECW Hardcore Revolution",
+    "developer": "Acclaim Studios",
+    "release_jp": null,
+    "release_us": "2000-01-31",
+    "release_eu": "2000",
+    "description": "Extreme Championship Wrestling comes to life with weapons and hardcore matches. Swing chairs and ladders through brutal bouts, with a full ECW roster and a deep create-a-wrestler."
+  },
+  {
+    "base": "NWK",
+    "title": "Telefoot Soccer 2000",
+    "developer": "Silicon Dreams",
+    "release_jp": null,
+    "release_us": null,
+    "release_eu": "2000-08-11",
+    "description": "Allez les Bleus! Officially backed by Telefoot and the French Football Federation, take 24 national sides from kick-off to the final whistle in fast, fully-licensed arcade football."
+  },
+  {
+    "base": "NWL",
+    "title": "Waialae Country Club: True Golf Classics",
+    "developer": "T&E Soft",
+    "release_jp": null,
+    "release_us": "1998-07-29",
+    "release_eu": "1998-08-24",
+    "description": "Read the wind and Bermuda greens of the famed Sony Open venue in Hawaii. Six modes and custom club bags across stroke, match and tournament play, with a smooth swing meter."
+  },
+  {
+    "base": "NWM",
+    "title": "WCW Mayhem",
+    "developer": "Kodiak Interactive",
+    "release_jp": null,
+    "release_us": "1999-09-23",
+    "release_eu": "1999-09-24",
+    "description": "Take the fight backstage and into the crowd across a huge WCW roster. Brawl through a season-spanning Quest for the Best, with a deep career mode."
+  },
+  {
+    "base": "NWN",
+    "title": "WCW vs. nWo: World Tour",
+    "developer": "AKI Corporation",
+    "release_jp": null,
+    "release_us": "1997-11-28",
+    "release_eu": null,
+    "description": "The title that launched N64 wrestling. AKI's pioneering engine let holds flow seamlessly; fight World Tour mode against the nWo and unearth hidden legends."
+  },
+  {
+    "base": "NWO",
+    "title": "World Driver Championship",
+    "developer": "Boss Game Studios",
+    "release_jp": null,
+    "release_us": "1999-06-15",
+    "release_eu": "1999-11-05",
+    "description": "Build and tune a stable of GT supercars, then qualify and race across lavish global circuits in a graphically striking championship racer."
+  },
+  {
+    "base": "NWP",
+    "title": "Wipeout 64",
+    "developer": "Psygnosis",
+    "release_jp": null,
+    "release_us": "1998-11-03",
+    "release_eu": "1999-02-05",
+    "description": "The biggest name in anti-gravity racing lands on N64 with blistering speed, time trials and weapons. Master the air brakes and speed classes across weapon-strewn circuits, solo or split-screen."
+  },
+  {
+    "base": "NWQ",
+    "title": "Rally Challenge 2000",
+    "developer": "Genki",
+    "release_jp": "1999-08-06",
+    "release_us": "2000-06-22",
+    "release_eu": null,
+    "description": "Race nine authentic WRC cars across scorching global rally stages. Attack point-to-point specials over gravel, tarmac and snow, trimming tenths through a globe-trotting championship."
+  },
+  {
+    "base": "NWR",
+    "title": "Wave Race 64",
+    "developer": "Nintendo EAD",
+    "release_jp": "1996-09-27",
+    "release_us": "1996-11-04",
+    "release_eu": "1997-04-29",
+    "description": "The water is the real opponent - a living swell that heaves your jet ski around every buoy. Lean into the wake, hug the inside of each marker, and learn the sea's moods across championship and stunt runs. Still one of the best-feeling water sims ever made."
+  },
+  {
+    "base": "NWS",
+    "title": "International Superstar Soccer '98",
+    "developer": "Konami",
+    "release_jp": "1998-06-04",
+    "release_us": "1998-08-21",
+    "release_eu": "1998-09-01",
+    "description": "Konami's acclaimed football for the World Cup year: tight controls, real tactics and national squads. Play through friendlies, leagues and a world-cup run."
+  },
+  {
+    "base": "NWT",
+    "title": "Wetrix",
+    "developer": "Zed Two",
+    "release_jp": "1998-11-27",
+    "release_us": "1998-06-12",
+    "release_eu": "1998-06-19",
+    "description": "Wall in falling raindrops to build lakes for points - but mind the floods, fireballs and earthquakes. A genuinely original puzzler with a learning curve all its own."
+  },
+  {
+    "base": "NWU",
+    "title": "Worms Armageddon",
+    "developer": "Infogrames Lyon House",
+    "release_jp": null,
+    "release_us": "2000-03-23",
+    "release_eu": "1999-12-11",
+    "description": "Turn-based artillery with a cartoon body count. Deploy bazookas, grenades and the legendary exploding sheep across destructible terrain, with deep options and chaotic multiplayer."
+  },
+  {
+    "base": "NWV",
+    "title": "WCW Backstage Assault",
+    "developer": "Kodiak Interactive",
+    "release_jp": null,
+    "release_us": "2000-12-12",
+    "release_eu": null,
+    "description": "An all-brawling WCW game fought entirely backstage. Battle through weapon-littered locales with brawler-style combat and a deep create-a-wrestler - no ring in sight."
+  },
+  {
+    "base": "NWW",
+    "title": "WWF War Zone",
+    "developer": "Iguana Entertainment",
+    "release_jp": null,
+    "release_us": "1998-08-11",
+    "release_eu": "1998-08-21",
+    "description": "WWF wrestling with a big late-90s Attitude Era roster. Battle through Challenge and career modes chaining combos, reversals and finishers, or build your own grappler in a deep create suite."
+  },
+  {
+    "base": "NWX",
+    "title": "WWF WrestleMania 2000",
+    "developer": "AKI Corporation",
+    "release_jp": "2000-09-15",
+    "release_us": "1999-11-18",
+    "release_eu": "1999-12-10",
+    "description": "Powered by the AKI engine: a huge WWF roster, deep create tools, and a sprawling Road to WrestleMania career. Grapple, reverse and chase every belt."
+  },
+  {
+    "base": "NWZ",
+    "title": "NBA In The Zone 2000",
+    "developer": "Konami",
+    "release_jp": null,
+    "release_us": "2000-02-18",
+    "release_eu": "2000-05",
+    "description": "Konami's run-and-gun NBA returns with full rosters and smooth, arcade-paced play. Throw down flashy dunks and alley-oops with refined controls and a full season to chase."
+  },
+  {
+    "base": "NX2",
+    "title": "Gex 64: Enter the Gecko",
+    "developer": "Realtime Associates",
+    "release_jp": null,
+    "release_us": "1998-08-26",
+    "release_eu": "1999-02-26",
+    "description": "The wisecracking gecko leaps into 3D, platforming through TV-themed worlds with a quip for every channel. Collect remotes across Horror, Kung-Fu, Toon and Jungle channels."
+  },
+  {
+    "base": "NX3",
+    "title": "Gex 3: Deep Cover Gecko",
+    "developer": "Gratuitous Games",
+    "release_jp": null,
+    "release_us": "1999-09-28",
+    "release_eu": "2000-07-24",
+    "description": "Gex zaps back into the airwaves for a 3D platforming romp across TV-genre parodies. Snag remotes and free fellow agents through Horror, Kung-Fu, Cartoon and Cowboy channels, quipping all the way."
+  },
+  {
+    "base": "NX4",
+    "title": "WWF No Mercy",
+    "developer": "AKI",
+    "release_jp": null,
+    "release_us": "2000-11-17",
+    "release_eu": null,
+    "description": "AKI's celebrated wrestling sim and the studio's N64 finale. A huge WWF roster, deep create-a-wrestler, and a sprawling story mode across the title belts - with the smooth grapple system that made it the era's definitive wrestler."
+  },
+  {
+    "base": "NXF",
+    "title": "Xena: Warrior Princess",
+    "developer": "Saffire",
+    "release_jp": null,
+    "release_us": "1999-12-06",
+    "release_eu": "1999-12-17",
+    "description": "Fight as the warrior princess across mythic battlegrounds. Wield sword, chakram and martial-arts combos against warlords and monsters."
+  },
+  {
+    "base": "NXG",
+    "title": "NBA Hang Time",
+    "developer": "Midway Studios San Diego",
+    "release_jp": null,
+    "release_us": "1997-01-16",
+    "release_eu": "1997-09-01",
+    "description": "Two-on-two arcade hoops with monster dunks, create-a-player and the on-fire streaks of the Jam tradition. Build a custom baller and let the gravity-defying jams fly."
+  },
+  {
+    "base": "NXO",
+    "title": "Cruis'n Exotica",
+    "developer": "Gratuitous Games",
+    "release_jp": null,
+    "release_us": "2000-10-19",
+    "release_eu": null,
+    "description": "Boost through prehistoric jungles, alien worlds and the ocean floor, pulling midair tricks in arcade racing for show-offs. The wildest stop on the Cruis'n tour."
+  },
+  {
+    "base": "NY2",
+    "title": "Rayman 2: The Great Escape",
+    "developer": "Ubi Soft Montreal",
+    "release_jp": null,
+    "release_us": "1999-11-09",
+    "release_eu": "1999-10-29",
+    "description": "Rayman fights to free his world from robot pirates in a celebrated 3D platformer. Glide, climb and fire energy fists across painterly worlds to topple Admiral Razorbeard and free the captive Teensies."
+  },
+  {
+    "base": "NYK",
+    "title": "Yakouchuu II: Satsujin Kouro",
+    "developer": "Athena",
+    "release_jp": "1999",
+    "release_us": null,
+    "release_eu": null,
+    "description": "Sequel to the SNES text-adventure mystery, this one set at sea. After a ship is attacked, you must piece together what happened - a Japan-only whodunit of careful reading and deduction."
+  },
+  {
+    "base": "NYP",
+    "title": "Paperboy",
+    "developer": "High Voltage Software",
+    "release_jp": null,
+    "release_us": "1999-11-01",
+    "release_eu": null,
+    "description": "The arcade classic returns in 3D. Pedal the suburbs delivering papers and dodging mowers, dogs, tornadoes and the supernatural across a week of escalating routes."
+  },
+  {
+    "base": "NYS",
+    "title": "Yoshi's Story",
+    "developer": "Nintendo EAD",
+    "release_jp": "1997-12-21",
+    "release_us": "1998-03-10",
+    "release_eu": "1998-05-10",
+    "description": "Guide the baby Yoshis through a storybook world of papercraft and crayon. Gobble fruit to stay happy and chase the Super Happy Tree, picking your own path through hand-crafted pages."
+  },
+  {
+    "base": "NYW",
+    "title": "Harvest Moon 64",
+    "developer": "Victor Interactive Software",
+    "release_jp": "1999-02-05",
+    "release_us": "1999-12-22",
+    "release_eu": null,
+    "description": "Inherit a run-down farm and build a life. Grow crops and raise animals through the seasons, befriend the townsfolk, court a partner, and turn the family plot back into a home."
+  },
+  {
+    "base": "NZL",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "developer": "Nintendo EAD",
+    "release_jp": "1998-11-21",
+    "release_us": "1998-11-23",
+    "release_eu": "1998-12-11",
+    "description": "A forest boy draws a sword from its pedestal and wakes seven years later as Hyrule's last hope. Z-target your foes, play the ocarina to bend time and weather, raise allies and ride Epona toward Ganondorf - the game that taught 3D action how to feel."
+  },
+  {
+    "base": "NZO",
+    "title": "Battlezone: Rise of the Black Dogs",
+    "developer": "Climax Development",
+    "release_jp": null,
+    "release_us": "2000-04-14",
+    "release_eu": null,
+    "description": "Command a tank in first-person across an alternate-history Cold War, blending shooting with battlefield strategy. Build bases and harvest resources from the cockpit while the armour duels rage."
+  },
+  {
+    "base": "NZS",
+    "title": "The Legend of Zelda: Majora's Mask",
+    "developer": "Nintendo EAD",
+    "release_jp": "2000-04-27",
+    "release_us": "2000-10-26",
+    "release_eu": "2000-11-17",
+    "description": "Trapped in a three-day loop beneath a falling moon, Link must master time and a wardrobe of magic masks to save Termina. Replay the same fateful three days, wielding the Song of Time, to stop the sky from landing."
+  }
+]

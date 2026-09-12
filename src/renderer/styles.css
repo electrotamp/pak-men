@@ -1,0 +1,955 @@
+/* Tokens now live in theme/tokens.css + theme/bubbly.css (imported first in
+   main.tsx). This file styles the pre-rebuild panels through the legacy aliases
+   defined there, and is being retired component by component. */
+:root {
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 13px/1.45 'Segoe UI', system-ui, sans-serif;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+button {
+  font: inherit;
+  color: var(--text);
+  background: var(--bg-3);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: var(--bg-2);
+  border-color: var(--accent);
+}
+button.primary {
+  background: var(--accent);
+  color: #10131a;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+button.primary:hover {
+  filter: brightness(1.08);
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+input,
+select,
+textarea {
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 5px 8px;
+  width: 100%;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 1px solid var(--accent);
+  border-color: var(--accent);
+}
+textarea {
+  resize: vertical;
+  min-height: 70px;
+  font-family: inherit;
+}
+a {
+  color: var(--accent);
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-3);
+  border-radius: 6px;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: var(--bg-1);
+  border-bottom: 1px solid var(--line);
+}
+.topbar .title {
+  font-weight: 600;
+}
+.topbar .spacer {
+  flex: 1;
+}
+.topbar .dot {
+  color: var(--warn);
+}
+.topbar input.name {
+  width: 200px;
+}
+
+.panes {
+  display: grid;
+  grid-template-columns: 300px 1fr 340px;
+  min-height: 0;
+}
+.pane {
+  min-height: 0;
+  overflow: auto;
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+}
+.pane:last-child {
+  border-right: none;
+}
+.pane-head {
+  padding: 8px 10px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg-1);
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.pane-head .spacer {
+  flex: 1;
+}
+.pane-body {
+  padding: 8px;
+  overflow: auto;
+}
+
+/* library */
+.lib-search {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--line);
+}
+.lib-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: grab;
+}
+.lib-item:hover {
+  background: var(--bg-2);
+}
+.lib-item.faved {
+  opacity: 0.4;
+}
+.lib-thumb {
+  width: 34px;
+  height: 30px;
+  object-fit: contain;
+  background: var(--bg);
+  border-radius: 3px;
+  flex: none;
+}
+.lib-meta {
+  min-width: 0;
+}
+.lib-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lib-sub {
+  color: var(--text-dim);
+  font-size: 11px;
+}
+.lib-src {
+  font-size: 11px;
+  color: var(--text-dim);
+  padding: 6px 6px 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* grid preview */
+.grid-wrap {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background: radial-gradient(120% 80% at 50% 0%, #1c2333, #12141a);
+}
+.grid-stage {
+  position: relative;
+  background: #0e1017;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.tile {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+}
+.tile .art {
+  width: 100%;
+  height: calc(100% - 18px);
+  object-fit: contain;
+  background: #0b0d12;
+  border: 1px solid #2a2f3d;
+  border-radius: 3px;
+}
+.tile .cap {
+  height: 18px;
+  font-size: 10px;
+  line-height: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  color: #cfd4e2;
+}
+.tile.sel .art {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+.tile.placeholder .art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  font-size: 10px;
+}
+.grid-drop-hint {
+  color: var(--text-dim);
+  text-align: center;
+  padding: 40px;
+}
+
+/* inspector */
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--line);
+}
+.tabs button {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 2px solid transparent;
+  flex: 1;
+}
+.tabs button.active {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+.field {
+  margin-bottom: 10px;
+}
+.field label {
+  display: block;
+  color: var(--text-dim);
+  margin-bottom: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.field .help {
+  color: var(--text-dim);
+  font-size: 11px;
+  margin-top: 3px;
+}
+.field.invalid input,
+.field.invalid textarea {
+  border-color: var(--danger);
+}
+.field .err {
+  color: var(--danger);
+  font-size: 11px;
+  margin-top: 3px;
+}
+.art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.art-slot {
+  border: 1px dashed var(--line);
+  border-radius: 6px;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+.art-slot:hover {
+  border-color: var(--accent);
+}
+.art-slot img {
+  width: 100%;
+  height: 84px;
+  object-fit: contain;
+  background: #0b0d12;
+  border-radius: 3px;
+}
+.art-slot .lbl {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 3px;
+}
+.art-slot .src {
+  font-size: 10px;
+}
+.art-slot .src.custom {
+  color: var(--accent-2);
+}
+.art-slot .src.baked {
+  color: var(--text-dim);
+}
+.art-slot .src.none {
+  color: var(--danger);
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.settings-group {
+  margin-bottom: 16px;
+}
+.settings-group h3 {
+  margin: 0 0 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 4px;
+}
+.toggle {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.toggle input {
+  width: auto;
+}
+
+/* modal */
+.modal-back {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+.modal {
+  background: var(--bg-1);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  width: min(720px, 92vw);
+  max-height: 86vh;
+  display: flex;
+  flex-direction: column;
+}
+.modal h2 {
+  margin: 0;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  font-size: 15px;
+}
+.modal .body {
+  padding: 14px 16px;
+  overflow: auto;
+}
+.modal .foot {
+  padding: 12px 16px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.update-modal {
+  width: min(380px, 92vw);
+}
+.update-bar-track {
+  margin-top: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--line);
+  overflow: hidden;
+}
+.update-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.15s ease;
+}
+.update-bar-indeterminate {
+  width: 40% !important;
+  animation: update-bar-slide 1.1s ease-in-out infinite;
+}
+@keyframes update-bar-slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(250%); }
+}
+.update-pct {
+  margin: 4px 0 0;
+  font-size: 12px;
+  opacity: 0.7;
+}
+.plan-list {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 12px;
+}
+.plan-list .create {
+  color: var(--accent-2);
+}
+.plan-list .overwrite {
+  color: var(--warn);
+}
+.plan-list .unchanged {
+  color: var(--text-dim);
+}
+.warn-box {
+  background: rgba(255, 207, 107, 0.1);
+  border: 1px solid var(--warn);
+  border-radius: 6px;
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.toast {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg-3);
+  border: 1px solid var(--accent);
+  padding: 8px 16px;
+  border-radius: 8px;
+  z-index: 60;
+}
+.empty {
+  color: var(--text-dim);
+  padding: 20px;
+  text-align: center;
+}
+.pill {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: var(--bg-3);
+  color: var(--text-dim);
+}
+.pill.warn {
+  background: rgba(255, 207, 107, 0.15);
+  color: var(--warn);
+}
+
+/* ---------------- Design tab ---------------- */
+.panes-design {
+  grid-template-columns: 1fr 360px;
+}
+.design-canvas-wrap {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  /* reserve the scrollbar's space always, so it appearing/disappearing can't
+     change clientWidth and send the fit-zoom measurement into a feedback loop */
+  scrollbar-gutter: stable;
+  display: flex;
+  /* the artboard-sizer carries its own whole-pixel margin for centring — flex
+     centring here would clip the leading edge once it's zoomed past the pane */
+  background: var(--mat);
+}
+.design-canvas-wrap.panning {
+  cursor: grabbing;
+}
+.design-canvas-wrap.panning * {
+  pointer-events: none;
+}
+/* scroll-sizing wrapper: carries the scaled footprint so the pane scrolls when
+   zoomed past it; the artboard inside renders at true 640x480 and is transformed */
+.artboard-sizer {
+  flex: none;
+  position: relative;
+  /* margin is set inline in whole pixels so the pixel-perfect layer never lands
+     on a half-pixel (which would smear the whole canvas) */
+}
+.artboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: var(--board-frame);
+  overflow: visible; /* selection handles / chrome may sit past the frame edge */
+  transform-origin: 0 0;
+}
+/* the content that renders like the console: clipped to 640x480, CRT-tinted */
+.artboard-clip {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
+}
+/* the design layer inside the frame — a uniform scale about screen centre for
+   overscan compensation; the CRT/overscan overlays are its siblings and stay put */
+.artboard-osc {
+  position: absolute;
+  inset: 0;
+}
+/* whole-multiple zoom: cache the 640x480 raster and nearest-neighbour upscale it,
+   so shapes and text actually pixellate at low res instead of staying vector-crisp.
+   will-change forces Chromium to composite-scale a cached layer rather than
+   re-rasterising the subtree at the zoomed size. */
+.artboard.pixel {
+  image-rendering: pixelated;
+}
+.artboard.pixel .artboard-clip {
+  will-change: transform;
+  image-rendering: pixelated;
+}
+/* selection chrome: never clipped, always above the CRT/overscan overlays */
+.artboard-chrome {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+  image-rendering: auto;
+  z-index: 100;
+}
+.artboard-chrome .rz,
+.artboard-chrome .group-box .rz {
+  pointer-events: auto;
+}
+.sel-chrome {
+  position: absolute;
+  outline: 1px solid var(--accent);
+  outline-offset: 0;
+}
+.artboard-skin {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  image-rendering: pixelated;
+}
+
+/* ---------- CRT emulation layers (cosmetic) — one overlay per enabled filter,
+     stacked in DOM order; any combination ---------- */
+.mb-crt {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  pointer-events: none;
+  image-rendering: auto;
+}
+/* horizontal scanlines — the classic look */
+.mb-crt-scanlines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.34) 0,
+    rgba(0, 0, 0, 0.34) 1px,
+    transparent 1px,
+    transparent var(--crt-line, 2px)
+  );
+}
+/* Trinitron-style aperture grille — fine vertical RGB stripes */
+.mb-crt-aperture {
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(255, 30, 60, 0.16) 0,
+    rgba(255, 30, 60, 0.16) 1px,
+    rgba(40, 255, 90, 0.16) 1px,
+    rgba(40, 255, 90, 0.16) 2px,
+    rgba(60, 90, 255, 0.16) 2px,
+    rgba(60, 90, 255, 0.16) 3px
+  );
+}
+/* shadow-mask CRT — an RGB dot triad grid */
+.mb-crt-shadowmask {
+  background-image:
+    radial-gradient(circle at 25% 30%, rgba(255, 40, 60, 0.22) 0 22%, transparent 26%),
+    radial-gradient(circle at 75% 30%, rgba(40, 255, 90, 0.22) 0 22%, transparent 26%),
+    radial-gradient(circle at 50% 78%, rgba(60, 100, 255, 0.22) 0 22%, transparent 26%);
+  background-size: 4px 4px;
+}
+/* composite-video bleed + phosphor glow */
+.mb-crt-bloom {
+  backdrop-filter: blur(0.55px) brightness(1.09) saturate(1.16) contrast(1.03);
+  -webkit-backdrop-filter: blur(0.55px) brightness(1.09) saturate(1.16) contrast(1.03);
+}
+/* the tube's edge falloff */
+.mb-crt-vignette {
+  box-shadow: inset 0 0 84px 14px rgba(0, 0, 0, 0.42);
+}
+
+/* overscan safe zone — a distinct guide box at the typical CRT crop, with
+   everything outside it dimmed. The design is NOT scaled to fit; this is advisory.
+   Sits above the CRT filters (it's an editor guide, not part of the menu) but
+   stays inside .artboard-clip so its box-shadow dim is clipped to the frame. */
+.mb-safe-zone {
+  position: absolute;
+  z-index: 45;
+  pointer-events: none;
+  border: 1px dashed var(--safe-line, rgba(255, 255, 255, 0.4));
+  /* a hairline dark companion so the guide still reads on a light page bg */
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.18),
+    0 0 0 2000px var(--safe-dim, rgba(4, 6, 12, 0.4));
+}
+
+/* multi-selection transform box (group scale) */
+.group-box {
+  position: absolute;
+  border: 1px solid var(--accent, #6ea8fe);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.35);
+}
+
+/* CRT filter menu in the canvas bar */
+.mb-crt-menu {
+  position: relative;
+  display: inline-flex;
+}
+.mb-crt-pop {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 10px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-pop);
+  white-space: nowrap;
+}
+.mb-crt-pop label {
+  display: grid;
+  grid-template-columns: 15px 1fr;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--ink);
+  cursor: pointer;
+}
+.mb-crt-pop label input {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  accent-color: var(--accent);
+}
+.mb-crt-clear {
+  margin-top: 2px;
+  font: inherit;
+  font-size: 11px;
+  color: var(--ink-dim);
+  background: var(--panel-sink);
+  border: 1px solid var(--line-soft);
+  border-radius: 5px;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+.mb-crt-clear:hover {
+  color: var(--ink);
+}
+
+/* template picker — left of the canvas bar */
+.mb-tpl-menu {
+  position: relative;
+  display: inline-flex;
+  flex: none;
+}
+.mb-tpl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: inherit;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--prime-bg);
+  border: 1px solid var(--prime-border);
+  border-radius: var(--radius-ctrl);
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: var(--gloss-top);
+}
+.mb-tpl-btn:hover,
+.mb-tpl-btn.on {
+  filter: brightness(1.08);
+}
+.mb-tpl-btn .mb-tpl-ico {
+  font-size: 13px;
+  line-height: 1;
+  color: var(--prime-ink, var(--accent));
+}
+.mb-tpl-btn .mb-tpl-name {
+  color: var(--prime-ink, var(--ink));
+}
+.mb-bar-div {
+  width: 1px;
+  align-self: stretch;
+  margin: 2px 3px;
+  background: var(--line-soft);
+  flex: none;
+}
+.mb-tpl-pop {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 40;
+  width: 512px;
+  max-width: 76vw;
+  max-height: 66vh;
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: var(--shadow-pop);
+  padding: 12px;
+}
+.mb-tpl-pop-head {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin: 0 2px 10px;
+}
+.mb-tpl-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.mb-tpl-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  font: inherit;
+  text-align: left;
+  background: var(--panel-sink);
+  border: 1px solid var(--line-soft);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+.mb-tpl-card:hover {
+  border-color: var(--accent-ring);
+  box-shadow: var(--shadow-lift);
+}
+.mb-tpl-card.on {
+  border-color: var(--accent);
+}
+.mb-tpl-thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+  pointer-events: none;
+  align-self: center;
+}
+.mb-tpl-thumb-board {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.mb-tpl-card-name {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 12.5px;
+  color: var(--ink);
+  margin-top: 4px;
+}
+.mb-tpl-card-blurb {
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--ink-faint);
+}
+
+/* canvas-editing controls — right side of the top toolbar */
+.mb-canvasctl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.mb-overscan {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.mb-overscan-lbl {
+  font-size: 11px;
+  color: var(--ink-dim);
+}
+.mb-overscan-in {
+  width: 42px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  padding: 4px 6px;
+}
+.mb-overscan-suffix {
+  font-size: 10.5px;
+  color: var(--ink-faint);
+}
+.mb-sharp-hint b {
+  font-family: var(--font-ui);
+  font-weight: 600;
+}
+.mb-sharp-hint.ok b {
+  color: var(--ok, #4caf7d);
+}
+.mb-sharp-hint.soft b {
+  color: var(--warn, #d98b3a);
+}
+
+/* zoom stepper in the Design toolbar */
+.zoom-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+.zoom-group button {
+  min-width: 24px;
+  padding: 2px 6px;
+}
+.slot-box {
+  position: absolute;
+  cursor: move;
+  box-sizing: border-box;
+  /* the visible dashed outline is drawn by .el-outline in the unclipped chrome
+     layer (above the CRT filters) — the box itself is invisible. */
+  border: 0;
+}
+/* element outlines — chrome layer, so the CRT / overscan overlays can't hide them */
+.el-outline {
+  position: absolute;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 1px dashed rgba(126, 224, 192, 0.45);
+}
+.el-outline.hot {
+  border-color: var(--accent-2);
+}
+.chrome-fill {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+/* the background image treated as a movable/resizable layer — the box itself is
+   just a hit-target; its bound is drawn by .el-skin in the chrome layer */
+.slot-box.skin-box {
+  border: 0;
+}
+.el-outline.el-skin {
+  border-color: rgba(196, 148, 255, 0.8);
+}
+/* the element title tag — rendered in the chrome layer (inside .el-outline /
+   .sel-chrome), so it sits above the CRT filters like every other editor mark */
+.slot-tag {
+  position: absolute;
+  top: -15px;
+  left: -1px;
+  font-size: 9px;
+  line-height: 14px;
+  padding: 0 4px;
+  background: var(--bg-3);
+  color: var(--text-dim);
+  border-radius: 3px 3px 0 0;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.slot-tag.sel {
+  background: var(--accent);
+  color: #10131a;
+}
+.rz {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: var(--accent);
+  border: 1px solid #10131a;
+  border-radius: 2px;
+}
+.rz-nw { left: -5px; top: -5px; cursor: nwse-resize; }
+.rz-n  { left: calc(50% - 4px); top: -5px; cursor: ns-resize; }
+.rz-ne { right: -5px; top: -5px; cursor: nesw-resize; }
+.rz-e  { right: -5px; top: calc(50% - 4px); cursor: ew-resize; }
+.rz-se { right: -5px; bottom: -5px; cursor: nwse-resize; }
+.rz-s  { left: calc(50% - 4px); bottom: -5px; cursor: ns-resize; }
+.rz-sw { left: -5px; bottom: -5px; cursor: nesw-resize; }
+.rz-w  { left: -5px; top: calc(50% - 4px); cursor: ew-resize; }
+.guide {
+  position: absolute;
+  background: var(--accent-2);
+  pointer-events: none;
+  z-index: 20;
+}
+.guide.v { top: 0; bottom: 0; width: 1px; }
+.guide.h { left: 0; right: 0; height: 1px; }
+
+.rect-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 10px;
+  margin-bottom: 8px;
+}
+.np {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+.np > span {
+  color: var(--text-dim);
+  min-width: 58px;
+}
+.np input[type='number'],
+.np select {
+  width: 100%;
+}
+.np input[type='checkbox'] {
+  width: auto;
+}
+.color-row {
+  margin-bottom: 6px;
+}
+.color-row input[type='color'] {
+  width: 34px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: none;
+}
+.color-row .hex {
+  width: 92px;
+}

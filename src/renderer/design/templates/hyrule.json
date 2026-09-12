@@ -1,0 +1,105 @@
+{
+  "format": 2,
+  "pages": [
+    {
+      "id": "home",
+      "title": "Home",
+      "kind": "custom",
+      "start": true,
+      "background": "#E9DCB6",
+      "hint": "",
+      "elements": [
+        { "id": "frame", "type": "panel", "rect": [16, 12, 608, 456], "z": 0, "text": "", "box": { "fill": "#F1E7CC", "border": "#B8862F", "borderW": 3, "cornerRadius": 8 } },
+        { "id": "frame2", "type": "panel", "rect": [26, 22, 588, 436], "z": 1, "text": "", "box": { "border": "#6E5A2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "tri-top", "type": "panel", "rect": [305, 30, 30, 26], "z": 2, "text": "", "box": { "shape": "triangle", "fill": "#C99A33" } },
+        { "id": "tri-bl", "type": "panel", "rect": [289, 55, 30, 26], "z": 2, "text": "", "box": { "shape": "triangle", "fill": "#C99A33" } },
+        { "id": "tri-br", "type": "panel", "rect": [321, 55, 30, 26], "z": 2, "text": "", "box": { "shape": "triangle", "fill": "#C99A33" } },
+        { "id": "logo", "type": "image", "rect": [200, 84, 240, 150], "z": 4, "src": "boxart/CZLE/logo.png", "fit": "contain" },
+        { "id": "rule", "type": "panel", "rect": [180, 244, 280, 3], "z": 3, "text": "", "box": { "fill": "#B8862F" } },
+        { "id": "tagline", "type": "text", "rect": [60, 252, 520, 18], "z": 5, "text": "THE LEGEND CONTINUES ON YOUR CART", "align": "center", "valign": "middle", "color": "#4A3A1C", "letterSpacing": 3 },
+        { "id": "covers", "type": "gameList", "rect": [56, 282, 528, 130], "z": 4, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 6, "gridRows": 2, "gridGap": 8, "gridLabels": false, "highlight": "#B8862F", "textColor": "#3A2E17" },
+        { "id": "cart", "type": "image", "rect": [40, 372, 92, 80], "z": 5, "src": "boxart/CZLE/cart3d.png", "fit": "contain" },
+        { "id": "stat", "type": "text", "rect": [140, 424, 300, 18], "z": 5, "text": "{history_count} PLAYED   ·   {fav_count} SAVED", "align": "center", "valign": "middle", "color": "#6E5A2E", "letterSpacing": 2 },
+        { "id": "enter", "type": "button", "rect": [446, 420, 150, 30], "z": 6, "label": "ENTER", "glyph": ">", "color": "#F3EAD0", "align": "center", "valign": "middle", "letterSpacing": 3, "focusable": true, "focusOrder": 0, "box": { "fill": "#2E4A2E", "cornerRadius": 4 }, "action": { "kind": "goto", "page": "library" } }
+      ]
+    },
+    {
+      "id": "library",
+      "title": "Library",
+      "kind": "custom",
+      "background": "#E9DCB6",
+      "hint": "",
+      "elements": [
+        { "id": "frame", "type": "panel", "rect": [16, 12, 608, 456], "z": 0, "text": "", "box": { "fill": "#F1E7CC", "border": "#B8862F", "borderW": 3, "cornerRadius": 8 } },
+        { "id": "heading", "type": "text", "rect": [40, 24, 560, 40], "z": 2, "text": "LIBRARY", "align": "center", "valign": "middle", "color": "#6B2020", "font": "Triforce-y07d", "fontSize": 32, "letterSpacing": 3 },
+        { "id": "rule", "type": "panel", "rect": [250, 62, 140, 3], "z": 2, "text": "", "box": { "fill": "#B8862F" } },
+        { "id": "list-panel", "type": "panel", "rect": [32, 80, 320, 336], "z": 2, "text": "", "box": { "fill": "#F6EDD4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "list", "type": "gameList", "rect": [46, 92, 292, 312], "z": 3, "source": "all", "style": "list", "rowH": 26, "textPadL": 14, "textPadR": 10, "textDy": 17, "highlight": "#D9C48C", "textColor": "#3A2E17" },
+        { "id": "cover-panel", "type": "panel", "rect": [364, 80, 244, 214], "z": 2, "text": "", "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "cover", "type": "boxArt", "rect": [376, 92, 220, 176], "z": 3, "fit": "cover", "bg": "#EFE4C4", "aspectLock": true },
+        { "id": "info-panel", "type": "panel", "rect": [364, 304, 244, 112], "z": 2, "text": "", "box": { "fill": "#F6EDD4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "info", "type": "infoPanel", "rect": [378, 314, 216, 92], "z": 3, "rowH": 20, "labelW": 92, "baselineDy": 14, "labels": ["RELEASED", "MAKER", "REGION", "PLAYERS", ""], "labelColor": "#8A6E2E", "valueColor": "#3A2E17" },
+        { "id": "hint-bar", "type": "panel", "rect": [32, 424, 576, 30], "z": 2, "text": "", "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "hint-text", "type": "text", "rect": [32, 424, 576, 30], "z": 3, "text": "A  BEGIN        Z  SAVE TO GROTTO        L R  TURN THE PAGE", "align": "center", "valign": "middle", "color": "#4A3A1C", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "grid",
+      "title": "Gallery",
+      "kind": "custom",
+      "background": "#E9DCB6",
+      "hint": "",
+      "elements": [
+        { "id": "frame", "type": "panel", "rect": [16, 12, 608, 456], "z": 0, "text": "", "box": { "fill": "#F1E7CC", "border": "#B8862F", "borderW": 3, "cornerRadius": 8 } },
+        { "id": "heading", "type": "text", "rect": [40, 24, 560, 40], "z": 2, "text": "THE COLLECTION", "align": "center", "valign": "middle", "color": "#6B2020", "font": "Triforce-y07d", "fontSize": 32, "letterSpacing": 2 },
+        { "id": "grid-panel", "type": "panel", "rect": [32, 74, 576, 342], "z": 2, "text": "", "box": { "fill": "#F6EDD4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "grid", "type": "gameList", "rect": [48, 88, 544, 314], "z": 3, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 12, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#B8862F", "textColor": "#F3EAD0" },
+        { "id": "hint-bar", "type": "panel", "rect": [32, 424, 576, 30], "z": 2, "text": "", "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "hint-text", "type": "text", "rect": [32, 424, 576, 30], "z": 3, "text": "A  BEGIN        Z  SAVE TO GROTTO        L R  TURN THE PAGE", "align": "center", "valign": "middle", "color": "#4A3A1C", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "favourites",
+      "title": "Grotto",
+      "kind": "custom",
+      "background": "#E9DCB6",
+      "hint": "",
+      "elements": [
+        { "id": "frame", "type": "panel", "rect": [16, 12, 608, 456], "z": 0, "text": "", "box": { "fill": "#F1E7CC", "border": "#B8862F", "borderW": 3, "cornerRadius": 8 } },
+        { "id": "logo-oot", "type": "image", "rect": [34, 24, 120, 60], "z": 3, "src": "boxart/CZLE/logo.png", "fit": "contain" },
+        { "id": "logo-mm", "type": "image", "rect": [486, 24, 120, 60], "z": 3, "src": "boxart/NZSE/logo.png", "fit": "contain" },
+        { "id": "heading", "type": "text", "rect": [160, 28, 320, 40], "z": 2, "text": "THE GROTTO", "align": "center", "valign": "middle", "color": "#2E4A2E", "font": "Triforce-y07d", "fontSize": 32, "letterSpacing": 2 },
+        { "id": "sub", "type": "text", "rect": [160, 68, 320, 16], "z": 2, "text": "YOUR SAVED HEROES", "align": "center", "valign": "middle", "color": "#4A3A1C", "letterSpacing": 3 },
+        { "id": "grid-panel", "type": "panel", "rect": [32, 92, 576, 288], "z": 2, "text": "", "box": { "fill": "#F6EDD4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "favs", "type": "gameList", "rect": [48, 106, 544, 262], "z": 3, "source": "favorites", "collection": "Zelda", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 12, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#B8862F", "textColor": "#F3EAD0" },
+        { "id": "fav-toggle", "type": "button", "rect": [32, 388, 300, 30], "z": 4, "label": "SAVE / RELEASE", "glyph": "Z", "color": "#F3EAD0", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 0, "box": { "fill": "#7A2E2E", "cornerRadius": 4 }, "action": { "kind": "favorite.toggle", "collection": "Zelda" } },
+        { "id": "to-settings", "type": "button", "rect": [340, 388, 268, 30], "z": 4, "label": "SETTINGS", "glyph": ">", "color": "#F3EAD0", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 1, "box": { "fill": "#2E4A2E", "cornerRadius": 4 }, "action": { "kind": "goto", "page": "settings" } },
+        { "id": "hint-text", "type": "text", "rect": [32, 424, 576, 24], "z": 3, "text": "A  BEGIN        Z  SAVE / RELEASE        L R  TURN THE PAGE", "align": "center", "valign": "middle", "color": "#4A3A1C", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "kind": "custom",
+      "background": "#E9DCB6",
+      "hint": "",
+      "elements": [
+        { "id": "frame", "type": "panel", "rect": [16, 12, 608, 456], "z": 0, "text": "", "box": { "fill": "#F1E7CC", "border": "#B8862F", "borderW": 3, "cornerRadius": 8 } },
+        { "id": "heading", "type": "text", "rect": [40, 24, 560, 40], "z": 2, "text": "SETTINGS", "align": "center", "valign": "middle", "color": "#6B2020", "font": "Triforce-y07d", "fontSize": 32, "letterSpacing": 3 },
+        { "id": "cart", "type": "image", "rect": [40, 26, 96, 84], "z": 3, "src": "boxart/CZLE/cart3d.png", "fit": "contain" },
+        { "id": "panel", "type": "panel", "rect": [32, 78, 576, 300], "z": 2, "text": "", "box": { "fill": "#F6EDD4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 4 } },
+        { "id": "sec-sound", "type": "text", "rect": [52, 92, 300, 14], "z": 4, "text": "SOUND", "align": "left", "valign": "middle", "color": "#8A6E2E", "letterSpacing": 3 },
+        { "id": "set-bgm", "type": "setting", "rect": [52, 110, 268, 30], "z": 5, "label": "MUSIC", "settingKey": "bgm_enabled", "color": "#3A2E17", "valueColor": "#2E4A2E", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 0, "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "set-sfx", "type": "setting", "rect": [328, 110, 268, 30], "z": 5, "label": "SOUND FX", "settingKey": "soundfx_enabled", "color": "#3A2E17", "valueColor": "#2E4A2E", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 1, "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "set-rumble", "type": "setting", "rect": [52, 146, 268, 30], "z": 5, "label": "RUMBLE PAK", "settingKey": "rumble_enabled", "color": "#3A2E17", "valueColor": "#2E4A2E", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 2, "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "set-custom", "type": "setting", "rect": [328, 146, 268, 30], "z": 5, "label": "CUSTOM ART", "settingKey": "use_custom_files", "color": "#3A2E17", "valueColor": "#2E4A2E", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 3, "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "sec-video", "type": "text", "rect": [52, 188, 300, 14], "z": 4, "text": "VIDEO", "align": "left", "valign": "middle", "color": "#8A6E2E", "letterSpacing": 3 },
+        { "id": "set-pal60", "type": "setting", "rect": [52, 206, 268, 30], "z": 5, "label": "PAL 60 Hz", "settingKey": "pal60_enabled", "color": "#3A2E17", "valueColor": "#2E4A2E", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 4, "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "set-prog", "type": "setting", "rect": [328, 206, 268, 30], "z": 5, "label": "240p SCAN", "settingKey": "force_progressive_scan", "color": "#3A2E17", "valueColor": "#2E4A2E", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 5, "box": { "fill": "#EFE4C4", "border": "#8A6E2E", "borderW": 1, "cornerRadius": 3 } },
+        { "id": "to-home", "type": "button", "rect": [52, 330, 544, 32], "z": 5, "label": "RETURN HOME", "color": "#F3EAD0", "align": "center", "valign": "middle", "letterSpacing": 3, "focusable": true, "focusOrder": 6, "box": { "fill": "#2E4A2E", "cornerRadius": 4 }, "action": { "kind": "goto", "page": "home" } },
+        { "id": "hint-text", "type": "text", "rect": [32, 424, 576, 24], "z": 3, "text": "A  TOGGLE        L R  TURN THE PAGE", "align": "center", "valign": "middle", "color": "#4A3A1C", "letterSpacing": 1 }
+      ]
+    }
+  ],
+  "buttons": { "d_up": "none", "d_down": "none", "d_left": "focusPrev", "d_right": "focusNext" }
+}

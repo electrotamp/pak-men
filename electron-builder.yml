@@ -1,0 +1,48 @@
+appId: dev.pakmen.menubuilder
+productName: PAK-MEN
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+extraResources:
+  - from: resources/boxart
+    to: boxart
+  - from: resources/menu-rom
+    to: menu-rom
+  - from: resources/default-assets
+    to: default-assets
+  - from: resources/fonts
+    to: fonts
+  - from: resources/emulator
+    to: emulator
+  - from: resources/updater
+    to: updater
+win:
+  # A pre-packed .ico, not build/icon.png — electron-builder's own PNG->ICO
+  # conversion (a bundled WASM libvips build) produces corrupted pixel data
+  # for every source image tested in this environment (garbage, not a bad
+  # source file); icon.ico was packed directly with Jimp instead, sidestepping
+  # that pipeline entirely. Re-pack it if build/icon.png ever changes.
+  icon: build/icon.ico
+  # Ship a plain folder (release/win-unpacked/) with "PAK-MEN.exe" inside —
+  # no installer, no self-extracting single-exe. Launches instantly.
+  # `zip` archives that same folder for the self-updater (see src/main/updater.ts)
+  # to download and swap in place — it is NOT a portable NSIS build, so there's
+  # no self-extraction penalty on every launch.
+  target:
+    - target: dir
+      arch: [x64]
+    - target: zip
+      arch: [x64]
+nsis:
+  artifactName: ${productName} ${version} setup.${ext}
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  differentialPackage: false
+mac:
+  target: dmg
+linux:
+  target: AppImage

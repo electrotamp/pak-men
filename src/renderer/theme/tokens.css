@@ -1,0 +1,147 @@
+/*
+ * tokens.css — the design-token contract for the Menu Builder.
+ *
+ * Every colour, radius, shadow, gradient and font the app chrome uses is a
+ * variable named here. Components read ONLY these tokens, never a literal.
+ * A skin is one block that re-sets them (see flat.css / bubbly.css); the active
+ * skin is chosen by `data-skin` on <html>, remembered in localStorage.
+ *
+ * This file defines the full set with the FLAT skin's values as the baseline,
+ * so the app is always styled even before a skin class is applied. Light values
+ * live on bare :root; dark overrides only the tokens, guarded so an explicit
+ * in-app light choice still beats a dark OS.
+ *
+ * The N64 screen drawn on the canvas is the USER'S menu design — it has its own
+ * palette (--n64-*) and never changes with the app skin.
+ */
+
+:root {
+  color-scheme: light dark;
+
+  /* ---- surfaces ---- */
+  --app-bg:        #e9e7e0;   /* window backdrop / behind the canvas mat */
+  --chrome:        #f4f3ef;   /* toolbar, rails */
+  --panel:         #fbfaf7;   /* raised cards, inputs-on-panel */
+  --panel-sink:    #eceae4;   /* inset wells, input fields */
+  --line:          #d9d7cf;
+  --line-soft:     #e4e2da;
+
+  /* ---- ink ---- */
+  --ink:           #26272c;
+  --ink-dim:       #6b6d76;
+  --ink-faint:     #93949c;
+
+  /* ---- accent ---- */
+  --accent:        #5257c8;
+  --accent-hi:     #6f74d8;
+  --accent-lo:     #3f43ad;
+  --accent-ink:    #ffffff;
+  --accent-wash:   #e8e8fb;
+  --accent-ring:   rgba(82, 87, 200, .45);
+  --accent-glow:   rgba(82, 87, 200, .28);
+
+  /* ---- semantic (separate from the accent hue) ---- */
+  --danger:        #c8443b;
+  --warn:          #a9761b;
+  --ok:            #2f7d52;
+
+  /* ---- overscan safe-zone guide (a dim neutral, not a bright accent) ---- */
+  --safe-line:     rgba(255, 255, 255, 0.38);
+  --safe-dim:      rgba(10, 12, 18, 0.34);
+
+  /* ---- controls ---- */
+  --ctrl-bg:       var(--panel);
+  --ctrl-bg-hover: var(--panel-sink);
+  --ctrl-border:   var(--line);
+  --ctrl-ink:      var(--ink);
+  --prime-bg:      var(--accent);
+  --prime-ink:     var(--accent-ink);
+  --prime-border:  var(--accent-lo);
+
+  /* ---- canvas ---- */
+  --mat:           #d7d5cc;   /* a `background` value: flat colour or gradient */
+  --board-frame:   0 0 0 1px var(--line), 0 18px 40px -12px rgba(30,26,12,.28);
+  --handle:        var(--accent);
+
+  /* ---- radii ---- */
+  --radius-window: 12px;
+  --radius-card:   10px;
+  --radius-ctrl:   7px;
+  --radius-pill:   7px;   /* bubbly cranks this to 999px */
+
+  /* ---- shadows / gloss ---- */
+  --shadow-card:   0 1px 3px rgba(30,26,12,.10);
+  --shadow-pop:    0 1px 2px rgba(30,26,12,.10), 0 8px 24px -6px rgba(30,26,12,.16);
+  --shadow-lift:   0 6px 18px -6px rgba(30,26,12,.22), inset 0 0 0 1px var(--accent-ring);
+  --shadow-win:    0 1px 3px rgba(30,26,12,.10), 0 30px 70px -16px rgba(30,26,12,.30);
+  --shadow-prime:  0 2px 8px var(--accent-glow);
+  --gloss-top:     none;     /* bubbly sets an inset highlight */
+
+  /* ---- type ---- */
+  --font-ui:       "Archivo", "Segoe UI", system-ui, sans-serif;
+  --font-body:     "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono:     "IBM Plex Mono", ui-monospace, "Cascadia Mono", monospace;
+  --weight-label:  600;
+
+  /* ---- legacy aliases — the pre-rebuild styles.css still reads these.
+     Removed as components migrate onto the tokens above. ---- */
+  --bg:      var(--app-bg);
+  --bg-1:    var(--chrome);
+  --bg-2:    var(--panel-sink);
+  --bg-3:    var(--panel);
+  --text:    var(--ink);
+  --text-dim:var(--ink-dim);
+  --accent-2:var(--ok);
+  --radius:  var(--radius-ctrl);
+
+  /* ---- the N64 screen — console palette, skin-independent ---- */
+  --n64-bezel:  #050510;
+  --n64-field:  #0e1030;
+  --n64-panel:  #1a1e44;
+  --n64-edge:   #3b4080;
+  --n64-title:  #6f74cf;
+  --n64-text:   #c9cdf5;
+  --n64-sel:    #3350c9;
+  --n64-selink: #ffffff;
+  --n64-bar:    #23264f;
+  --n64-dim:    #8f93c8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --app-bg:        #17181d;
+    --chrome:        #1f2128;
+    --panel:         #262931;
+    --panel-sink:    #1a1c22;
+    --line:          #34373f;
+    --line-soft:     #2c2f36;
+
+    --ink:           #e7e8ee;
+    --ink-dim:       #9aa0ad;
+    --ink-faint:     #6f747f;
+
+    --accent:        #838aff;
+    --accent-hi:     #9ba1ff;
+    --accent-lo:     #5b62d6;
+    --accent-ink:    #14152a;
+    --accent-wash:   #2b2d55;
+    --accent-ring:   rgba(131, 138, 255, .5);
+    --accent-glow:   rgba(131, 138, 255, .3);
+
+    --danger:        #e2796c;
+    --warn:          #d8ab52;
+    --ok:            #61bd8c;
+
+    --safe-line:     rgba(255, 255, 255, 0.4);
+    --safe-dim:      rgba(4, 6, 12, 0.42);
+
+    --mat:           #14151a;
+
+    --board-frame:   0 0 0 1px var(--line), 0 18px 40px -12px rgba(0,0,0,.55);
+    --shadow-card:   0 1px 3px rgba(0,0,0,.4);
+    --shadow-pop:    0 1px 2px rgba(0,0,0,.4), 0 10px 26px -6px rgba(0,0,0,.5);
+    --shadow-lift:   0 8px 22px -6px rgba(0,0,0,.5), inset 0 0 0 1px var(--accent-ring);
+    --shadow-win:    0 1px 3px rgba(0,0,0,.4), 0 34px 78px -18px rgba(0,0,0,.6);
+    --shadow-prime:  0 3px 12px var(--accent-glow);
+  }
+}

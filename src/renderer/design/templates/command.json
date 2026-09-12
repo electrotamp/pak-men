@@ -1,0 +1,117 @@
+{
+  "format": 2,
+  "pages": [
+    {
+      "id": "home",
+      "title": "Deck",
+      "kind": "custom",
+      "start": true,
+      "background": "#060A12",
+      "hint": "",
+      "elements": [
+        { "id": "topbar", "type": "panel", "rect": [0, 0, 640, 26], "z": 0, "text": "", "box": { "fill": "#0B1622" } },
+        { "id": "topline", "type": "panel", "rect": [0, 26, 640, 1], "z": 1, "text": "", "box": { "fill": "#1E4E63" } },
+        { "id": "sys", "type": "text", "rect": [12, 3, 420, 20], "z": 2, "text": "N64 :: FLASHCART TERMINAL", "align": "left", "valign": "middle", "color": "#33E1FF", "letterSpacing": 2 },
+        { "id": "clock", "type": "text", "rect": [440, 3, 188, 20], "z": 2, "clockFormat": "%H:%M:%S", "align": "right", "valign": "middle", "color": "#5E8A9A", "letterSpacing": 1 },
+        { "id": "title", "type": "text", "rect": [36, 42, 570, 44], "z": 2, "text": "COMMAND DECK", "align": "left", "valign": "middle", "color": "#D6F2FA", "font": "Emulogic-zrEw", "fontSize": 32, "letterSpacing": 2 },
+        { "id": "hex1", "type": "panel", "rect": [40, 100, 44, 40], "z": 2, "text": "", "box": { "shape": "hexagon", "fill": "#0B1622", "border": "#33E1FF", "borderW": 1 } },
+        { "id": "hex2", "type": "panel", "rect": [92, 100, 44, 40], "z": 2, "text": "", "box": { "shape": "hexagon", "fill": "#0B1622", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "hex3", "type": "panel", "rect": [144, 100, 44, 40], "z": 2, "text": "", "box": { "shape": "hexagon", "fill": "#0B1622", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "readout", "type": "text", "rect": [40, 152, 320, 90], "z": 2, "text": "STATUS ...... ONLINE\nFIRMWARE .... {fw_version}\nLIBRARY ..... {history_count} TITLES\nFLAGGED ..... {fav_count}", "wrap": true, "align": "left", "valign": "top", "color": "#7FC7D8", "lineHeight": 16, "letterSpacing": 1 },
+        { "id": "spec-frame", "type": "panel", "rect": [380, 92, 220, 244], "z": 1, "text": "", "box": { "fill": "#08111A", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "br-tl-h", "type": "panel", "rect": [380, 92, 22, 2], "z": 3, "text": "", "box": { "fill": "#33E1FF" } },
+        { "id": "br-tl-v", "type": "panel", "rect": [380, 92, 2, 22], "z": 3, "text": "", "box": { "fill": "#33E1FF" } },
+        { "id": "br-br-h", "type": "panel", "rect": [578, 334, 22, 2], "z": 3, "text": "", "box": { "fill": "#33E1FF" } },
+        { "id": "br-br-v", "type": "panel", "rect": [598, 314, 2, 22], "z": 3, "text": "", "box": { "fill": "#33E1FF" } },
+        { "id": "specimen", "type": "image", "rect": [398, 108, 184, 208], "z": 2, "src": "boxart/CZLE/cart3d.png", "fit": "contain" },
+        { "id": "spec-label", "type": "text", "rect": [380, 340, 220, 16], "z": 3, "text": "SPECIMEN 001 :: CARTRIDGE", "align": "center", "valign": "middle", "color": "#33E1FF", "letterSpacing": 1 },
+        { "id": "covers", "type": "gameList", "rect": [40, 254, 320, 150], "z": 2, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 4, "gridRows": 2, "gridGap": 10, "gridLabels": false, "highlight": "#33E1FF", "textColor": "#D6F2FA" },
+        { "id": "engage", "type": "button", "rect": [40, 422, 220, 32], "z": 3, "label": "ENGAGE", "glyph": ">", "color": "#060A12", "align": "center", "valign": "middle", "letterSpacing": 3, "focusable": true, "focusOrder": 0, "box": { "fill": "#33E1FF", "cornerRadius": 2 }, "action": { "kind": "goto", "page": "library" } },
+        { "id": "hint", "type": "text", "rect": [280, 422, 320, 32], "z": 3, "text": "A  ENGAGE        L R  CYCLE", "align": "right", "valign": "middle", "color": "#5E8A9A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "library",
+      "title": "Library",
+      "kind": "custom",
+      "background": "#060A12",
+      "hint": "",
+      "elements": [
+        { "id": "topbar", "type": "panel", "rect": [0, 0, 640, 26], "z": 0, "text": "", "box": { "fill": "#0B1622" } },
+        { "id": "topline", "type": "panel", "rect": [0, 26, 640, 1], "z": 1, "text": "", "box": { "fill": "#1E4E63" } },
+        { "id": "sys", "type": "text", "rect": [12, 3, 420, 20], "z": 2, "text": "N64 :: LIBRARY", "align": "left", "valign": "middle", "color": "#33E1FF", "letterSpacing": 2 },
+        { "id": "heading", "type": "text", "rect": [36, 40, 400, 34], "z": 2, "text": "LIBRARY", "align": "left", "valign": "middle", "color": "#33E1FF", "font": "Emulogic-zrEw", "fontSize": 16, "letterSpacing": 3 },
+        { "id": "list-panel", "type": "panel", "rect": [28, 80, 320, 332], "z": 1, "text": "", "box": { "fill": "#0B1622", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "list", "type": "gameList", "rect": [40, 92, 296, 308], "z": 2, "source": "all", "style": "list", "rowH": 26, "textPadL": 14, "textPadR": 10, "textDy": 17, "highlight": "#123246", "textColor": "#D6F2FA" },
+        { "id": "cover-frame", "type": "panel", "rect": [360, 80, 252, 206], "z": 1, "text": "", "box": { "fill": "#08111A", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "br-h", "type": "panel", "rect": [360, 80, 22, 2], "z": 3, "text": "", "box": { "fill": "#33E1FF" } },
+        { "id": "br-v", "type": "panel", "rect": [360, 80, 2, 22], "z": 3, "text": "", "box": { "fill": "#33E1FF" } },
+        { "id": "cover", "type": "boxArt", "rect": [372, 92, 228, 182], "z": 2, "fit": "cover", "bg": "#08111A", "aspectLock": true },
+        { "id": "data-panel", "type": "panel", "rect": [360, 296, 252, 116], "z": 1, "text": "", "box": { "fill": "#0B1622", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "info", "type": "infoPanel", "rect": [372, 306, 228, 96], "z": 2, "rowH": 20, "labelW": 92, "baselineDy": 14, "labels": ["RELEASED", "DEVELOPER", "REGION", "PLAYERS", ""], "labelColor": "#33E1FF", "valueColor": "#D6F2FA" },
+        { "id": "hint", "type": "text", "rect": [28, 424, 584, 26], "z": 2, "text": "A  ENGAGE        Z  FLAG        L R  CYCLE SECTOR", "align": "center", "valign": "middle", "color": "#5E8A9A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "grid",
+      "title": "Sectors",
+      "kind": "custom",
+      "background": "#060A12",
+      "hint": "",
+      "elements": [
+        { "id": "topbar", "type": "panel", "rect": [0, 0, 640, 26], "z": 0, "text": "", "box": { "fill": "#0B1622" } },
+        { "id": "topline", "type": "panel", "rect": [0, 26, 640, 1], "z": 1, "text": "", "box": { "fill": "#1E4E63" } },
+        { "id": "sys", "type": "text", "rect": [12, 3, 420, 20], "z": 2, "text": "N64 :: ALL SECTORS", "align": "left", "valign": "middle", "color": "#33E1FF", "letterSpacing": 2 },
+        { "id": "heading", "type": "text", "rect": [36, 40, 568, 34], "z": 2, "text": "ALL SECTORS", "align": "center", "valign": "middle", "color": "#33E1FF", "font": "Emulogic-zrEw", "fontSize": 16, "letterSpacing": 3 },
+        { "id": "grid-panel", "type": "panel", "rect": [28, 78, 584, 338], "z": 1, "text": "", "box": { "fill": "#0B1622", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "grid", "type": "gameList", "rect": [42, 92, 556, 310], "z": 2, "source": "all", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 12, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#33E1FF", "textColor": "#D6F2FA" },
+        { "id": "hint", "type": "text", "rect": [28, 424, 584, 26], "z": 2, "text": "A  ENGAGE        Z  FLAG        L R  CYCLE SECTOR", "align": "center", "valign": "middle", "color": "#5E8A9A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "favourites",
+      "title": "Flagged",
+      "kind": "custom",
+      "background": "#060A12",
+      "hint": "",
+      "elements": [
+        { "id": "topbar", "type": "panel", "rect": [0, 0, 640, 26], "z": 0, "text": "", "box": { "fill": "#0B1622" } },
+        { "id": "topline", "type": "panel", "rect": [0, 26, 640, 1], "z": 1, "text": "", "box": { "fill": "#1E4E63" } },
+        { "id": "sys", "type": "text", "rect": [12, 3, 420, 20], "z": 2, "text": "N64 :: FLAGGED", "align": "left", "valign": "middle", "color": "#FFB454", "letterSpacing": 2 },
+        { "id": "heading", "type": "text", "rect": [36, 40, 360, 34], "z": 2, "text": "FLAGGED", "align": "left", "valign": "middle", "color": "#FFB454", "font": "Emulogic-zrEw", "fontSize": 16, "letterSpacing": 3 },
+        { "id": "hex", "type": "panel", "rect": [420, 40, 34, 30], "z": 2, "text": "", "box": { "shape": "hexagon", "fill": "#0B1622", "border": "#FFB454", "borderW": 1 } },
+        { "id": "sig", "type": "image", "rect": [520, 34, 100, 44], "z": 2, "src": "boxart/CZLE/logo.png", "fit": "contain" },
+        { "id": "grid-panel", "type": "panel", "rect": [28, 80, 584, 300], "z": 1, "text": "", "box": { "fill": "#0B1622", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "favs", "type": "gameList", "rect": [42, 94, 556, 272], "z": 2, "source": "favorites", "style": "grid", "rowH": 24, "textPadL": 10, "textPadR": 8, "textDy": 16, "gridCols": 5, "gridRows": 3, "gridGap": 12, "gridLabels": true, "gridLabelPos": "overlay", "gridLabelWrap": false, "highlight": "#FFB454", "textColor": "#D6F2FA" },
+        { "id": "fav-toggle", "type": "button", "rect": [28, 390, 300, 30], "z": 3, "label": "FLAG / CLEAR", "glyph": "Z", "color": "#FFB454", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 0, "box": { "fill": "#0B1622", "border": "#FFB454", "borderW": 1, "cornerRadius": 2 }, "action": { "kind": "favorite.toggle" } },
+        { "id": "to-settings", "type": "button", "rect": [336, 390, 276, 30], "z": 3, "label": "SYSTEM", "glyph": ">", "color": "#33E1FF", "align": "center", "valign": "middle", "letterSpacing": 2, "focusable": true, "focusOrder": 1, "box": { "fill": "#0B1622", "border": "#1E4E63", "borderW": 1, "cornerRadius": 2 }, "action": { "kind": "goto", "page": "settings" } },
+        { "id": "hint", "type": "text", "rect": [28, 424, 584, 24], "z": 2, "text": "A  ENGAGE        Z  FLAG / CLEAR        L R  CYCLE", "align": "center", "valign": "middle", "color": "#5E8A9A", "letterSpacing": 1 }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "System",
+      "kind": "custom",
+      "background": "#060A12",
+      "hint": "",
+      "elements": [
+        { "id": "topbar", "type": "panel", "rect": [0, 0, 640, 26], "z": 0, "text": "", "box": { "fill": "#0B1622" } },
+        { "id": "topline", "type": "panel", "rect": [0, 26, 640, 1], "z": 1, "text": "", "box": { "fill": "#1E4E63" } },
+        { "id": "sys", "type": "text", "rect": [12, 3, 420, 20], "z": 2, "text": "N64 :: SYSTEM", "align": "left", "valign": "middle", "color": "#33E1FF", "letterSpacing": 2 },
+        { "id": "heading", "type": "text", "rect": [36, 40, 400, 34], "z": 2, "text": "SYSTEM", "align": "left", "valign": "middle", "color": "#33E1FF", "font": "Emulogic-zrEw", "fontSize": 16, "letterSpacing": 3 },
+        { "id": "panel", "type": "panel", "rect": [28, 78, 584, 304], "z": 1, "text": "", "box": { "fill": "#0B1622", "border": "#1E4E63", "borderW": 1 } },
+        { "id": "sec-sound", "type": "text", "rect": [48, 92, 300, 14], "z": 2, "text": "AUDIO", "align": "left", "valign": "middle", "color": "#5E8A9A", "letterSpacing": 3 },
+        { "id": "set-bgm", "type": "setting", "rect": [48, 110, 268, 30], "z": 3, "label": "MUSIC", "settingKey": "bgm_enabled", "color": "#D6F2FA", "valueColor": "#33E1FF", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 0, "box": { "fill": "#08111A", "border": "#1E4E63", "borderW": 1, "cornerRadius": 2 } },
+        { "id": "set-sfx", "type": "setting", "rect": [324, 110, 268, 30], "z": 3, "label": "SOUND FX", "settingKey": "soundfx_enabled", "color": "#D6F2FA", "valueColor": "#33E1FF", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 1, "box": { "fill": "#08111A", "border": "#1E4E63", "borderW": 1, "cornerRadius": 2 } },
+        { "id": "set-rumble", "type": "setting", "rect": [48, 146, 268, 30], "z": 3, "label": "RUMBLE PAK", "settingKey": "rumble_enabled", "color": "#D6F2FA", "valueColor": "#33E1FF", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 2, "box": { "fill": "#08111A", "border": "#1E4E63", "borderW": 1, "cornerRadius": 2 } },
+        { "id": "set-custom", "type": "setting", "rect": [324, 146, 268, 30], "z": 3, "label": "CUSTOM ART", "settingKey": "use_custom_files", "color": "#D6F2FA", "valueColor": "#33E1FF", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 3, "box": { "fill": "#08111A", "border": "#1E4E63", "borderW": 1, "cornerRadius": 2 } },
+        { "id": "sec-video", "type": "text", "rect": [48, 188, 300, 14], "z": 2, "text": "DISPLAY", "align": "left", "valign": "middle", "color": "#5E8A9A", "letterSpacing": 3 },
+        { "id": "set-pal60", "type": "setting", "rect": [48, 206, 268, 30], "z": 3, "label": "PAL 60 Hz", "settingKey": "pal60_enabled", "color": "#D6F2FA", "valueColor": "#33E1FF", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 4, "box": { "fill": "#08111A", "border": "#1E4E63", "borderW": 1, "cornerRadius": 2 } },
+        { "id": "set-prog", "type": "setting", "rect": [324, 206, 268, 30], "z": 3, "label": "240p SCAN", "settingKey": "force_progressive_scan", "color": "#D6F2FA", "valueColor": "#33E1FF", "align": "left", "valign": "middle", "pad": [0, 0, 0, 12], "focusOrder": 5, "box": { "fill": "#08111A", "border": "#1E4E63", "borderW": 1, "cornerRadius": 2 } },
+        { "id": "to-home", "type": "button", "rect": [48, 262, 544, 32], "z": 3, "label": "RETURN TO DECK", "color": "#33E1FF", "align": "center", "valign": "middle", "letterSpacing": 3, "focusable": true, "focusOrder": 6, "box": { "fill": "#0B1622", "border": "#33E1FF", "borderW": 1, "cornerRadius": 2 }, "action": { "kind": "goto", "page": "home" } },
+        { "id": "hint", "type": "text", "rect": [28, 424, 584, 24], "z": 2, "text": "A  TOGGLE        L R  CYCLE", "align": "center", "valign": "middle", "color": "#5E8A9A", "letterSpacing": 1 }
+      ]
+    }
+  ],
+  "buttons": { "d_up": "none", "d_down": "none", "d_left": "focusPrev", "d_right": "focusNext" }
+}

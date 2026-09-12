@@ -1,0 +1,670 @@
+/*
+ * shell.css — the rebuilt one-window frame (toolbar · palette · canvas ·
+ * properties · hint bar). Styled entirely through the tokens in tokens.css, so
+ * it reskins with `data-skin`. The canvas + properties are still the pre-rebuild
+ * DesignTab for now; M3 replaces them.
+ */
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: var(--app-bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.45;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mb-app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  background: var(--app-bg);
+}
+
+/* ---------- toolbar ---------- */
+.mb-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  row-gap: 6px;
+  flex-wrap: wrap;
+  padding: 8px 14px;
+  background: var(--chrome);
+  border-bottom: 1px solid var(--line-soft);
+}
+.mb-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 13.5px;
+  color: var(--ink);
+}
+.mb-brand .orb {
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-pill);
+  background: var(--prime-bg);
+  box-shadow: var(--shadow-prime);
+  display: grid;
+  place-items: center;
+  color: var(--prime-ink);
+  font-size: 12px;
+}
+.mb-brand input {
+  font: inherit;
+  font-family: var(--font-body);
+  font-weight: 500;
+  width: 168px;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-ctrl);
+  padding: 3px 7px;
+}
+.mb-brand input:hover {
+  border-color: var(--line);
+}
+.mb-brand input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+  background: var(--panel);
+}
+.mb-dirty {
+  color: var(--warn);
+  font-size: 16px;
+  line-height: 0;
+}
+
+.mb-tgroup {
+  display: flex;
+}
+.mb-btn {
+  font: inherit;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 12.5px;
+  color: var(--ctrl-ink);
+  background: var(--ctrl-bg);
+  border: 1px solid var(--ctrl-border);
+  box-shadow: var(--gloss-top);
+  padding: 5px 12px;
+  cursor: pointer;
+}
+.mb-btn:hover {
+  background: var(--ctrl-bg-hover);
+}
+.mb-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.mb-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+/* grouped pills: share edges, round the ends */
+.mb-tgroup .mb-btn {
+  border-radius: 0;
+  margin-left: -1px;
+}
+.mb-tgroup .mb-btn:first-child {
+  border-radius: var(--radius-pill) 0 0 var(--radius-pill);
+  margin-left: 0;
+}
+.mb-tgroup .mb-btn:last-child {
+  border-radius: 0 var(--radius-pill) var(--radius-pill) 0;
+}
+/* standalone pill */
+.mb-btn.solo {
+  border-radius: var(--radius-pill);
+}
+
+.mb-sep {
+  width: 1px;
+  align-self: stretch;
+  background: var(--line);
+  margin: 3px 0;
+}
+.mb-spring {
+  flex: 1;
+}
+/* trailing toolbar cluster — pushed right, wraps as a unit under the left group */
+.mb-tools-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.mb-brand input {
+  flex: none;
+}
+
+.mb-prime {
+  font: inherit;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 12.5px;
+  color: var(--prime-ink);
+  background: var(--prime-bg);
+  border: 1px solid var(--prime-border);
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-prime);
+  padding: 6px 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.mb-prime:hover {
+  filter: brightness(1.06);
+}
+.mb-prime:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  filter: none;
+}
+.mb-prime .tri {
+  font-size: 9px;
+}
+.mb-4mb {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 6px;
+  font-size: 11px;
+  color: var(--ink-dim);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+.mb-4mb input {
+  margin: 0;
+}
+
+/* skin switch */
+.mb-skin {
+  display: flex;
+  gap: 2px;
+  padding: 2px;
+  background: var(--panel-sink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+}
+.mb-skin button {
+  font: inherit;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 11.5px;
+  color: var(--ink-dim);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.mb-skin button.on {
+  background: var(--prime-bg);
+  color: var(--prime-ink);
+  box-shadow: var(--shadow-prime);
+}
+
+/* ---------- body ---------- */
+.mb-body {
+  display: grid;
+  grid-template-columns: 232px 1fr 320px;
+  min-height: 0;
+}
+
+/* the pre-rebuild DesignTab panes sit in columns 2 & 3 */
+.mb-body > .pane {
+  min-width: 0;
+  min-height: 0;
+  background: var(--chrome);
+}
+
+/* ---------- palette ---------- */
+.mb-palette {
+  background: var(--chrome);
+  border-right: 1px solid var(--line-soft);
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding: 14px 12px;
+  min-height: 0;
+}
+.mb-palette h2 {
+  font-family: var(--font-ui);
+  font-weight: var(--weight-label);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 10px;
+}
+.mb-palette h2.mt {
+  margin-top: 20px;
+}
+.mb-pal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.mb-item {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 9px;
+  border-radius: var(--radius-card);
+  border: 1px solid transparent;
+  background: transparent;
+  text-align: left;
+  cursor: grab;
+  color: var(--ink);
+  font: inherit;
+}
+.mb-item:hover:not(:disabled) {
+  background: var(--panel);
+  border-color: var(--line-soft);
+  box-shadow: var(--shadow-lift);
+}
+.mb-item:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+.mb-item:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.mb-item .ico {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, var(--accent-wash), var(--panel-sink));
+  border: 1px solid var(--line-soft);
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+}
+.mb-item .ico svg {
+  width: 15px;
+  height: 15px;
+}
+.mb-item > span:last-child {
+  min-width: 0;
+}
+.mb-item .nm {
+  display: block;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.25;
+}
+.mb-item .ds {
+  display: block;
+}
+.mb-item .ds {
+  font-size: 11px;
+  color: var(--ink-faint);
+  line-height: 1.3;
+  margin-top: 1px;
+}
+
+/* ---------- canvas column: page tabs + thin bar ---------- */
+.mb-canvas-pane {
+  background: var(--mat);
+  border-right: 1px solid var(--line);
+}
+
+.mb-pagetabs {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 3px;
+  padding: 6px 10px 0;
+  flex: none;
+  background: var(--chrome);
+  border-bottom: 1px solid var(--line);
+  /* must stay visible — the "＋ Page" dropdown drops out of this box */
+  overflow: visible;
+}
+.mb-tab {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--ink-dim);
+  background: var(--panel-sink);
+  border: 1px solid var(--line-soft);
+  border-bottom: none;
+  border-radius: var(--radius-ctrl) var(--radius-ctrl) 0 0;
+  white-space: nowrap;
+}
+.mb-tab.on {
+  background: var(--panel);
+  color: var(--ink);
+}
+.mb-tab.droptarget {
+  outline: 2px dashed var(--accent-ring);
+  outline-offset: -2px;
+}
+.mb-tab-star {
+  color: var(--accent);
+  font-size: 8px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.mb-tab-label {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 6px 6px 6px 12px;
+  cursor: pointer;
+}
+.mb-tab-dup,
+.mb-tab-x {
+  font: inherit;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--ink-faint);
+  background: none;
+  border: none;
+  padding: 4px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.mb-tab-x {
+  padding-right: 8px;
+}
+.mb-tab-dup:hover {
+  color: var(--accent);
+}
+.mb-tab-x:hover {
+  color: var(--danger);
+}
+.mb-tab-add {
+  position: relative;
+}
+.mb-tab-plus {
+  color: var(--accent);
+  border-style: dashed;
+  border-color: var(--accent-ring);
+  padding: 6px 11px;
+  cursor: pointer;
+  font: inherit;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 12px;
+}
+.mb-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 30;
+  min-width: 200px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-pop);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.mb-menu button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  font: inherit;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 12.5px;
+  color: var(--ink);
+  background: none;
+  border: none;
+  border-radius: var(--radius-ctrl);
+  padding: 7px 10px;
+  cursor: pointer;
+  text-align: left;
+}
+.mb-menu button:hover:not(:disabled) {
+  background: var(--accent-wash);
+}
+.mb-menu button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.mb-menu .sub {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 10.5px;
+  color: var(--ink-faint);
+}
+
+.mb-canvas-bar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 12px;
+  background: var(--chrome);
+  border-bottom: 1px solid var(--line-soft);
+  flex: none;
+}
+.mb-bar-spring {
+  flex: 1;
+}
+.mb-mini,
+.mb-canvas-bar select {
+  font: inherit;
+  font-family: var(--font-ui);
+  font-size: 11.5px;
+  color: var(--ink);
+  background: var(--ctrl-bg);
+  border: 1px solid var(--ctrl-border);
+  border-radius: var(--radius-ctrl);
+  padding: 4px 9px;
+  cursor: pointer;
+  box-shadow: var(--gloss-top);
+}
+.mb-mini:hover:not(:disabled) {
+  background: var(--ctrl-bg-hover);
+}
+.mb-mini:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.mb-mini.on {
+  background: var(--prime-bg);
+  color: var(--prime-ink);
+  border-color: var(--prime-border);
+}
+.mb-grid-sel {
+  width: 62px;
+  flex: none;
+}
+.mb-mini-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-ui);
+  font-size: 11.5px;
+  color: var(--ink-dim);
+  padding: 0 2px;
+}
+.mb-mini-check input {
+  width: auto;
+  margin: 0;
+}
+
+.marquee {
+  position: absolute;
+  z-index: 20;
+  border: 1px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  pointer-events: none;
+}
+
+/* canvas + floating zoom pill */
+.mb-canvas-stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+}
+.mb-canvas-stage > .design-canvas-wrap {
+  flex: 1;
+}
+.mb-zoom-pill {
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  padding: 3px;
+  box-shadow: var(--shadow-pop);
+}
+.mb-zoom-pill button {
+  font: inherit;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--ink-dim);
+  background: none;
+  border: none;
+  width: 26px;
+  height: 24px;
+  cursor: pointer;
+  border-radius: var(--radius-pill);
+}
+.mb-zoom-pill button:hover {
+  background: var(--panel-sink);
+  color: var(--ink);
+}
+.mb-zoom-pill select {
+  font: inherit;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink);
+  background: none;
+  border: none;
+  border-left: 1px solid var(--line-soft);
+  border-right: 1px solid var(--line-soft);
+  border-radius: 0;
+  padding: 3px 6px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* ---------- properties panel ---------- */
+.mb-props {
+  background: var(--chrome);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.mb-props-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line-soft);
+  flex: none;
+}
+.mb-props-head .t {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 14.5px;
+  color: var(--ink);
+}
+.mb-props-badge {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--accent-wash);
+  color: var(--accent);
+  padding: 2px 7px;
+  border-radius: var(--radius-pill);
+}
+.mb-props-body {
+  overflow-y: auto;
+  min-height: 0;
+  flex: 1;
+}
+/* full-window fallback shown by <ErrorBoundary> when a render throws */
+.mb-crash {
+  max-width: 640px;
+  margin: 8vh auto;
+  padding: 24px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.mb-crash h2 { margin: 0 0 8px; }
+.mb-crash pre {
+  margin: 14px 0;
+  padding: 12px;
+  max-height: 40vh;
+  overflow: auto;
+  background: var(--panel, #1c1c22);
+  border: 1px solid var(--line, #3a3a44);
+  border-radius: 6px;
+  font-size: 11.5px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.mb-crash button {
+  padding: 7px 14px;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+/* the inner panels bring their own .pane-body padding */
+.mb-props-empty {
+  color: var(--ink-faint);
+  font-size: 12.5px;
+  line-height: 1.5;
+  padding: 14px;
+}
+
+/* ---------- hint bar ---------- */
+.mb-hintbar {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 7px 14px;
+  background: var(--chrome);
+  border-top: 1px solid var(--line-soft);
+  font-family: var(--font-ui);
+  font-size: 11.5px;
+  color: var(--ink-dim);
+}
+.mb-hintbar b {
+  color: var(--ink);
+  font-weight: var(--weight-label);
+}
+.mb-hintbar .grow {
+  flex: 1;
+}
+.mb-hintbar .err {
+  color: var(--danger);
+  font-weight: 600;
+}

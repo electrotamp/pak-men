@@ -1,0 +1,51 @@
+{
+  "name": "pak-men",
+  "version": "1.0.0",
+  "description": "Drag-and-drop menu authoring tool for the N64ever / N64FlashcartMenu Favorites Grid",
+  "author": "N64ever",
+  "license": "MIT",
+  "private": true,
+  "main": "./out/main/index.js",
+  "type": "module",
+  "scripts": {
+    "gen": "node scripts/gen-all.mjs",
+    "predev": "npm run gen",
+    "prebuild": "npm run gen",
+    "dev": "electron-vite dev",
+    "start": "electron-vite preview",
+    "build": "electron-vite build",
+    "pretest": "npm run gen",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "stage": "node scripts/stage-resources.mjs",
+    "dist": "npm run gen && npm run stage && npm run build && electron-builder",
+    "dist:win": "npm run gen && npm run stage && npm run build && electron-builder --win",
+    "release:stage": "node scripts/stage-github-release.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json"
+  },
+  "dependencies": {
+    "jimp": "^1.6.0",
+    "yauzl": "^3.2.0"
+  },
+  "devDependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@types/yauzl": "^2.10.3",
+    "@vitejs/plugin-react": "^5.2.0",
+    "electron": "^37.10.3",
+    "electron-builder": "^26.0.0",
+    "electron-vite": "^5.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "~5.7.3",
+    "vite": "^7.0.0"
+  },
+  "allowScripts": {
+    "electron@37.10.3": true,
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.2": true
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "tokens": [
+      "master",
+      "quest"
+    ],
+    "art_code": "ZMQE",
+    "title": "The Legend of Zelda: Ocarina of Time Master Quest",
+    "developer": "Nintendo",
+    "release_jp": "2002-11-28",
+    "release_us": "2002-11-28",
+    "release_eu": "2002-11-28",
+    "description": "A new adventure awaits in a mirrored world. Journey across Hyrule as the young hero Link, wielding sword, shield and the magical Ocarina to travel through time and stop Ganondorf's bid for the Triforce. Master the bow, hookshot and bombs, raise stalwart allies and grow from boy to Hero of Time in one of gaming's defining adventures."
+  },
+  {
+    "tokens": [
+      "smash",
+      "remix"
+    ],
+    "art_code": "SMRX",
+    "title": "Smash Remix",
+    "developer": "JSsixtyfour",
+    "release_jp": "2019-05-13",
+    "release_us": "2019-05-13",
+    "release_eu": "2019-05-13",
+    "description": "Smash Remix is a gameplay mod for Super Smash Bros. on the Nintendo 64. The goal is to expand Smash 64 with new characters, stages, etc. while staying true to its core gameplay. New mechanics from the other Smash Bros. games, like wave dashing, are not added. The vision involves having tournaments where the new characters are pitched against the old ones, all the clones being viable against the originals."
+  }
+]
