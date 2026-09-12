@@ -43,6 +43,7 @@
 - [Test Menu — preview without hardware](#-test-menu--preview-without-hardware)
 - [Import / Export](#-import--export)
 - [Auto-updates](#-auto-updates)
+- [Testers wanted](#-testers-wanted)
 - [Credits](#-credits)
 - [License](#-license)
 
@@ -448,6 +449,16 @@ hardware).
 The app checks for new versions and can download and apply them in place — no manual
 reinstall, no console window, just a small progress popup and a restart. Click **Check for
 updates** in the toolbar any time, or let it check automatically on launch.
+
+---
+
+## 🧑‍🔬 Testers wanted
+
+All hardware testing so far has been done on an **SC64**. The menu firmware also targets the
+**ED64** and **64drive**, but without one on hand there's no way to confirm it actually boots
+and behaves correctly on those carts. If you own one and are willing to flash a test build and
+report back, please get in touch — this is the biggest gap in confidence before calling
+compatibility solid across all three.
 
 ---
 
