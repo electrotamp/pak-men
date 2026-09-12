@@ -20,11 +20,11 @@
 - [Designing a menu](#-designing-a-menu)
   - [The canvas](#the-canvas)
   - [Pages](#pages)
-  - [Elements](#elements) — all 9, described
+  - [Elements](#elements)
   - [Shapes & box styling](#shapes--box-styling)
   - [Text & fonts](#text--fonts)
-  - [Button actions](#button-actions) — all 9, described
-  - [Templates](#templates) — all 8, described
+  - [Button actions](#button-actions)
+  - [Templates](#templates)
   - [Controls (button remapping)](#controls-button-remapping)
   - [System pop-up theming](#system-pop-up-theming)
   - [Overscan compensation & safe-zone guide](#overscan-compensation--safe-zone-guide)
